@@ -1,5 +1,5 @@
 {
-  "updated_ist": "17 Nov 2026, 11:10 AM IST",
+  "updated_ist": "17 Nov 2026, 11:43 AM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
@@ -1200,6 +1200,598 @@
       "depart": "2027-01-22",
       "return": "2027-07-15",
       "note": "Virgin Atlantic+Delta 1 stop LHR (itinerary list; grid $915) — Google Flights"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 2447,
+      "depart": "2026-12-15",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1748,
+      "depart": "2026-12-16",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 2800,
+      "depart": "2026-12-17",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 2840,
+      "depart": "2026-12-18",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 2903,
+      "depart": "2026-12-19",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 2086,
+      "depart": "2026-12-20",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1748,
+      "depart": "2026-12-21",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 2109,
+      "depart": "2026-12-22",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1555,
+      "depart": "2026-12-23",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1591,
+      "depart": "2026-12-24",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1425,
+      "depart": "2026-12-25",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1425,
+      "depart": "2026-12-26",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1074,
+      "depart": "2026-12-27",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1074,
+      "depart": "2026-12-28",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1213,
+      "depart": "2026-12-29",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 902,
+      "depart": "2026-12-30",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1213,
+      "depart": "2026-12-31",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1114,
+      "depart": "2027-01-01",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1391,
+      "depart": "2027-01-02",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1074,
+      "depart": "2027-01-03",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 902,
+      "depart": "2027-01-04",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1000,
+      "depart": "2027-01-05",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 902,
+      "depart": "2027-01-06",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1016,
+      "depart": "2027-01-07",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 794,
+      "depart": "2027-01-08",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 714,
+      "depart": "2027-01-09",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 754,
+      "depart": "2027-01-10",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 754,
+      "depart": "2027-01-11",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1016,
+      "depart": "2027-01-12",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 754,
+      "depart": "2027-01-13",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1016,
+      "depart": "2027-01-14",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 794,
+      "depart": "2027-01-15",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 714,
+      "depart": "2027-01-16",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 754,
+      "depart": "2027-01-17",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 754,
+      "depart": "2027-01-18",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 855,
+      "depart": "2027-01-19",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 754,
+      "depart": "2027-01-20",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 864,
+      "depart": "2027-01-21",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 643,
+      "depart": "2027-01-22",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 714,
+      "depart": "2027-01-23",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 603,
+      "depart": "2027-01-24",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 603,
+      "depart": "2027-01-25",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 855,
+      "depart": "2027-01-26",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 609,
+      "depart": "2027-01-27",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 864,
+      "depart": "2027-01-28",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 643,
+      "depart": "2027-01-29",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 714,
+      "depart": "2027-01-30",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 603,
+      "depart": "2027-01-31",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 603,
+      "depart": "2027-02-01",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 855,
+      "depart": "2027-02-02",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 609,
+      "depart": "2027-02-03",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 849,
+      "depart": "2027-02-04",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 643,
+      "depart": "2027-02-05",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 714,
+      "depart": "2027-02-06",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 603,
+      "depart": "2027-02-07",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 603,
+      "depart": "2027-02-08",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 855,
+      "depart": "2027-02-09",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 609,
+      "depart": "2027-02-10",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 849,
+      "depart": "2027-02-11",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 643,
+      "depart": "2027-02-12",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 714,
+      "depart": "2027-02-13",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 603,
+      "depart": "2027-02-14",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 603,
+      "depart": "2027-02-15",
+      "note": "Qatar filter (cheapest may include partner legs) — Google Flights Qatar filter"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 621,
+      "depart": "2027-01-24",
+      "note": "Qatar Airways Economy Classic all-Qatar 1 stop DOH 20h45 2x23kg — qatarairways.com"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 754,
+      "depart": "2027-01-24",
+      "note": "Qatar Airways Economy Convenience — qatarairways.com"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1012,
+      "depart": "2027-01-24",
+      "return": "2027-07-13",
+      "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1112,
+      "depart": "2027-01-24",
+      "return": "2027-07-15",
+      "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1152,
+      "depart": "2027-01-24",
+      "return": "2027-07-17",
+      "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1118,
+      "depart": "2027-01-24",
+      "return": "2027-07-20",
+      "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1118,
+      "depart": "2027-01-31",
+      "return": "2027-07-20",
+      "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1127,
+      "depart": "2027-01-31",
+      "return": "2027-07-21",
+      "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1167,
+      "depart": "2027-01-31",
+      "return": "2027-07-24",
+      "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1115,
+      "depart": "2027-01-09",
+      "return": "2027-06-28",
+      "note": "Qatar filter; used Alaska+IndiGo legs — Google Flights Qatar filter"
     }
   ],
   "calendar_grid": {
@@ -3289,7 +3881,14 @@
           "source": "Google Flights date grid",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTA5agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDYtMjhqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270109/270628/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270109/270628/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price",
+          "alternates": [
+            {
+              "price_usd": 1115,
+              "source": "Qatar filter; used Alaska+IndiGo legs — Google Flights Qatar filter",
+              "note": "Qatar filter; used Alaska+IndiGo legs — Google Flights Qatar filter"
+            }
+          ]
         },
         {
           "depart": "2027-01-09",
@@ -4288,7 +4887,14 @@
           "source": "Google Flights date grid",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTNqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270713/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270713/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price",
+          "alternates": [
+            {
+              "price_usd": 1012,
+              "source": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar",
+              "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+            }
+          ]
         },
         {
           "depart": "2027-01-24",
@@ -4308,7 +4914,14 @@
           "source": "Google Flights date grid",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270715/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270715/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price",
+          "alternates": [
+            {
+              "price_usd": 1112,
+              "source": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar",
+              "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+            }
+          ]
         },
         {
           "depart": "2027-01-24",
@@ -4328,7 +4941,14 @@
           "source": "Google Flights date grid",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTdqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270717/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270717/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price",
+          "alternates": [
+            {
+              "price_usd": 1152,
+              "source": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar",
+              "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+            }
+          ]
         },
         {
           "depart": "2027-01-24",
@@ -4339,6 +4959,16 @@
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMThqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
           "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270718/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-20",
+          "stay_days": 177,
+          "price_usd": 1118,
+          "source": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar",
+          "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjBqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270720/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
         },
         {
           "depart": "2027-01-25",
@@ -4728,7 +5358,14 @@
           "source": "Google Flights date grid",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjBqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270720/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270720/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price",
+          "alternates": [
+            {
+              "price_usd": 1118,
+              "source": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar",
+              "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+            }
+          ]
         },
         {
           "depart": "2027-01-31",
@@ -4738,7 +5375,14 @@
           "source": "Google Flights date grid",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjFqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270721/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270721/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price",
+          "alternates": [
+            {
+              "price_usd": 1127,
+              "source": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar",
+              "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+            }
+          ]
         },
         {
           "depart": "2027-01-31",
@@ -4768,7 +5412,14 @@
           "source": "Google Flights date grid",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjRqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270724/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270724/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price",
+          "alternates": [
+            {
+              "price_usd": 1167,
+              "source": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar",
+              "note": "Qatar Airways (all-Qatar return not confirmed) — qatarairways.com flexible-date calendar"
+            }
+          ]
         },
         {
           "depart": "2027-01-31",
@@ -5725,10 +6376,525 @@
     }
   },
   "qatar": {
-    "status": "awaiting_scan",
+    "status": "scanned",
     "title": "Qatar Airways",
-    "note": "Preferred airline. Fares will appear here after a dedicated scan. On flights to or from the Americas, Economy Classic, Convenience and Comfort include 2×23 kg; Lite includes 1×23 kg (a second bag is $255 at the airport, less if prepaid).",
-    "options": []
+    "asof": "17 Nov 2026, about 11:30 AM IST",
+    "recommendation": "Qatar one-way: book at <= $600 Classic (2 bags). Now $621 (24 Jan). Qatar round trip 170–179d: ~$1,012 (24 Jan–13 Jul); book at <= $950.",
+    "note": "One-way calendar is Google Flights with a Qatar filter; the cheapest fare on a date may include partner legs. Classic includes 2×23 kg on flights to or from the Americas.",
+    "return_note": "All-Qatar return not confirmed for these dates; Qatar's own return from BOM 4:10 AM → ATL 3:55 PM, 21h 15m, exists on some dates.",
+    "gf_rt_note": "Google Flights Qatar-filter RT, 5–11 Jan departures / 28 Jun–4 Jul returns: cheapest $1,115 (9 Jan–28 Jun) used Alaska+IndiGo legs.",
+    "threshold_ow_usd": 600,
+    "threshold_rt_usd": 950,
+    "calendar": {
+      "route": "ATL-BOM",
+      "source": "Google Flights Qatar filter",
+      "window_start": "2026-12-15",
+      "window_end": "2027-02-15",
+      "cells": [
+        {
+          "date": "2026-12-15",
+          "price_usd": 2447,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-16",
+          "price_usd": 1748,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE2agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-17",
+          "price_usd": 2800,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE3agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-18",
+          "price_usd": 2840,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE4agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-19",
+          "price_usd": 2903,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE5agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-20",
+          "price_usd": 2086,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIwagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-21",
+          "price_usd": 1748,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIxagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-22",
+          "price_usd": 2109,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIyagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-23",
+          "price_usd": 1555,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIzagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-24",
+          "price_usd": 1591,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTI0agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-25",
+          "price_usd": 1425,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTI1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-26",
+          "price_usd": 1425,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTI2agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-27",
+          "price_usd": 1074,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTI3agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-28",
+          "price_usd": 1074,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTI4agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-29",
+          "price_usd": 1213,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTI5agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-30",
+          "price_usd": 902,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTMwagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2026-12-31",
+          "price_usd": 1213,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTMxagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-01",
+          "price_usd": 1114,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTAxagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-02",
+          "price_usd": 1391,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTAyagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-03",
+          "price_usd": 1074,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTAzagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-04",
+          "price_usd": 902,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTA0agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-05",
+          "price_usd": 1000,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTA1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-06",
+          "price_usd": 902,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTA2agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-07",
+          "price_usd": 1016,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTA3agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-08",
+          "price_usd": 794,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTA4agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-09",
+          "price_usd": 714,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTA5agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-10",
+          "price_usd": 754,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTEwagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-11",
+          "price_usd": 754,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTExagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-12",
+          "price_usd": 1016,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTEyagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-13",
+          "price_usd": 754,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTEzagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-14",
+          "price_usd": 1016,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTE0agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-15",
+          "price_usd": 794,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-16",
+          "price_usd": 714,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTE2agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-17",
+          "price_usd": 754,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTE3agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-18",
+          "price_usd": 754,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTE4agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-19",
+          "price_usd": 855,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTE5agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-20",
+          "price_usd": 754,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIwagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-21",
+          "price_usd": 864,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIxagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-22",
+          "price_usd": 643,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-23",
+          "price_usd": 714,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIzagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-24",
+          "price_usd": 603,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-25",
+          "price_usd": 603,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-26",
+          "price_usd": 855,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI2agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-27",
+          "price_usd": 609,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI3agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-28",
+          "price_usd": 864,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI4agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-29",
+          "price_usd": 643,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI5agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-30",
+          "price_usd": 714,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMwagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-01-31",
+          "price_usd": 603,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-01",
+          "price_usd": 603,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTAxagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-02",
+          "price_usd": 855,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTAyagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-03",
+          "price_usd": 609,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTAzagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-04",
+          "price_usd": 849,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTA0agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-05",
+          "price_usd": 643,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTA1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-06",
+          "price_usd": 714,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTA2agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-07",
+          "price_usd": 603,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTA3agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-08",
+          "price_usd": 603,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTA4agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-09",
+          "price_usd": 855,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTA5agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-10",
+          "price_usd": 609,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTEwagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-11",
+          "price_usd": 849,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTExagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-12",
+          "price_usd": 643,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTEyagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-13",
+          "price_usd": 714,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTEzagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-14",
+          "price_usd": 603,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTE0agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        },
+        {
+          "date": "2027-02-15",
+          "price_usd": 603,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
+        }
+      ]
+    },
+    "options": [
+      {
+        "route": "ATL-BOM",
+        "trip": "OW",
+        "depart": "2027-01-24",
+        "return": null,
+        "airline": "Qatar Airways",
+        "single_airline": true,
+        "stops": "1 stop (DOH, 4h)",
+        "hours": "20h 45m",
+        "duration": "20h 45m",
+        "schedule": "ATL 7:20 PM → BOM 2:35 AM (+2)",
+        "price_usd": 621,
+        "fare_family": "Economy Classic",
+        "bags": "2×23 kg included",
+        "bags_included": "2×23 kg",
+        "price_with_2bags_usd": 621,
+        "price_with_2bags_label": "$621 Classic",
+        "google_usd": 603,
+        "alternates": [
+          {
+            "price_usd": 603,
+            "source": "Google Flights",
+            "note": "Qatar filter; fare family not confirmed as Classic"
+          },
+          {
+            "price_usd": 754,
+            "fare_family": "Convenience",
+            "source": "qatarairways.com",
+            "bags_included": "2×23 kg"
+          }
+        ],
+        "source_name": "qatarairways.com",
+        "source_url": "https://www.qatarairways.com/en/book.html",
+        "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
+        "price_type": "itinerary"
+      }
+    ],
+    "roundtrip": {
+      "source": "qatarairways.com flexible-date calendar",
+      "cells": [
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-13",
+          "stay_days": 170,
+          "price_usd": 1012,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTNqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270713/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-14",
+          "stay_days": 171,
+          "price_usd": 1012,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTRqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270714/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-15",
+          "stay_days": 172,
+          "price_usd": 1112,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270715/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-16",
+          "stay_days": 173,
+          "price_usd": 1112,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTZqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270716/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-17",
+          "stay_days": 174,
+          "price_usd": 1152,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTdqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270717/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-18",
+          "stay_days": 175,
+          "price_usd": 1152,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMThqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270718/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-19",
+          "stay_days": 176,
+          "price_usd": 1112,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTlqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270719/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-20",
+          "stay_days": 177,
+          "price_usd": 1118,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTI0agcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjBqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270124/270720/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-20",
+          "stay_days": 170,
+          "price_usd": 1118,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjBqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270720/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-21",
+          "stay_days": 171,
+          "price_usd": 1127,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjFqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270721/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-22",
+          "stay_days": 172,
+          "price_usd": 1118,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjJqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270722/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-23",
+          "stay_days": 173,
+          "price_usd": 1127,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjNqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270723/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-24",
+          "stay_days": 174,
+          "price_usd": 1167,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjRqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270724/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-25",
+          "stay_days": 175,
+          "price_usd": 1167,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270725/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-26",
+          "stay_days": 176,
+          "price_usd": 1127,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjZqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270726/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-27",
+          "stay_days": 177,
+          "price_usd": 1118,
+          "source": "qatarairways.com flexible-date calendar",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTMxagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMjdqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+          "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270727/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+        }
+      ]
+    }
   },
   "alerts": {
     "black_friday": "Lufthansa Black Friday: book 17 Nov–2 Dec 2026, code BF26, €40 off per person to Asia. Travel 11 Jan–30 Apr 2027 — may help one-ways from 11 Jan. 170–179-day returns in Jun–Aug 2027 are outside that window."

@@ -526,6 +526,36 @@
       color: var(--muted);
       margin: 0;
     }
+    .qatar-rec {
+      background: var(--teal);
+      color: #f7f3ea;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-weight: 600;
+      margin: 0 0 12px;
+      line-height: 1.4;
+    }
+    .qatar .cal-cell { min-height: 72px; }
+    .qatar .cal-src { display: none; }
+    .qatar-rt { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 0 10px; }
+    .qatar-rt table {
+      min-width: 640px;
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 4px;
+      font-size: 0.82rem;
+    }
+    .qatar-rt th, .qatar-rt td { border-bottom: 0; padding: 6px; vertical-align: top; }
+    .qatar-rt thead th {
+      background: #efe8db;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .qatar-rt .rt-depart { font-weight: 700; min-width: 6.5rem; background: var(--paper-2); }
+    .qatar a.rt-cell { min-height: 3.6rem; }
     @media (max-width: 760px) {
       .reco { padding: 18px 16px; border-radius: 18px; }
       .reco-grid { grid-template-columns: 1fr; }
@@ -741,28 +771,128 @@
 
         <section class="qatar" aria-labelledby="qatar-title">
           <h2 id="qatar-title">${esc((data.qatar && data.qatar.title) || "Qatar Airways")}</h2>
-          <p class="caption">${esc((data.qatar && data.qatar.note) || "Fares will appear here after a dedicated scan.")}</p>
-          ${((data.qatar && data.qatar.options) || []).length
-            ? `<div class="table-wrap"><table><thead><tr><th>Dates</th><th>Price with 2 bags</th><th>Hours</th><th>Fare</th><th>Link</th></tr></thead><tbody>${
-                (data.qatar.options || []).map(o => {
-                  const dates = o.return ? `${fmtDate(o.depart)} – ${fmtDate(o.return)}` : fmtDate(o.depart);
-                  const href = o.source_url || o.google_url || "";
-                  const twoBag = o.price_with_2bags_label || (o.price_with_2bags_usd != null ? usd(o.price_with_2bags_usd) : (o.price_usd != null ? usd(o.price_usd) : "—"));
-                  return `<tr class="opt-row">
-                    <td>${esc(tripLabel(o.trip))}<br><small>${esc(dates)}</small>${href ? `<a class="row-hit" href="${esc(href)}" target="_blank" rel="noopener noreferrer"></a>` : ""}</td>
-                    <td class="price">${esc(twoBag)}</td>
-                    <td class="hours">${esc(o.hours || o.duration || "—")}</td>
-                    <td>${esc(o.fare_family || o.airline || "Qatar Airways")}</td>
-                    <td>${href ? `<a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">Open</a>` : ""}</td>
-                  </tr>`;
-                }).join("")
-              }</tbody></table></div>`
-            : `<p class="qatar-empty">No Qatar itineraries in yet — this section is ready for the next scan.</p>`}
+          ${(data.qatar && data.qatar.recommendation) ? `<p class="qatar-rec">${esc(data.qatar.recommendation)}</p>` : ""}
+          <p class="caption">${esc((data.qatar && ( (data.qatar.asof ? data.qatar.asof + ". " : "") + (data.qatar.note || "") )) || "")}</p>
+          <h3>One-way calendar</h3>
+          <p class="caption">Google Flights, Qatar filter. Cell opens that date’s search. Colour is relative to the $600 Classic (2-bag) line; a cheap cell is not automatically Classic.</p>
+          ${qatarOnewayHTML(data, rate)}
+          <h3>Verified one-way</h3>
+          ${qatarOptionsHTML(data, rate) || `<p class="qatar-empty">No verified Qatar itinerary yet.</p>`}
+          <h3>Round trip · 170–179 days</h3>
+          <p class="caption">Lowest totals from qatarairways.com flexible-date calendar. Cells link to Google Flights for that date pair.</p>
+          ${qatarRoundtripHTML(data, rate)}
+          ${(data.qatar && data.qatar.return_note) ? `<p class="caption">${esc(data.qatar.return_note)}</p>` : ""}
+          ${(data.qatar && data.qatar.gf_rt_note) ? `<p class="caption">${esc(data.qatar.gf_rt_note)}</p>` : ""}
         </section>
       `;
 
       renderFareGrids(data, rate);
       drawCalendar(data);
+    }
+
+
+    function qatarOnewayHTML(data, rate) {
+      const q = data.qatar || {};
+      const cal = q.calendar || {};
+      const cells = cal.cells || [];
+      if (!cells.length) return "";
+      const map = new Map(cells.filter(c => c.date).map(c => [c.date, c]));
+      const start = cal.window_start || "2026-12-15";
+      const end = cal.window_end || "2027-02-15";
+      const threshold = q.threshold_ow_usd || 600;
+      const months = [];
+      let cursor = parseISO(start.slice(0, 8) + "01");
+      const last = parseISO(end);
+      while (cursor <= last) {
+        months.push(new Date(cursor));
+        cursor = new Date(cursor.getFullYear(), cursor.getMonth() + 1, 1);
+      }
+      const weekdays = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(d => `<span>${d}</span>`).join("");
+      return months.map(monthDate => {
+        const y = monthDate.getFullYear(), m = monthDate.getMonth();
+        const label = monthDate.toLocaleDateString("en-GB", { month: "long", year: "numeric" });
+        const first = new Date(y, m, 1);
+        const startPad = (first.getDay() + 6) % 7; // Monday-first
+        const daysIn = new Date(y, m + 1, 0).getDate();
+        const items = [];
+        for (let i = 0; i < startPad; i++) items.push({ type: "pad" });
+        for (let day = 1; day <= daysIn; day++) {
+          const iso = isoFromDate(new Date(y, m, day));
+          const inWindow = iso >= start && iso <= end;
+          const info = map.get(iso);
+          if (!inWindow) items.push({ type: "out", day });
+          else if (!info || info.price_usd == null) {
+            const href = googleFlightsUrl({ oneway: true, depart: iso });
+            items.push({ type: "empty", day, iso, href });
+          } else {
+            items.push({ type: "has", day, iso, price: info.price_usd, href: info.google_url || googleFlightsUrl({ oneway: true, depart: iso }) });
+          }
+        }
+        const body = items.map(c => {
+          if (c.type === "pad") return `<div class="cal-cell out" aria-hidden="true"></div>`;
+          if (c.type === "out") return `<div class="cal-cell out"><div class="cal-day">${c.day}</div></div>`;
+          if (c.type === "empty") return `<a class="cal-cell empty" href="${esc(c.href)}" target="_blank" rel="noopener noreferrer" title="Open Google Flights ${c.iso}"><div class="cal-day">${c.day}</div></a>`;
+          const col = fareColor(c.price, threshold);
+          return `<a class="cal-cell has" style="background:${col.bg};color:${col.ink}" href="${esc(c.href)}" target="_blank" rel="noopener noreferrer" title="Qatar-filter ${c.iso} ${usd(c.price)} — may include partner legs">
+            <div class="cal-day">${c.day}</div>
+            <div class="cal-main">${usd(c.price)}</div>
+            ${rate ? `<div class="cal-inr">${inr(c.price, rate)}</div>` : ""}
+          </a>`;
+        }).join("");
+        return `<div class="cal-month"><h4>${esc(label)}</h4><div class="cal-weekdays">${weekdays}</div><div class="cal-weeks">${body}</div></div>`;
+      }).join("");
+    }
+
+    function qatarRoundtripHTML(data, rate) {
+      const q = data.qatar || {};
+      const cells = ((q.roundtrip || {}).cells) || [];
+      if (!cells.length) return "";
+      const departs = [...new Set(cells.map(c => c.depart))].sort();
+      const stays = [...new Set(cells.map(c => c.stay_days))].sort((a,b) => a-b);
+      const map = new Map(cells.map(c => [c.depart + "|" + c.stay_days, c]));
+      const threshold = q.threshold_rt_usd || 950;
+      const head = `<th class="rt-depart">Depart</th>` + stays.map(s => `<th>+${s}d</th>`).join("");
+      const body = departs.map(dep => {
+        const tds = stays.map(s => {
+          const cell = map.get(dep + "|" + s);
+          if (!cell) return `<td></td>`;
+          const href = cell.google_url || googleFlightsUrl({ depart: dep, ret: cell.return });
+          const col = fareColor(cell.price_usd, threshold);
+          const tip = `${fmtDate(dep)} – ${fmtDate(cell.return)} (${s}d) ${usd(cell.price_usd)}`;
+          return `<td><a class="rt-cell has" style="background:${col.bg};color:${col.ink}" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(tip)}">
+            <div class="cal-day">${fmtDate(cell.return)}</div>
+            <div class="cal-main">${usd(cell.price_usd)}</div>
+            ${rate ? `<div class="cal-inr">${inr(cell.price_usd, rate)}</div>` : ""}
+          </a></td>`;
+        }).join("");
+        return `<tr><td class="rt-depart">${fmtDate(dep)}</td>${tds}</tr>`;
+      }).join("");
+      return `<div class="qatar-rt"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+    }
+
+    function qatarOptionsHTML(data, rate) {
+      const opts = ((data.qatar || {}).options) || [];
+      if (!opts.length) return "";
+      const rows = opts.map(o => {
+        const dates = o.return ? `${fmtDate(o.depart)} – ${fmtDate(o.return)}` : fmtDate(o.depart);
+        const href = o.source_url || o.google_url || "";
+        const twoBag = o.price_with_2bags_label || (o.price_with_2bags_usd != null ? usd(o.price_with_2bags_usd) : usd(o.price_usd));
+        const extra = [
+          o.schedule,
+          o.hours || o.duration,
+          o.stops,
+          o.google_usd != null ? `Google Flights ${usd(o.google_usd)}` : "",
+          (o.alternates || []).filter(a => a.fare_family).map(a => `${a.fare_family} ${usd(a.price_usd)}`).join(" · ")
+        ].filter(Boolean).join(" · ");
+        return `<tr class="opt-row">
+          <td>${esc(tripLabel(o.trip))}<br><small>${esc(dates)}</small>${href ? `<a class="row-hit" href="${esc(href)}" target="_blank" rel="noopener noreferrer"></a>` : ""}</td>
+          <td class="price">${esc(twoBag)}${o.price_with_2bags_usd != null && rate ? `<small>${inr(o.price_with_2bags_usd, rate)}</small>` : ""}</td>
+          <td class="hours">${esc(o.hours || o.duration || "—")}</td>
+          <td>Qatar Airways${o.fare_family ? " " + esc(o.fare_family) : ""}${extra ? `<br><small>${esc(extra)}</small>` : ""}</td>
+          <td>${href ? `<a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(o.source_name || "Open")}</a>` : ""}</td>
+        </tr>`;
+      }).join("");
+      return `<div class="table-wrap"><table><thead><tr><th>Dates</th><th>Price with 2 bags</th><th>Hours</th><th>Itinerary</th><th>Link</th></tr></thead><tbody>${rows}</tbody></table></div>`;
     }
 
     function parseISO(iso) { return new Date(iso + "T12:00:00"); }
