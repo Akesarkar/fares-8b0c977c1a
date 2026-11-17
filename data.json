@@ -1,5 +1,5 @@
 {
-  "updated_ist": "17 Nov 2026, 9:51 AM IST",
+  "updated_ist": "17 Nov 2026, 9:56 AM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
@@ -934,5 +934,393 @@
       "name": "EASA conflict-zone bulletins (extended 16 Nov 2026)",
       "url": "https://www.easa.europa.eu/en/domains/air-operations/czibs"
     }
-  ]
+  ],
+  "calendar_grid": {
+    "oneway": {
+      "route": "ATL-BOM",
+      "threshold_usd": 500,
+      "window_start": "2026-12-15",
+      "window_end": "2027-02-15",
+      "google_asof": "17 Nov 2026",
+      "skyscanner_asof": "17 Nov 2026, about 9:49 AM IST",
+      "cells": [
+        {
+          "date": "2026-12-15",
+          "google_usd": 1460,
+          "skyscanner_usd": 1100
+        },
+        {
+          "date": "2026-12-16",
+          "google_usd": 1680,
+          "skyscanner_usd": 1234
+        },
+        {
+          "date": "2026-12-17",
+          "google_usd": 2000,
+          "skyscanner_usd": 1258
+        },
+        {
+          "date": "2026-12-18",
+          "google_usd": 1730,
+          "skyscanner_usd": 1198
+        },
+        {
+          "date": "2026-12-19",
+          "google_usd": 2040,
+          "skyscanner_usd": 1364
+        },
+        {
+          "date": "2026-12-20",
+          "google_usd": 1690,
+          "skyscanner_usd": 1142
+        },
+        {
+          "date": "2026-12-21",
+          "google_usd": 1640,
+          "skyscanner_usd": 1142
+        },
+        {
+          "date": "2026-12-22",
+          "google_usd": 1340,
+          "skyscanner_usd": 1137
+        },
+        {
+          "date": "2026-12-23",
+          "google_usd": 1110,
+          "skyscanner_usd": 1020
+        },
+        {
+          "date": "2026-12-24",
+          "google_usd": 1160,
+          "skyscanner_usd": 907
+        },
+        {
+          "date": "2026-12-25",
+          "google_usd": 931,
+          "skyscanner_usd": 821
+        },
+        {
+          "date": "2026-12-26",
+          "google_usd": 756,
+          "skyscanner_usd": 732
+        },
+        {
+          "date": "2026-12-27",
+          "google_usd": 819,
+          "skyscanner_usd": 746
+        },
+        {
+          "date": "2026-12-28",
+          "google_usd": 819,
+          "skyscanner_usd": 692
+        },
+        {
+          "date": "2026-12-29",
+          "google_usd": 722,
+          "skyscanner_usd": 640
+        },
+        {
+          "date": "2026-12-30",
+          "google_usd": 716,
+          "skyscanner_usd": 559
+        },
+        {
+          "date": "2026-12-31",
+          "google_usd": 671,
+          "skyscanner_usd": 565
+        },
+        {
+          "date": "2027-01-01",
+          "google_usd": 688,
+          "skyscanner_usd": 418
+        },
+        {
+          "date": "2027-01-02",
+          "google_usd": 756,
+          "skyscanner_usd": 721
+        },
+        {
+          "date": "2027-01-03",
+          "google_usd": 659,
+          "skyscanner_usd": 650
+        },
+        {
+          "date": "2027-01-04",
+          "google_usd": 575,
+          "skyscanner_usd": 555
+        },
+        {
+          "date": "2027-01-05",
+          "google_usd": 538,
+          "skyscanner_usd": 535
+        },
+        {
+          "date": "2027-01-06",
+          "google_usd": 466,
+          "skyscanner_usd": 418
+        },
+        {
+          "date": "2027-01-07",
+          "google_usd": 538,
+          "skyscanner_usd": 519
+        },
+        {
+          "date": "2027-01-08",
+          "google_usd": 466,
+          "skyscanner_usd": 419
+        },
+        {
+          "date": "2027-01-09",
+          "google_usd": 633,
+          "skyscanner_usd": 530
+        },
+        {
+          "date": "2027-01-10",
+          "google_usd": 520,
+          "skyscanner_usd": 514
+        },
+        {
+          "date": "2027-01-11",
+          "google_usd": 466,
+          "skyscanner_usd": 419
+        },
+        {
+          "date": "2027-01-12",
+          "google_usd": 524,
+          "skyscanner_usd": 485
+        },
+        {
+          "date": "2027-01-13",
+          "google_usd": 466,
+          "skyscanner_usd": 407
+        },
+        {
+          "date": "2027-01-14",
+          "google_usd": 554,
+          "skyscanner_usd": 447
+        },
+        {
+          "date": "2027-01-15",
+          "google_usd": 466,
+          "skyscanner_usd": 419
+        },
+        {
+          "date": "2027-01-16",
+          "google_usd": 554,
+          "skyscanner_usd": 400
+        },
+        {
+          "date": "2027-01-17",
+          "google_usd": 524,
+          "skyscanner_usd": 394
+        },
+        {
+          "date": "2027-01-18",
+          "google_usd": 466,
+          "skyscanner_usd": 418
+        },
+        {
+          "date": "2027-01-19",
+          "google_usd": 524,
+          "skyscanner_usd": 425
+        },
+        {
+          "date": "2027-01-20",
+          "google_usd": 466,
+          "skyscanner_usd": 373
+        },
+        {
+          "date": "2027-01-21",
+          "google_usd": 515,
+          "skyscanner_usd": 400
+        },
+        {
+          "date": "2027-01-22",
+          "google_usd": 466,
+          "skyscanner_usd": 419
+        },
+        {
+          "date": "2027-01-23",
+          "google_usd": 515,
+          "skyscanner_usd": 408
+        },
+        {
+          "date": "2027-01-24",
+          "google_usd": 515,
+          "skyscanner_usd": 444
+        },
+        {
+          "date": "2027-01-25",
+          "google_usd": 466,
+          "skyscanner_usd": 414
+        },
+        {
+          "date": "2027-01-26",
+          "google_usd": 524,
+          "skyscanner_usd": 411
+        },
+        {
+          "date": "2027-01-27",
+          "google_usd": 466,
+          "skyscanner_usd": 400
+        },
+        {
+          "date": "2027-01-28",
+          "google_usd": 524
+        },
+        {
+          "date": "2027-01-29",
+          "google_usd": 466,
+          "skyscanner_usd": 460
+        },
+        {
+          "date": "2027-01-30",
+          "google_usd": 522,
+          "skyscanner_usd": 373
+        },
+        {
+          "date": "2027-01-31",
+          "google_usd": 515,
+          "skyscanner_usd": 508
+        },
+        {
+          "date": "2027-02-01",
+          "google_usd": 450,
+          "skyscanner_usd": 394
+        },
+        {
+          "date": "2027-02-02",
+          "google_usd": 520,
+          "skyscanner_usd": 421
+        },
+        {
+          "date": "2027-02-03",
+          "google_usd": 515,
+          "skyscanner_usd": 409
+        },
+        {
+          "date": "2027-02-04",
+          "google_usd": 515,
+          "skyscanner_usd": 445
+        },
+        {
+          "date": "2027-02-05",
+          "google_usd": 520,
+          "skyscanner_usd": 434
+        },
+        {
+          "date": "2027-02-06",
+          "google_usd": 520,
+          "skyscanner_usd": 371
+        },
+        {
+          "date": "2027-02-07",
+          "google_usd": 515
+        },
+        {
+          "date": "2027-02-08",
+          "google_usd": 522,
+          "skyscanner_usd": 449
+        },
+        {
+          "date": "2027-02-09",
+          "google_usd": 524,
+          "skyscanner_usd": 371
+        },
+        {
+          "date": "2027-02-10",
+          "google_usd": 524,
+          "skyscanner_usd": 408
+        },
+        {
+          "date": "2027-02-11",
+          "google_usd": 524
+        },
+        {
+          "date": "2027-02-12",
+          "google_usd": 538
+        },
+        {
+          "date": "2027-02-13",
+          "google_usd": 522,
+          "skyscanner_usd": 368
+        },
+        {
+          "date": "2027-02-14",
+          "google_usd": 524
+        },
+        {
+          "date": "2027-02-15",
+          "google_usd": 522
+        }
+      ]
+    },
+    "roundtrip": {
+      "route": "ATL-BOM",
+      "threshold_usd": 850,
+      "max_stay_days": 175,
+      "return_windows_days": [
+        30,
+        60,
+        90,
+        120,
+        150,
+        175
+      ],
+      "depart_start": "2026-12-15",
+      "depart_end": "2027-02-15",
+      "row_step_days": 7,
+      "cells": [
+        {
+          "depart": "2027-01-06",
+          "return": "2027-04-06",
+          "stay_days": 90,
+          "price_usd": 1008,
+          "source": "Google Flights",
+          "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
+          "airline": "American Airlines / Etihad",
+          "price_type": "itinerary",
+          "note": "Confirmed itinerary, 17 Nov 2026. Etihad one-stop was $1,053 on the same dates.",
+          "alternates": [
+            {
+              "price_usd": 1053,
+              "source": "Google Flights",
+              "airline": "Etihad Airways",
+              "price_type": "itinerary",
+              "note": "One-stop on the same dates"
+            }
+          ]
+        },
+        {
+          "depart": "2027-01-27",
+          "return": "2027-04-27",
+          "stay_days": 90,
+          "price_usd": 846,
+          "source": "Skyscanner",
+          "source_url": "https://www.skyscanner.com/transport/flights/atl/bom/270127/270427/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD",
+          "airline": "Qatar Airways + IndiGo",
+          "price_type": "skyscanner_quote",
+          "note": "Cheapest scanned fare for this stay. Turkish Airlines $849 is also available on these dates and is bookable direct with Turkish (confirm 2×23 kg bags). A Google Flights calendar estimate for the same dates was $849.",
+          "alternates": [
+            {
+              "price_usd": 849,
+              "source": "Skyscanner",
+              "airline": "Turkish Airlines",
+              "price_type": "skyscanner_quote",
+              "note": "Bookable direct with Turkish"
+            },
+            {
+              "price_usd": 849,
+              "source": "Google Flights calendar",
+              "price_type": "calendar_estimate"
+            },
+            {
+              "price_usd": 849,
+              "source": "Turkish Airlines 1 stop IST, bookable direct — Skyscanner"
+            }
+          ]
+        }
+      ]
+    }
+  }
 }

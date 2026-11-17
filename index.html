@@ -264,6 +264,198 @@
       padding: 14px 16px;
       border-radius: 12px;
     }
+
+    /* Fare grids */
+    .grid-card h3 {
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.12rem;
+      margin: 0 0 6px;
+    }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      align-items: center;
+      margin: 0 0 14px;
+      font-size: 0.86rem;
+      color: var(--muted);
+    }
+    .legend-scale {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .legend-bar {
+      width: 120px;
+      height: 12px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, hsl(125, 58%, 86%), hsl(62, 64%, 80%), hsl(32, 70%, 72%), hsl(5, 70%, 62%));
+      border: 1px solid var(--line);
+    }
+    .legend-swatch, .legend-book, .legend-book-ss, .legend-empty {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .swatch {
+      width: 16px;
+      height: 16px;
+      border-radius: 4px;
+      background: #efe8db;
+      border: 1px solid #d3cbbd;
+      display: inline-block;
+    }
+    .swatch.book {
+      background: hsl(125, 58%, 82%);
+      border: 2px solid #1f6b4a;
+    }
+    .swatch.book-ss {
+      background: hsl(125, 58%, 82%);
+      border: 2px dashed #1f6b4a;
+    }
+    .cal-month { margin: 0 0 20px; }
+    .cal-month h4 {
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.02rem;
+      margin: 0 0 8px;
+    }
+    .cal-weekdays, .cal-weeks {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 5px;
+    }
+    .cal-weekdays span {
+      text-align: center;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 0 0 4px;
+    }
+    .cal-cell {
+      min-height: 96px;
+      border-radius: 9px;
+      padding: 5px 5px 6px;
+      background: #efe8db;
+      color: var(--ink);
+      border: 1px solid transparent;
+    }
+    .cal-cell.out, .cal-cell.empty {
+      background: #efe8db;
+      color: #9a9388;
+    }
+    .cal-cell.out { opacity: 0.65; }
+    .cal-cell.has {
+      border-color: rgba(28,25,21,0.06);
+    }
+    .cal-cell.book {
+      border: 2.5px solid #1f6b4a;
+      box-shadow: 0 0 0 1px rgba(31,107,74,0.25);
+    }
+    .cal-cell.book-ss {
+      border: 2.5px dashed #1f6b4a;
+    }
+    .cal-day {
+      font-weight: 700;
+      font-size: 0.72rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2px;
+    }
+    .cal-flag {
+      font-size: 0.62rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: #1f6b4a;
+      color: #fff;
+      border-radius: 999px;
+      padding: 0 5px;
+      line-height: 1.4;
+    }
+    .cal-main {
+      font-weight: 800;
+      font-size: 0.92rem;
+      font-variant-numeric: tabular-nums;
+      line-height: 1.15;
+    }
+    .cal-inr {
+      font-size: 0.68rem;
+      opacity: 0.8;
+      margin-bottom: 3px;
+    }
+    .cal-src {
+      font-size: 0.65rem;
+      line-height: 1.25;
+      font-variant-numeric: tabular-nums;
+    }
+    .rt-wrap {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 0 -4px;
+      padding: 0 4px 6px;
+    }
+    .rt-table {
+      border-collapse: separate;
+      border-spacing: 4px;
+      min-width: 760px;
+      width: 100%;
+      font-size: 0.82rem;
+    }
+    .rt-table th, .rt-table td {
+      border-bottom: 0;
+      padding: 8px 8px;
+      vertical-align: top;
+    }
+    .rt-table thead th {
+      background: #efe8db;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .rt-table th.rt-depart, .rt-table td.rt-depart {
+      position: sticky;
+      left: 0;
+      z-index: 1;
+      background: var(--paper-2);
+      min-width: 7.5rem;
+      text-align: left;
+      font-weight: 700;
+    }
+    .rt-table thead th.rt-depart { z-index: 3; background: #efe8db; }
+    .rt-cell {
+      min-width: 6.4rem;
+      min-height: 4.4rem;
+      border-radius: 8px;
+      padding: 7px 6px;
+      text-align: left;
+    }
+    .rt-cell.unscanned {
+      background: #efe8db;
+      color: #8a8378;
+      font-size: 0.72rem;
+      line-height: 1.3;
+    }
+    .rt-cell.has { border: 1px solid rgba(28,25,21,0.06); }
+    .rt-cell.book { border: 2.5px solid #1f6b4a; }
+    .rt-cell.book-ss { border: 2.5px dashed #1f6b4a; }
+    .rt-cell .cal-main { font-size: 1rem; }
+    .rt-cell .cal-src { font-size: 0.7rem; }
+    @media (max-width: 760px) {
+      .cal-cell { min-height: 88px; padding: 4px 3px 5px; }
+      .cal-main { font-size: 0.8rem; }
+      .cal-src, .cal-inr { font-size: 0.6rem; }
+      .cal-flag { font-size: 0.55rem; padding: 0 4px; }
+      .cal-weekdays, .cal-weeks { gap: 3px; }
+      .legend { font-size: 0.8rem; }
+    }
     @media (max-width: 760px) {
       .reco { padding: 18px 16px; border-radius: 18px; }
       .reco-grid { grid-template-columns: 1fr; }
@@ -426,8 +618,21 @@
 
         <section aria-labelledby="cal-title">
           <h2 id="cal-title">Fare calendar</h2>
+          <div class="chart-card grid-card">
+            <h3>One-way price grid</h3>
+            <p class="caption">Month view for departures 15 Dec 2026 to 15 Feb 2027. The large number is the cheapest print that day (USD, with INR underneath). GF is the Google Flights calendar estimate; SS is the Skyscanner cheapest fare, which may include long self-transfers and is often not the fare to book. Grey cells are outside the window or have no data.</p>
+            <div id="owLegend" class="legend"></div>
+            <div id="owGrid"></div>
+          </div>
+          <div class="chart-card grid-card">
+            <h3>Round-trip price grid</h3>
+            <p class="caption">Rows are departure dates (weekly, plus any date already scanned). Columns are stay lengths of +30, +60, +90, +120, +150 and +175 days, never beyond 175 days. Only scanned cells have a price; the rest say “not scanned yet” and will fill in on later passes. Quotes whose stay does not match these columns stay in the best-options list.</p>
+            <div id="rtLegend" class="legend"></div>
+            <div id="rtGrid"></div>
+          </div>
           <div class="chart-card">
-            <p class="caption">One-way price by departure date, 15 Dec 2026 to 15 Feb 2027. The Google Flights line is a calendar estimate (read 17 Nov 2026). The Skyscanner line is the cheapest fare shown that day, including self-transfers (read 17 Nov 2026, about 9:49 AM IST); those lows are often not recommended. Gaps are days with no Skyscanner price. Round-trip lines appear when those calendars are in the data.</p>
+            <h3>One-way price trend</h3>
+            <p class="caption">Same one-way window as a line chart. The Google Flights line is a calendar estimate (read 17 Nov 2026). The Skyscanner line is the cheapest fare shown that day, including self-transfers (read 17 Nov 2026, about 9:49 AM IST). Gaps are days with no Skyscanner price.</p>
             <div class="chart-box"><canvas id="calChart"></canvas></div>
           </div>
         </section>
@@ -451,8 +656,202 @@
         </footer>
       `;
 
+      renderFareGrids(data, rate);
       drawCalendar(data);
       drawHistory(data);
+    }
+
+
+    function parseISO(iso) { return new Date(iso + "T12:00:00"); }
+    function isoFromDate(d) {
+      const y = d.getFullYear();
+      const m = String(d.getMonth() + 1).padStart(2, "0");
+      const day = String(d.getDate()).padStart(2, "0");
+      return `${y}-${m}-${day}`;
+    }
+    function addDaysISO(iso, n) {
+      const d = parseISO(iso);
+      d.setDate(d.getDate() + n);
+      return isoFromDate(d);
+    }
+    function fareColor(price, threshold) {
+      const lo = Math.min(threshold * 0.85, threshold - 80);
+      const hi = Math.max(threshold * 2.2, threshold + 900);
+      const t = Math.max(0, Math.min(1, (price - lo) / (hi - lo)));
+      const hue = 125 - (t * 125);
+      const sat = 58 + (t * 12);
+      const light = 86 - (t * 24);
+      return { bg: `hsl(${hue}, ${sat}%, ${light}%)`, ink: light < 50 ? "#fffaf2" : "#1c1915" };
+    }
+    function legendHTML(threshold, kind) {
+      return `
+        <div class="legend-scale"><span>Cheaper</span><span class="legend-bar" aria-hidden="true"></span><span>More expensive</span></div>
+        <span class="legend-book"><span class="swatch book"></span> At or under ${usd(threshold)} (Google at or under the line, or both)</span>
+        <span class="legend-book-ss"><span class="swatch book-ss"></span> Only Skyscanner at or under ${usd(threshold)} (may be a self-transfer)</span>
+        <span class="legend-empty"><span class="swatch"></span> ${kind === "rt" ? "Not scanned yet" : "No data / outside the window"}</span>
+      `;
+    }
+
+    function onewayCellMap(data) {
+      const grid = (data.calendar_grid && data.calendar_grid.oneway) || {};
+      const map = new Map();
+      for (const c of grid.cells || []) map.set(c.date, Object.assign({}, c));
+      const cal = (data.calendar || {})["ATL-BOM"] || {};
+      for (const pt of cal.OW || []) {
+        if (!isMumbaiRoute("ATL-BOM")) continue;
+        const row = map.get(pt.date) || { date: pt.date };
+        if (row.google_usd == null && pt.price != null) row.google_usd = pt.price;
+        map.set(pt.date, row);
+      }
+      for (const pt of cal.OW_skyscanner || []) {
+        const row = map.get(pt.date) || { date: pt.date };
+        if (row.skyscanner_usd == null && pt.price != null) row.skyscanner_usd = pt.price;
+        map.set(pt.date, row);
+      }
+      const threshold = grid.threshold_usd || (data.recommendation && data.recommendation.oneway && data.recommendation.oneway.threshold_usd) || 500;
+      return { map, threshold, windowStart: grid.window_start || "2026-12-15", windowEnd: grid.window_end || "2027-02-15" };
+    }
+
+    function renderOnewayGrid(data, rate) {
+      const host = document.getElementById("owGrid");
+      const legend = document.getElementById("owLegend");
+      if (!host) return;
+      const { map, threshold, windowStart, windowEnd } = onewayCellMap(data);
+      if (legend) legend.innerHTML = legendHTML(threshold, "ow");
+      const months = [
+        { title: "December 2026", year: 2026, month: 11 },
+        { title: "January 2027", year: 2027, month: 0 },
+        { title: "February 2027", year: 2027, month: 1 }
+      ];
+      const weekdays = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+      host.innerHTML = months.map(m => {
+        const first = new Date(m.year, m.month, 1, 12);
+        const lastDate = new Date(m.year, m.month + 1, 0, 12).getDate();
+        const startPad = (first.getDay() + 6) % 7; // Monday = 0
+        const cells = [];
+        for (let i = 0; i < startPad; i++) cells.push({ type: "pad" });
+        for (let day = 1; day <= lastDate; day++) {
+          const dt = new Date(m.year, m.month, day, 12);
+          const iso = isoFromDate(dt);
+          const inWindow = iso >= windowStart && iso <= windowEnd;
+          const info = map.get(iso) || { date: iso };
+          const g = info.google_usd;
+          const s = info.skyscanner_usd;
+          const vals = [g, s].filter(v => v != null);
+          const cheap = vals.length ? Math.min.apply(null, vals) : null;
+          if (!inWindow) {
+            cells.push({ type: "out", day });
+          } else if (cheap == null) {
+            cells.push({ type: "empty", day });
+          } else {
+            const gfOk = g != null && g <= threshold;
+            const ssOk = s != null && s <= threshold;
+            const book = cheap <= threshold;
+            const bookClass = book ? (gfOk ? "book" : (ssOk ? "book-ss" : "book")) : "";
+            cells.push({ type: "has", day, g, s, cheap, book, bookClass, gfOk });
+          }
+        }
+        const body = cells.map(c => {
+          if (c.type === "pad") return `<div class="cal-cell out" aria-hidden="true"></div>`;
+          if (c.type === "out") return `<div class="cal-cell out"><div class="cal-day">${c.day}</div></div>`;
+          if (c.type === "empty") return `<div class="cal-cell empty"><div class="cal-day">${c.day}</div><div class="cal-src">No data</div></div>`;
+          const col = fareColor(c.cheap, threshold);
+          const flag = c.book ? `<span class="cal-flag">${c.gfOk ? "≤" + usd(threshold) : "SS ≤" + usd(threshold)}</span>` : "";
+          const src = [
+            c.g != null ? `GF ${usd(c.g)}` : "GF —",
+            c.s != null ? `SS ${usd(c.s)}` : ""
+          ].filter(Boolean).join("<br>");
+          return `<div class="cal-cell has ${c.bookClass}" style="background:${col.bg};color:${col.ink}">
+            <div class="cal-day"><span>${c.day}</span>${flag}</div>
+            <div class="cal-main">${usd(c.cheap)}</div>
+            ${rate ? `<div class="cal-inr">${inr(c.cheap, rate)}</div>` : ""}
+            <div class="cal-src">${src}</div>
+          </div>`;
+        }).join("");
+        return `<div class="cal-month">
+          <h4>${m.title}</h4>
+          <div class="cal-weekdays">${weekdays.map(w => `<span>${w}</span>`).join("")}</div>
+          <div class="cal-weeks">${body}</div>
+        </div>`;
+      }).join("");
+    }
+
+    function renderRoundtripGrid(data, rate) {
+      const host = document.getElementById("rtGrid");
+      const legend = document.getElementById("rtLegend");
+      if (!host) return;
+      const grid = (data.calendar_grid && data.calendar_grid.roundtrip) || {};
+      const threshold = grid.threshold_usd || (data.recommendation && data.recommendation.roundtrip && data.recommendation.roundtrip.threshold_usd) || 850;
+      const windows = grid.return_windows_days || [30, 60, 90, 120, 150, 175];
+      const start = grid.depart_start || "2026-12-15";
+      const end = grid.depart_end || "2027-02-15";
+      const step = grid.row_step_days || 7;
+      if (legend) legend.innerHTML = legendHTML(threshold, "rt");
+
+      const scanned = new Map();
+      for (const c of grid.cells || []) {
+        if (!c.depart || c.price_usd == null) continue;
+        const stay = c.stay_days != null ? c.stay_days : (c.return ? Math.round((parseISO(c.return) - parseISO(c.depart)) / 86400000) : null);
+        if (stay == null) continue;
+        const key = c.depart + "|" + stay;
+        const prev = scanned.get(key);
+        if (!prev || c.price_usd < prev.price_usd) scanned.set(key, Object.assign({ stay_days: stay }, c));
+      }
+
+      const departs = [];
+      for (let iso = start; iso <= end; iso = addDaysISO(iso, step)) departs.push(iso);
+      for (const key of scanned.keys()) {
+        const dep = key.split("|")[0];
+        if (!departs.includes(dep) && dep >= start && dep <= end) departs.push(dep);
+      }
+      departs.sort();
+
+      const head = `<th class="rt-depart">Depart</th>` + windows.map(w => {
+        // Sample a mid-window return label only in header as stay length
+        return `<th>+${w} days</th>`;
+      }).join("");
+
+      const body = departs.map(dep => {
+        const depLabel = fmtDate(dep);
+        const tds = windows.map(w => {
+          const ret = addDaysISO(dep, w);
+          const cell = scanned.get(dep + "|" + w);
+          if (!cell) {
+            return `<td><div class="rt-cell unscanned">Not scanned yet<br><span>${fmtDate(ret)}</span></div></td>`;
+          }
+          const book = cell.price_usd <= threshold;
+          const col = fareColor(cell.price_usd, threshold);
+          const src = [cell.source, cell.airline].filter(Boolean).join(" · ");
+          const alt = (cell.alternates || []).filter(a => a.price_usd != null && a.price_usd !== cell.price_usd)
+            .slice(0, 2)
+            .map(a => `also ${usd(a.price_usd)}${a.airline ? " " + a.airline : ""}`)
+            .join("<br>");
+          return `<td><div class="rt-cell has ${book ? "book" : ""}" style="background:${col.bg};color:${col.ink}">
+            <div class="cal-day"><span>${fmtDate(ret)}</span>${book ? `<span class="cal-flag">≤${usd(threshold)}</span>` : ""}</div>
+            <div class="cal-main">${usd(cell.price_usd)}</div>
+            ${rate ? `<div class="cal-inr">${inr(cell.price_usd, rate)}</div>` : ""}
+            <div class="cal-src">${esc(src)}${alt ? "<br>" + alt : ""}</div>
+          </div></td>`;
+        }).join("");
+        return `<tr><td class="rt-depart">${depLabel}</td>${tds}</tr>`;
+      }).join("");
+
+      const scannedCount = scanned.size;
+      const total = departs.length * windows.length;
+      const filledList = [...scanned.values()]
+        .sort((a, b) => a.depart.localeCompare(b.depart) || a.stay_days - b.stay_days)
+        .map(c => `${fmtDate(c.depart)} +${c.stay_days}d ${usd(c.price_usd)}${c.source ? " (" + c.source + ")" : ""}`)
+        .join("; ");
+      host.innerHTML = `<div class="rt-wrap"><table class="rt-table">
+        <thead><tr>${head}</tr></thead>
+        <tbody>${body}</tbody>
+      </table></div>
+      <p class="caption">${scannedCount} of ${total} cells in this view have a scanned fare.${filledList ? " Filled: " + filledList + "." : ""}</p>`;
+    }
+
+    function renderFareGrids(data, rate) {
+      renderOnewayGrid(data, rate);
+      renderRoundtripGrid(data, rate);
     }
 
     function allDates() {
