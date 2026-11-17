@@ -1,34 +1,19 @@
 {
-  "updated_ist": "17 Nov 2026, 10:07 AM IST",
+  "updated_ist": "17 Nov 2026, 10:10 AM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
     "oneway": {
-      "action": "Book now if a confirmed one-way is $500 or less. Otherwise wait through Black Friday / Cyber Monday (27–30 Nov 2026), and plan to book by about 10 Dec 2026 for January travel.",
-      "threshold_usd": 500,
-      "reasoning": "The one-way call is unchanged: book a confirmed fare at or under $500, otherwise wait through Black Friday / Cyber Monday (27–30 Nov 2026) and plan to book by about 10 Dec for January travel. The best reliable single-ticket one-ways on Skyscanner (17 Nov 2026, about 9:49 AM IST) are United + SWISS at $499 (20 Jan, 2 stops ORD/ZRH, 22h 53m) and Lufthansa at $516 (13 Feb, 1 stop FRA, 22h 05m) — around the $500 line, with the one-stop just above it. Skyscanner’s cheaper one-way calendar prints ($368–$419) are mostly self-transfer itineraries (for example Frontier + Etihad/Royal Jordanian via IAD, 40–50 hours) or Ethiopian ($419), and are not recommended. The $450 Ethiopian itinerary on 1 Feb still meets the price line but has a weak on-time record (59.8% in Oct 2026, OAG). Mid-December remains peak-priced."
+      "action": "Book at or under $500. Best now: United + SWISS $499 (20 Jan, 2 stops) and Lufthansa $516 (13 Feb, 1 stop).",
+      "threshold_usd": 500
     },
     "roundtrip": {
-      "action": "Threshold revised to ≤ $900 for 170–179-day stays (longer stays price higher than the shorter-stay $850 benchmark; cheapest grid cells are $915, itinerary list $865). The cheapest band is departures 7–25 Jan returning 30 Jun–15 Jul ($915–$925 on the grid). Delta/Virgin at $865 for 22 Jan–15 Jul meets the line: book if the Main Cabin fare with 2 checked bags is still ≤ $900. Late Dec departures cost $1,050–$2,200.",
-      "threshold_usd": 900,
-      "reasoning": "Google Flights date grids for 170–179-day Atlanta–Mumbai round trips (read 17 Nov 2026, about 10:05 AM IST, USD, 1 adult economy) cover 402 cells. The cheapest grid prints are $915; many departures from 7–25 Jan 2027 returning 30 Jun–15 Jul sit at $915–$925. 8–9 Jan are a bit higher on the grid ($1,034–$1,041). The itinerary list for 22 Jan–15 Jul (174 days) showed Virgin Atlantic + Delta via London Heathrow at $865, below the grid’s $915 for that cell and under the revised $900 line — book if Main Cabin with 2×23 kg bags is still at or under $900, and avoid Basic Economy. The same list also had Delta + Virgin + Saudia via LHR at $909 (20h 25m) and Etihad via Abu Dhabi at $1,179 (18h 40m). A $900 threshold is higher than the old $850 short-stay benchmark because these longer stays price higher (grid floor $915). Late December is expensive: about $1,050–$2,200, with a mid-December peak up to $2,444 on the grid. The earlier $846–$849 Turkish/Qatar quotes remain invalid — those were ~90-day stays."
+      "action": "Book at or under $900 for a 170–179-day stay. Best now: Virgin Atlantic + Delta $865, 22 Jan–15 Jul, 1 stop LHR (Main Cabin, 2 bags).",
+      "threshold_usd": 900
     }
   },
-  "why": {
-    "historical_trend": "Kayak’s median Atlanta–Mumbai round trip is $1,363 in December versus $707 in April (Kayak route data, read 17 Nov 2026). Google Flights calendar estimates from the same day show the same seasonal drop: one-way ATL–BOM around $1,460–$2,040 in mid-December, then a sharp decline after Christmas, with most mid-January to mid-February dates about $450–$540 (the low is $450 on 1 Feb). Kayak also puts the current average one-way ATL–BOM at about $487, 11% below its typical $412–$667 range. Kayak’s 1 Apr 2026 booking study finds international fares cheapest on average 7–14 days before departure (domestic 21–30 days). That average window is tight for a long-haul holiday-season trip; Kayak also says to book early for Christmas through New Year’s and to book when a fare meets your budget rather than waiting for a lower one that may not come.",
-    "fuel_outlook": "Jet fuel and crude have been falling, not rising, over the past three to six weeks. IATA’s Jet Fuel Price Monitor (checked 17 Nov 2026) puts the global average at $169.82 a barrel last week, down 5.1% from the week before — the third straight weekly decline from about $196.70 in late October. That is still far above pre-conflict levels (IATA $94.97/bbl for the week ending 30 Jan 2026). The EIA U.S. Gulf Coast jet-fuel spot was $4.035/gal on 11 Nov 2026, down from a recent high of $4.686/gal on 23 Oct (EIA via FRED, retrieved 17 Nov 2026). Brent was about $92/bbl early on 17 Nov 2026 (CNBC, 17 Nov 2026, 0102 GMT), down from $103.60 on 3 Nov and from a North Sea Dated high of $136 on 8 Oct (IEA Oil Market Report, 13 Nov 2026). The EIA Short-Term Energy Outlook (released 10 Nov 2026; inputs frozen 5 Nov, so it misses the mid-November drop) forecasts Brent near $100/bbl for the rest of 2026, then $94.90 in Q1 2027 and $85.78 as the 2027 average, with U.S. wholesale jet fuel easing from $4.09/gal in Q4 2026 to $3.71 in Q1 2027. Goldman Sachs (note cited by CNBC, 16 Nov 2026) expects Brent to average $88 in 2027 and $78 by year-end. Airline surcharges are still elevated: Air India $215 one-way on North America sectors (revised 9 Oct 2026) and Emirates $322 economy one-way to the Americas (effective 1 Nov 2026). Gulf shipping attacks continue, and EASA extended Middle East airspace warnings on 16 Nov 2026 through 31 Jan 2027. Implication: falling fuel gives some room to wait for a sale; still-high fuel, surcharges, and geopolitical volatility are not a reason to wait past mid-December.",
-    "verdict": "Round trip: the book-now line for a 170–179-day stay (visa limit 180 days) is revised to ≤ $900. Google’s date grid (17 Nov 2026, about 10:05 AM IST) bottoms out at $915, with the cheapest band mostly 7–25 Jan returning 30 Jun–15 Jul at $915–$925. Virgin Atlantic + Delta at $865 (22 Jan–15 Jul, 174 days, one stop at Heathrow) on the itinerary list meets that line if the Main Cabin fare with two checked bags still holds. Do not book late-December departures if you can move the date — those grid prices run about $1,050–$2,200. One-way: the call is unchanged. The best reliable single-ticket fares now are $499–$516, around or just above the $500 line, so wait through Black Friday / Cyber Monday (27–30 Nov 2026) unless you want to take the $499 two-stop now, and plan to book by about 10 Dec for January travel. Ignore Skyscanner one-way calendar lows in the $368–$419 range when they are long self-transfers or Ethiopian. Avoid departing before about 26 Dec unless the dates are fixed: that is peak pricing. Fuel is still easing, which is why one-way can wait for the sale window."
-  },
   "fuel": {
-    "researched_ist": "17 Nov 2026, morning IST",
-    "direction": "falling",
-    "iata_usd_per_bbl": 169.82,
-    "iata_wow_pct": -5.1,
-    "iata_note": "IATA Jet Fuel Price Monitor, checked 17 Nov 2026; Week 46 / week ending 13 Nov 2026 (inferred from the prior $178.95 Week 45 print). Third straight weekly decline from ~$196.70 in late October.",
-    "eia_usgc_usd_per_gal": 4.035,
-    "eia_usgc_date": "2026-11-11",
-    "brent_usd_per_bbl": 92.0,
-    "brent_asof": "17 Nov 2026, 0102 GMT (CNBC)"
+    "direction": "falling"
   },
   "best_options": [
     {
@@ -41,11 +26,9 @@
       "stops": "1 stop (LHR) each way",
       "duration": "Outbound 21h 40m–23h 45m depending on the flight. Three Atlanta departures: 5:30 PM, 6:45 PM, and 10:35 PM.",
       "bags": "Check that the fare is Main Cabin, which includes 2×23 kg; avoid Basic Economy.",
-      "reliability": "Delta is among the most punctual US carriers; Virgin Atlantic is solid. Confirm the operating flights at booking.",
       "source_name": "Google Flights itinerary list",
       "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "note": "Read 17 Nov 2026, about 10:05 AM IST, 1 adult economy, USD. 174-day stay (within 170–179; visa limit 180 days). The date grid showed $915 for this pair; this $865 itinerary is the one to book if Main Cabin with bags is still ≤ $900."
+      "price_type": "itinerary"
     },
     {
       "route": "ATL-BOM",
@@ -57,11 +40,9 @@
       "stops": "Via LHR (and a Saudia sector)",
       "duration": "20h 25m",
       "bags": "Check fare brand at booking; avoid Basic Economy if bags matter.",
-      "reliability": "Delta is among the most punctual US carriers; Virgin Atlantic is solid. Confirm the Saudia sector and bags at booking.",
       "source_name": "Google Flights itinerary list",
       "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "note": "Same 22 Jan–15 Jul 2027 date pair as the $865 Virgin + Delta itinerary, on the itinerary list (17 Nov 2026, about 10:05 AM IST). Just over the $900 line."
+      "price_type": "itinerary"
     },
     {
       "route": "ATL-BOM",
@@ -73,11 +54,9 @@
       "stops": "1 stop (AUH)",
       "duration": "18h 40m",
       "bags": "Etihad Value+ includes 2×23 kg; Basic includes none — confirm the brand.",
-      "reliability": "Etihad on-time 72.3% in Oct 2026 (OAG).",
       "source_name": "Google Flights itinerary list",
       "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "note": "Same 22 Jan–15 Jul 2027 date pair, faster routing, but above the $900 line. Read 17 Nov 2026, about 10:05 AM IST."
+      "price_type": "itinerary"
     },
     {
       "route": "ATL-BOM",
@@ -89,11 +68,9 @@
       "stops": "2 stops (ORD, ZRH)",
       "duration": "22h 53m",
       "bags": "Not verified in this scan — check fare brand at booking.",
-      "reliability": "Two connections. A reliable single-ticket option at the $500 line, unlike the cheaper self-transfer calendar fares.",
       "source_name": "Skyscanner",
       "source_url": "https://www.skyscanner.com/transport/flights/atl/bom/270120/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price",
-      "price_type": "skyscanner_quote",
-      "note": "Skyscanner, 17 Nov 2026, about 9:49 AM IST, 1 adult economy. Best cheap reliable one-way in this scan; the one-stop Lufthansa alternative is $516 on 13 Feb."
+      "price_type": "skyscanner_quote"
     },
     {
       "route": "ATL-BOM",
@@ -105,107 +82,9 @@
       "stops": "1 stop (FRA)",
       "duration": "22h 05m",
       "bags": "Lufthansa economy typically 1×23 kg.",
-      "reliability": "Lufthansa on-time 78.5% in Oct 2026 (OAG). Germany has not required an airport transit visa since 3 Jun 2026.",
       "source_name": "Skyscanner",
       "source_url": "https://www.skyscanner.com/transport/flights/atl/bom/270213/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price",
-      "price_type": "skyscanner_quote",
-      "note": "Skyscanner, 17 Nov 2026, about 9:49 AM IST, 1 adult economy. Just over the $500 one-way line."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "OW",
-      "depart": "2027-02-01",
-      "return": null,
-      "price_usd": 450,
-      "airline": "Ethiopian Airlines",
-      "stops": "1 stop (ADD)",
-      "duration": "See Google Flights",
-      "bags": "Not confirmed in this scan — check at booking.",
-      "reliability": "Caution: Ethiopian on-time only 59.8% in Oct 2026 (OAG). Google rates this fare ‘high’ for the date.",
-      "source_name": "Google Flights",
-      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "note": "Actual itinerary, 17 Nov 2026. Meets the $500 book-now price line, but reliability is the trade-off."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "OW",
-      "depart": "2027-01-06",
-      "return": null,
-      "price_usd": 466,
-      "airline": "Not yet confirmed (Google calendar estimate)",
-      "stops": "See Google Flights",
-      "duration": "See Google Flights",
-      "bags": "Not confirmed — check fare brand at booking",
-      "reliability": "Calendar estimate only. The $466 level repeats on many January dates (6, 8, 11, 13, 15, 18, 20, 22, 25, 27, 29 Jan).",
-      "source_name": "Google Flights calendar",
-      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "price_type": "calendar_estimate",
-      "note": "Mid-January trough on the ATL–BOM calendar, read 17 Nov 2026."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "OW",
-      "depart": "2027-02-03",
-      "return": null,
-      "price_usd": 480,
-      "airline": "Etihad Airways",
-      "stops": "1 stop (AUH)",
-      "duration": "See Kayak / Google Flights",
-      "bags": "Etihad Value+ includes 2×23 kg; Basic includes none — confirm the brand.",
-      "reliability": "Etihad on-time 72.3% in Oct 2026 (OAG).",
-      "source_name": "Kayak",
-      "source_url": "https://www.kayak.com/flight-routes/Atlanta-Hartsfield-Jackson-ATL/Mumbai-Chhatrapati-Shivaji-BOM",
-      "price_type": "kayak_quote",
-      "note": "Kayak quote, 17 Nov 2026. Nearby: Etihad one-way $479 on 17 Feb via Abu Dhabi."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "OW",
-      "depart": "2027-01-06",
-      "return": null,
-      "price_usd": 538,
-      "airline": "Lufthansa",
-      "stops": "1 stop (FRA)",
-      "duration": "See Google Flights",
-      "bags": "Lufthansa economy typically 1×23 kg.",
-      "reliability": "Lufthansa on-time 78.5% in Oct 2026 (OAG). Germany has not required an airport transit visa since 3 Jun 2026.",
-      "source_name": "Google Flights",
-      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "note": "Actual itinerary, 17 Nov 2026. Just over the $500 book-now line. The Google calendar still prints $466 on this date; that cheaper figure has not been confirmed as a ticket in this scan."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "OW",
-      "depart": "2026-12-15",
-      "return": null,
-      "price_usd": 1462,
-      "airline": "Turkish Airlines + IndiGo",
-      "stops": "1 stop (IST, 22h 15m layover)",
-      "duration": "39h 45m",
-      "bags": "Not confirmed in this scan — check at booking.",
-      "reliability": "Very long Istanbul layover. Google rates this fare ‘typical’ for the date (usual range $660–$1,550).",
-      "source_name": "Google Flights",
-      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "note": "Actual cheapest ATL–BOM itinerary found for 15 Dec 2026, read 17 Nov 2026. Peak-season pricing — not a book-now fare unless the dates are fixed."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "OW",
-      "depart": "2026-12-15",
-      "return": null,
-      "price_usd": 1845,
-      "airline": "Air France / Delta / KLM",
-      "stops": "1 stop (CDG)",
-      "duration": "19h 45m",
-      "bags": "Air France economy often 0–1×23 kg, depending on fare brand.",
-      "reliability": "KLM on-time 71.2% in Oct 2026, with 3.8% cancellations (OAG). Much shorter trip than the $1,462 Turkish+IndiGo option.",
-      "source_name": "Google Flights",
-      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "note": "Faster 15 Dec alternative, at a higher price."
+      "price_type": "skyscanner_quote"
     }
   ],
   "calendar": {
@@ -753,39 +632,6 @@
       "price": 538,
       "depart": "2027-01-06",
       "note": "Lufthansa 1 stop FRA — Google Flights"
-    },
-    {
-      "ts": "2026-11-17",
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "price": 1008,
-      "depart": "2027-01-06",
-      "return": "2027-04-06",
-      "note": "Superseded (90-day stay, not valid). American/Etihad 2 stops (Etihad 1-stop $1053) — Google Flights",
-      "valid_stay": false,
-      "stay_days": 90
-    },
-    {
-      "ts": "2026-11-17",
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "price": 849,
-      "depart": "2027-01-27",
-      "return": "2027-04-27",
-      "note": "Superseded (90-day stay, not valid). Turkish Airlines 1 stop IST, bookable direct — Skyscanner",
-      "valid_stay": false,
-      "stay_days": 90
-    },
-    {
-      "ts": "2026-11-17",
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "price": 846,
-      "depart": "2027-01-27",
-      "return": "2027-04-27",
-      "note": "Superseded (90-day stay, not valid). Qatar + IndiGo 1 stop DOH, third-party listing — Skyscanner",
-      "valid_stay": false,
-      "stay_days": 90
     },
     {
       "ts": "2026-11-17",
@@ -1386,93 +1232,6 @@
       "depart": "2027-01-22",
       "return": "2027-07-15",
       "note": "Virgin Atlantic+Delta 1 stop LHR (itinerary list; grid $915) — Google Flights"
-    }
-  ],
-  "notes": [
-    "Hyderabad dropped: Mumbai was cheaper on every date checked (17 Nov 2026).",
-    "Superseded (90-day stay, not valid): earlier round-trip quotes of Turkish $849 and Qatar + IndiGo $846 (27 Jan–27 Apr 2027) and American/Etihad $1,008 (6 Jan–6 Apr 2027) were ~90-day stays. The trip needs a stay of 170–179 days (visa limit 180 days), so those fares are not valid options. They are kept in the history log only. Shorter Kayak quotes (SAS $796 for 70 days, Ethiopian $805 for 16 days, and a 4-day NYC–BOM fare) were also the wrong stay length and were removed from the options list.",
-    "Google Flights 170–179-day date grids (read 17 Nov 2026, about 10:05 AM IST, USD, 1 adult economy, ATL–BOM) filled 402 cells. The cheapest grid prints are $915. The cheapest band is mostly departures 7–25 Jan 2027 returning 30 Jun–15 Jul ($915–$925); 8–9 Jan are $1,034–$1,041. The itinerary list for 22 Jan–15 Jul (174 days) showed Virgin Atlantic + Delta via Heathrow at $865 (grid $915), Delta + Virgin + Saudia at $909, and Etihad via Abu Dhabi at $1,179. Late December grid prices are about $1,050–$2,200, with a mid-December peak of $2,444. The book-now line for this stay length is now ≤ $900.",
-    "Skyscanner (read 17 Nov 2026, about 9:49 AM IST, USD, 1 adult economy): the cheapest one-way calendar prices ($368–$419) are mostly self-transfer itineraries (Frontier + Etihad/Royal Jordanian via IAD, 40–50 hours) or Ethiopian ($419) and are not recommended. The best reliable single-ticket one-ways on that scan were United + SWISS $499 (20 Jan, 2 stops) and Lufthansa $516 (13 Feb, 1 stop FRA). Its $846–$849 round trips were ~90-day stays and are not valid for this trip (see the superseded note).",
-    "December is the peak. Kayak’s median Atlanta–Mumbai round trip is $1,363 in December versus $707 in April (Kayak, read 17 Nov 2026). On the Google calendar, mid-December one-ways are roughly three to four times the mid-January prints. Avoid departing before about 26 Dec unless the dates are fixed.",
-    "Airline reliability (OAG on-time performance, October 2026): SAS 86.4%, Air India 80.5%, Lufthansa 78.5%, Gulf Air 77.3% (but 5.7% cancellations), Emirates 74.4%, Qatar 73.4%, Etihad 72.3%, British Airways 71.6%, KLM 71.2% (3.8% cancellations), Ethiopian 59.8% — a clear caution on the cheap Ethiopian round trip.",
-    "Checked bags vary by fare brand, which is why a headline price can disappoint. Qatar Classic+ 2×23 kg (Lite 1×23); Etihad Value+ 2×23 kg (Basic none); Air India Classic/Flex 2×23 kg (Value 1×23); Emirates Saver+ 2×23 kg (Special 1×23); Lufthansa economy typically 1×23 kg; Air France economy often 0–1×23 kg. Confirm bags before buying a ‘basic’ or ‘lite’ fare, especially for a move.",
-    "Transit visas for an Indian passport: a UK airside transit visa is needed unless an exemption applies (for example a valid US visa). Germany has not required an airport transit visa since 3 Jun 2026. France is not on the ATV list. Amsterdam and Copenhagen transit rules were not verified in this scan — check before buying a SAS or KLM itinerary.",
-    "Jet fuel has fallen for three straight weeks (IATA global average $169.82/bbl last week, down 5.1%; EIA US Gulf Coast jet $4.035/gal on 11 Nov, down from $4.686 on 23 Oct) and official outlooks point lower into 2027, but prices remain well above pre-conflict levels and Gulf airspace/shipping risk is still active (EASA warnings extended 16 Nov 2026 through 31 Jan 2027). Air India still levies a $215 North America fuel surcharge (from 9 Oct 2026); Emirates $322 economy to the Americas (from 1 Nov 2026).",
-    "No US–India Black Friday / Cyber Monday sale had been announced as of 17 Nov 2026 (Lufthansa had only published a teaser). The 27–30 Nov window is still worth watching.",
-    "Prices on this page are research snapshots, not a booking confirmation. Google calendar figures are estimates. Always re-check the live fare, bags, layover type, and visa rules before paying."
-  ],
-  "sources": [
-    {
-      "name": "Google Flights, ATL–BOM (from 15 Dec 2026)",
-      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en"
-    },
-    {
-      "name": "Kayak route page, Atlanta–Mumbai",
-      "url": "https://www.kayak.com/flight-routes/Atlanta-Hartsfield-Jackson-ATL/Mumbai-Chhatrapati-Shivaji-BOM"
-    },
-    {
-      "name": "Kayak, best time to book (1 Apr 2026)",
-      "url": "https://www.kayak.com/news/when-are-flights-cheapest/"
-    },
-    {
-      "name": "Skyscanner, ATL–BOM round trip 27 Jan–27 Apr 2027 (read 17 Nov 2026)",
-      "url": "https://www.skyscanner.com/transport/flights/atl/bom/270127/270427/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD"
-    },
-    {
-      "name": "Skyscanner, ATL–BOM one-way 13 Feb 2027 (read 17 Nov 2026)",
-      "url": "https://www.skyscanner.com/transport/flights/atl/bom/270213/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price"
-    },
-    {
-      "name": "Google Flights, ATL–BOM round trip 22 Jan–15 Jul 2027 (read 17 Nov 2026)",
-      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en"
-    },
-    {
-      "name": "OAG on-time performance data (Oct 2026)",
-      "url": "https://www.oag.com/on-time-performance-data"
-    },
-    {
-      "name": "Xe USD/INR (17 Nov 2026)",
-      "url": "https://www.xe.com/"
-    },
-    {
-      "name": "IATA Jet Fuel Price Monitor",
-      "url": "https://www.iata.org/en/publications/economics/fuel-monitor/"
-    },
-    {
-      "name": "EIA U.S. Gulf Coast kerosene-type jet fuel spot",
-      "url": "https://www.eia.gov/dnav/pet/hist/EER_EPJK_PF4_RGC_DPGD.htm"
-    },
-    {
-      "name": "FRED, DJFUELUSGULF (EIA jet fuel)",
-      "url": "https://fred.stlouisfed.org/data/DJFUELUSGULF"
-    },
-    {
-      "name": "EIA Short-Term Energy Outlook, 10 Nov 2026",
-      "url": "https://www.eia.gov/outlooks/steo/"
-    },
-    {
-      "name": "IEA Oil Market Report, November 2026 (13 Nov 2026)",
-      "url": "https://www.iea.org/reports/oil-market-report-november-2026"
-    },
-    {
-      "name": "CNBC, Brent around $92, 17 Nov 2026",
-      "url": "https://www.cnbc.com/2026/11/17/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions.html"
-    },
-    {
-      "name": "CNBC, Goldman Sachs 2027 Brent outlook, 16 Nov 2026",
-      "url": "https://www.cnbc.com/2026/11/16/oil-prices-brent-wti-latest.html"
-    },
-    {
-      "name": "Air India fuel surcharge revision, 8 Oct 2026",
-      "url": "https://www.airindia.com/in/en/newsroom/press-release/air-india-and-air-india-express-revise-fuel-surcharges-in-response-to-rising-aviation-fuel-prices.html"
-    },
-    {
-      "name": "Emirates fuel surcharge (effective 1 Nov 2026)",
-      "url": "https://www.emirates.com/kr/english/book/planning-your-trip/fuel-surcharge/"
-    },
-    {
-      "name": "EASA conflict-zone bulletins (extended 16 Nov 2026)",
-      "url": "https://www.easa.europa.eu/en/domains/air-operations/czibs"
     }
   ],
   "calendar_grid": {
