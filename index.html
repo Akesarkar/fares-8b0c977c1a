@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="googlebot" content="noindex,nofollow">
+  <title>Atlanta → India flight tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+  <style>
+    :root {
+      --paper: #f3eee4;
+      --paper-2: #fffaf2;
+      --ink: #1c1915;
+      --muted: #5c564c;
+      --line: #ddd4c4;
+      --accent: #8c2f14;
+      --accent-soft: #f3e0d4;
+      --teal: #143f3a;
+      --teal-2: #1b5a52;
+      --good: #1f6b4a;
+      --wait: #8a5a12;
+      --warn: #8c2f14;
+      --shadow: 0 10px 30px rgba(28, 25, 21, 0.08);
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Source Sans 3", "Segoe UI", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.55;
+      font-size: 17px;
+    }
+    .wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 20px 18px 64px;
+    }
+    header.top {
+      padding: 8px 0 20px;
+    }
+    header.top p.kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      margin: 0 0 6px;
+    }
+    h1 {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 600;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      line-height: 1.15;
+      margin: 0 0 10px;
+    }
+    .updated {
+      font-size: 1rem;
+      color: var(--ink);
+      margin: 0 0 8px;
+    }
+    .updated strong { font-weight: 700; }
+    .disclaimer {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    section { margin: 22px 0 28px; }
+    h2 {
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.45rem;
+      margin: 0 0 12px;
+      font-weight: 600;
+    }
+    h3 {
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.08rem;
+      margin: 0 0 6px;
+      font-weight: 600;
+    }
+
+    /* Prominent recommendation */
+    .reco {
+      background: var(--teal);
+      color: #f7f3ea;
+      border-radius: 22px;
+      padding: 22px 22px 20px;
+      box-shadow: var(--shadow);
+    }
+    .reco h2 {
+      color: #f7f3ea;
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      margin-bottom: 6px;
+    }
+    .reco .reco-lead {
+      margin: 0 0 16px;
+      color: #d8e6e2;
+      font-size: 0.98rem;
+    }
+    .reco-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .reco-card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 14px;
+      padding: 16px 16px 14px;
+    }
+    .reco-card .label {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #c9e0db;
+      margin-bottom: 6px;
+    }
+    .reco-card .action {
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.2rem;
+      line-height: 1.3;
+      margin: 0 0 10px;
+      font-weight: 600;
+    }
+    .reco-card .threshold {
+      display: inline-block;
+      background: #e8c37a;
+      color: #1c1915;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 3px 9px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+    }
+    .reco-card .why-short {
+      margin: 0;
+      color: #dce8e5;
+      font-size: 0.95rem;
+    }
+
+    .why {
+      background: var(--paper-2);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 8px 4px 4px;
+    }
+    .why-item {
+      padding: 14px 16px 16px;
+      border-top: 1px solid var(--line);
+    }
+    .why-item:first-child { border-top: 0; }
+    .why-item p { margin: 0; color: #2b2722; }
+    .why-item .tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--paper-2);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 860px;
+      font-size: 0.95rem;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 12px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    th {
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      background: #efe8db;
+      position: sticky;
+      top: 0;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .price {
+      font-variant-numeric: tabular-nums;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .price small {
+      display: block;
+      font-weight: 500;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 2px 7px;
+      border-radius: 999px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .badge.est { background: #f3e0d4; color: var(--accent); }
+    .badge.real { background: #dceee4; color: var(--good); }
+    .badge.kayak { background: #e4e8f5; color: #2a3a7a; }
+    .badge.warn { background: #f3e0d4; color: var(--accent); }
+    a.src {
+      color: var(--teal-2);
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .chart-card {
+      background: var(--paper-2);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 16px 16px 10px;
+      box-shadow: var(--shadow);
+    }
+    .chart-card p.caption {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0 0 10px;
+    }
+    .chart-box { position: relative; height: min(420px, 70vw); }
+    .notes ul { margin: 0; padding: 0; list-style: none; }
+    .notes li {
+      background: var(--paper-2);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin: 0 0 10px;
+    }
+    footer.sources {
+      border-top: 1px solid var(--line);
+      padding-top: 16px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    footer.sources ol { padding-left: 20px; margin: 8px 0 0; }
+    footer.sources a { color: var(--teal-2); }
+    .error {
+      background: #f8e4dc;
+      border: 1px solid #e2b8aa;
+      color: #6b2412;
+      padding: 14px 16px;
+      border-radius: 12px;
+    }
+    @media (max-width: 760px) {
+      .reco { padding: 18px 16px; border-radius: 18px; }
+      .reco-grid { grid-template-columns: 1fr; }
+      .reco-card .action { font-size: 1.12rem; }
+      body { font-size: 16px; }
+      .chart-box { height: 320px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <p class="kicker">Private fare tracker</p>
+      <h1>Atlanta → India flight tracker</h1>
+      <p class="updated">Last updated <strong id="updated">—</strong></p>
+      <p class="disclaimer">Prices are research snapshots, not a booking confirmation. Google calendar figures are estimates. Always verify the live fare, checked bags, layover type and visa rules before you pay.</p>
+    </header>
+
+    <div id="app">
+      <p>Loading the latest fares…</p>
+    </div>
+  </div>
+
+  <script>
+    const INR_FMT = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 0 });
+    const USD_FMT = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
+    const DATE_FMT = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric" });
+
+    function esc(s) {
+      return String(s ?? "").replace(/[&<>"']/g, ch => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[ch]));
+    }
+    function usd(n) { return "$" + USD_FMT.format(Math.round(n)); }
+    function inr(n, rate) { return "₹" + INR_FMT.format(Math.round(n * rate)); }
+    function fmtDate(iso) {
+      if (!iso) return "—";
+      if (/^\d{4}-\d{2}$/.test(iso)) {
+        const [y, m] = iso.split("-");
+        const names = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+        return (names[Number(m) - 1] || m) + " " + y;
+      }
+      const d = new Date(iso + "T00:00:00");
+      if (Number.isNaN(d.getTime())) return esc(iso);
+      return DATE_FMT.format(d);
+    }
+    function tripLabel(t) { return t === "RT" || t === "roundtrip" ? "Round trip" : "One-way"; }
+    function badge(type) {
+      if (type === "calendar_estimate") return '<span class="badge est">Estimate</span>';
+      if (type === "itinerary") return '<span class="badge real">Itinerary</span>';
+      if (type === "kayak_quote") return '<span class="badge kayak">Kayak quote</span>';
+      return "";
+    }
+
+    function cheapestHistory(history) {
+      const map = new Map();
+      for (const row of history || []) {
+        const key = [row.ts, row.route, row.trip].join("|");
+        const prev = map.get(key);
+        if (!prev || row.price < prev.price) map.set(key, row);
+      }
+      return [...map.values()].sort((a, b) => a.ts.localeCompare(b.ts) || a.route.localeCompare(b.route));
+    }
+
+    function render(data) {
+      document.getElementById("updated").textContent = data.updated_ist || "—";
+      const rate = Number(data.usd_inr) || 0;
+      const rec = data.recommendation || {};
+      const ow = rec.oneway || {};
+      const rt = rec.roundtrip || {};
+      const why = data.why || {};
+
+      const options = (data.best_options || []).map(o => {
+        const dates = o.return ? `${fmtDate(o.depart)} – ${fmtDate(o.return)}` : fmtDate(o.depart);
+        return `<tr>
+          <td>${esc(o.route)}<br><small>${esc(tripLabel(o.trip))}</small></td>
+          <td>${esc(dates)}</td>
+          <td class="price">${usd(o.price_usd)}${rate ? `<small>${inr(o.price_usd, rate)}</small>` : ""}${badge(o.price_type)}</td>
+          <td>${esc(o.airline)}</td>
+          <td>${esc(o.stops)}</td>
+          <td>${esc(o.duration)}</td>
+          <td>${esc(o.bags)}</td>
+          <td>${esc(o.reliability)}${o.note ? `<br><small>${esc(o.note)}</small>` : ""}</td>
+          <td>${o.source_url ? `<a class="src" href="${esc(o.source_url)}" target="_blank" rel="noopener noreferrer">${esc(o.source_name || "Source")}</a>` : esc(o.source_name || "")}</td>
+        </tr>`;
+      }).join("");
+
+      const notes = (data.notes || []).map(n => `<li>${esc(n)}</li>`).join("");
+      const sources = (data.sources || []).map((s, i) => {
+        const name = typeof s === "string" ? s : s.name;
+        const url = typeof s === "string" ? "" : s.url;
+        return `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(name)}</a>` : esc(name)}</li>`;
+      }).join("");
+
+      const fx = rate ? `USD/INR ${rate} (${esc(data.usd_inr_source || "Xe")}).` : "";
+
+      document.getElementById("app").innerHTML = `
+        <section class="reco" id="recommendation" aria-labelledby="reco-title">
+          <h2 id="reco-title">Action recommendation</h2>
+          <p class="reco-lead">Grounded in historical fares for this route and the current jet-fuel / oil outlook. ${esc(fx)} Thresholds use confirmed tickets, not calendar estimates alone.</p>
+          <div class="reco-grid">
+            <article class="reco-card">
+              <div class="label">One-way</div>
+              ${ow.threshold_usd ? `<div class="threshold">Book now at or under ${usd(ow.threshold_usd)}</div>` : ""}
+              <p class="action">${esc(ow.action || "")}</p>
+              <p class="why-short">${esc(ow.reasoning || "")}</p>
+            </article>
+            <article class="reco-card">
+              <div class="label">Round trip</div>
+              ${rt.threshold_usd ? `<div class="threshold">Book now at or under ${usd(rt.threshold_usd)}</div>` : ""}
+              <p class="action">${esc(rt.action || "")}</p>
+              <p class="why-short">${esc(rt.reasoning || "")}</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="why" id="why" aria-labelledby="why-title">
+          <h2 id="why-title" style="padding:12px 16px 0;">Why this recommendation</h2>
+          <div class="why-item">
+            <div class="tag">1. Historical trend</div>
+            <h3>What fares usually do at this time of year</h3>
+            <p>${esc(why.historical_trend || "")}</p>
+          </div>
+          <div class="why-item">
+            <div class="tag">2. Fuel outlook</div>
+            <h3>Jet fuel and oil, and what they imply for waiting</h3>
+            <p>${esc(why.fuel_outlook || "")}</p>
+          </div>
+          <div class="why-item">
+            <div class="tag">3. Verdict</div>
+            <h3>What to do now</h3>
+            <p>${esc(why.verdict || "")}</p>
+          </div>
+        </section>
+
+        <section aria-labelledby="best-title">
+          <h2 id="best-title">Best options right now</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Route</th>
+                  <th>Date(s)</th>
+                  <th>Price</th>
+                  <th>Airline(s)</th>
+                  <th>Stops / layovers</th>
+                  <th>Duration</th>
+                  <th>Checked bags</th>
+                  <th>Reliability</th>
+                  <th>Source</th>
+                </tr>
+              </thead>
+              <tbody>${options}</tbody>
+            </table>
+          </div>
+        </section>
+
+        <section aria-labelledby="cal-title">
+          <h2 id="cal-title">Fare calendar</h2>
+          <div class="chart-card">
+            <p class="caption">One-way price by departure date, 15 Dec 2026 to 15 Feb 2027, from Google Flights calendar estimates (read 17 Nov 2026). Round-trip lines appear when those calendars are in the data.</p>
+            <div class="chart-box"><canvas id="calChart"></canvas></div>
+          </div>
+        </section>
+
+        <section aria-labelledby="hist-title">
+          <h2 id="hist-title">Price history</h2>
+          <div class="chart-card">
+            <p class="caption">Cheapest fare seen on each scan, by route and trip type. History starts 17 Nov 2026; more points will appear after later scans.</p>
+            <div class="chart-box"><canvas id="histChart"></canvas></div>
+          </div>
+        </section>
+
+        <section class="notes" aria-labelledby="notes-title">
+          <h2 id="notes-title">Key notes</h2>
+          <ul>${notes}</ul>
+        </section>
+
+        <footer class="sources">
+          <h2>Sources</h2>
+          <ol>${sources}</ol>
+        </footer>
+      `;
+
+      drawCalendar(data);
+      drawHistory(data);
+    }
+
+    function allDates() {
+      const out = [];
+      const start = new Date("2026-12-15T00:00:00");
+      const end = new Date("2027-02-15T00:00:00");
+      for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+        const y = d.getFullYear();
+        const m = String(d.getMonth() + 1).padStart(2, "0");
+        const day = String(d.getDate()).padStart(2, "0");
+        out.push(`${y}-${m}-${day}`);
+      }
+      return out;
+    }
+
+    function seriesFor(points, labels) {
+      const map = new Map((points || []).map(p => [p.date, p.price]));
+      return labels.map(d => (map.has(d) ? map.get(d) : null));
+    }
+
+    function drawCalendar(data) {
+      const el = document.getElementById("calChart");
+      if (!el || typeof Chart === "undefined") return;
+      const labels = allDates();
+      const cal = data.calendar || {};
+      const colors = {
+        "ATL-BOM OW": "#8c2f14",
+        "ATL-HYD OW": "#1b5a52",
+        "ATL-BOM RT": "#c47b3a",
+        "ATL-HYD RT": "#3b6fa0"
+      };
+      const datasets = [];
+      for (const route of Object.keys(cal)) {
+        for (const trip of Object.keys(cal[route] || {})) {
+          const pts = cal[route][trip];
+          if (!pts || !pts.length) continue;
+          const label = `${route} ${trip === "RT" ? "round trip" : "one-way"}`;
+          const key = `${route} ${trip}`;
+          datasets.push({
+            label,
+            data: seriesFor(pts, labels),
+            borderColor: colors[key] || "#333",
+            backgroundColor: "transparent",
+            borderWidth: 2,
+            spanGaps: false,
+            pointRadius: 0,
+            pointHoverRadius: 4,
+            tension: 0.15
+          });
+        }
+      }
+      const tickEvery = 7;
+      new Chart(el, {
+        type: "line",
+        data: {
+          labels: labels.map(d => {
+            const dt = new Date(d + "T00:00:00");
+            return dt.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+          }),
+          datasets
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: "index", intersect: false },
+          plugins: {
+            legend: { position: "bottom", labels: { boxWidth: 14, font: { family: "Source Sans 3" } } },
+            tooltip: {
+              callbacks: {
+                title: items => labels[items[0].dataIndex],
+                label: item => item.raw == null ? null : ` ${item.dataset.label}: ${usd(item.raw)}`
+              }
+            }
+          },
+          scales: {
+            x: {
+              ticks: {
+                maxRotation: 0,
+                autoSkip: false,
+                callback: function(val, i) { return i % tickEvery === 0 ? this.getLabelForValue(val) : ""; },
+                font: { family: "Source Sans 3", size: 11 },
+                color: "#5c564c"
+              },
+              grid: { color: "rgba(28,25,21,0.06)" }
+            },
+            y: {
+              ticks: {
+                callback: v => "$" + v,
+                font: { family: "Source Sans 3" },
+                color: "#5c564c"
+              },
+              grid: { color: "rgba(28,25,21,0.08)" },
+              title: { display: true, text: "USD", font: { family: "Source Sans 3" } }
+            }
+          }
+        }
+      });
+    }
+
+    function drawHistory(data) {
+      const el = document.getElementById("histChart");
+      if (!el || typeof Chart === "undefined") return;
+      const rows = cheapestHistory(data.history || []);
+      const dates = [...new Set(rows.map(r => r.ts))].sort();
+      const seriesKeys = [...new Set(rows.map(r => `${r.route} ${r.trip}`))].sort();
+      const colors = ["#8c2f14", "#1b5a52", "#c47b3a", "#3b6fa0", "#5a3d7a", "#3a5c1b"];
+      const datasets = seriesKeys.map((key, i) => {
+        const [route, trip] = key.split(" ");
+        return {
+          label: `${route} ${trip === "RT" ? "round trip" : "one-way"} (cheapest that scan)`,
+          data: dates.map(ts => {
+            const hit = rows.find(r => r.ts === ts && r.route === route && r.trip === trip);
+            return hit ? hit.price : null;
+          }),
+          borderColor: colors[i % colors.length],
+          backgroundColor: colors[i % colors.length],
+          borderWidth: 2,
+          spanGaps: true,
+          pointRadius: 5,
+          tension: 0.2
+        };
+      });
+      if (!dates.length) {
+        el.parentElement.insertAdjacentHTML("beforeend", "<p class='caption'>No history points yet.</p>");
+        return;
+      }
+      new Chart(el, {
+        type: "line",
+        data: { labels: dates, datasets },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: "bottom", labels: { boxWidth: 14, font: { family: "Source Sans 3" } } },
+            tooltip: { callbacks: { label: item => item.raw == null ? null : ` ${item.dataset.label}: ${usd(item.raw)}` } }
+          },
+          scales: {
+            x: { ticks: { font: { family: "Source Sans 3" }, color: "#5c564c" }, grid: { color: "rgba(28,25,21,0.06)" } },
+            y: {
+              ticks: { callback: v => "$" + v, font: { family: "Source Sans 3" }, color: "#5c564c" },
+              grid: { color: "rgba(28,25,21,0.08)" },
+              title: { display: true, text: "USD", font: { family: "Source Sans 3" } }
+            }
+          }
+        }
+      });
+    }
+
+    fetch("data.json?ts=" + Date.now())
+      .then(r => {
+        if (!r.ok) throw new Error("Could not load data.json (" + r.status + ")");
+        return r.json();
+      })
+      .then(render)
+      .catch(err => {
+        document.getElementById("app").innerHTML = `<p class="error">The fare data could not be loaded. ${esc(err.message)}. Try refreshing in a moment.</p>`;
+      });
+  </script>
+</body>
+</html>
