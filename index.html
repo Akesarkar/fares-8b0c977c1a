@@ -391,6 +391,42 @@
       line-height: 1.25;
       font-variant-numeric: tabular-nums;
     }
+    a.cal-cell, a.rt-cell {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+    }
+    a.cal-cell:hover, a.rt-cell:hover,
+    .cal-cell:hover, .rt-cell:hover, .opt-row:hover {
+      filter: brightness(0.97);
+      box-shadow: 0 0 0 2px rgba(20, 63, 58, 0.28);
+    }
+    .cal-cell a, .rt-cell a, .cal-main-link, .cal-src a {
+      color: inherit;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .cal-src a { display: block; }
+    .cal-src a:hover, .cal-main-link:hover { text-decoration: underline; }
+    .opt-row { position: relative; cursor: pointer; }
+    .opt-row a.row-hit {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      text-decoration: none;
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
     .rt-wrap {
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
@@ -449,13 +485,19 @@
     .rt-cell.book-ss { border: 2.5px dashed #1f6b4a; }
     .rt-cell .cal-main { font-size: 1rem; }
     .rt-cell .cal-src { font-size: 0.7rem; }
+    .cal-day { min-width: 0; gap: 2px; }
+    .cal-flag { flex: 0 0 auto; }
     @media (max-width: 760px) {
-      .cal-cell { min-height: 88px; padding: 4px 3px 5px; }
-      .cal-main { font-size: 0.8rem; }
-      .cal-src, .cal-inr { font-size: 0.6rem; }
+      .cal-cell { min-height: 84px; padding: 4px 3px 5px; overflow: hidden; }
+      .cal-main { font-size: 0.78rem; }
+      .cal-src { font-size: 0.58rem; }
+      .cal-cell .cal-inr { display: none; }
       .cal-flag { font-size: 0.55rem; padding: 0 4px; }
       .cal-weekdays, .cal-weeks { gap: 3px; }
       .legend { font-size: 0.8rem; }
+      table { min-width: 0; }
+      .table-wrap th:nth-child(n+5),
+      .table-wrap td:nth-child(n+5) { display: none; }
     }
     @media (max-width: 760px) {
       .reco { padding: 18px 16px; border-radius: 18px; }
@@ -503,6 +545,65 @@
     }
     function tripLabel(t) { return t === "RT" || t === "roundtrip" ? "Round trip" : "One-way"; }
     function isMumbaiRoute(s) { return /BOM/i.test(String(s || "")); }
+
+    function bytesConcat(parts) {
+      let n = 0;
+      for (const p of parts) n += p.length;
+      const out = new Uint8Array(n);
+      let o = 0;
+      for (const p of parts) { out.set(p, o); o += p.length; }
+      return out;
+    }
+    function varint(n) {
+      const o = [];
+      while (n > 127) { o.push((n % 128) | 0x80); n = Math.floor(n / 128); }
+      o.push(n);
+      return Uint8Array.from(o);
+    }
+    function vf(field, n) { return bytesConcat([varint(field * 8), varint(n)]); }
+    function mf(field, raw) { return bytesConcat([varint(field * 8 + 2), varint(raw.length), raw]); }
+    function strBytes(s) { return new TextEncoder().encode(s); }
+    function sf(field, s) { return mf(field, strBytes(s)); }
+    function airport(code) { return bytesConcat([vf(1, 1), sf(2, code)]); }
+    function leg(day, from, to) { return bytesConcat([sf(2, day), mf(13, airport(from)), mf(14, airport(to))]); }
+    function toBase64Url(bytes) {
+      let bin = "";
+      for (const b of bytes) bin += String.fromCharCode(b);
+      return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
+    }
+    function tfs({ oneway, origin, dest, depart, ret, cabin = "economy" }) {
+      const cabinCode = { economy: 1, premium_economy: 2, business: 3, first: 4 }[cabin] || 1;
+      const parts = [vf(1, 28), vf(2, 2), mf(3, leg(depart, origin, dest))];
+      if (!oneway) parts.push(mf(3, leg(ret, dest, origin)));
+      parts.push(vf(8, 1), vf(9, cabinCode), vf(14, 1));
+      parts.push(mf(16, Uint8Array.from([8,255,255,255,255,255,255,255,255,255,1])));
+      parts.push(vf(19, oneway ? 2 : 1));
+      return toBase64Url(bytesConcat(parts));
+    }
+    function googleFlightsUrl({ oneway = false, origin = "ATL", dest = "BOM", depart, ret }) {
+      return "https://www.google.com/travel/flights/search?tfs=" +
+        tfs({ oneway, origin, dest, depart, ret }) + "&curr=USD&hl=en";
+    }
+    function yymmdd(iso) { return String(iso || "").replace(/-/g, "").slice(2); }
+    function skyscannerUrl({ oneway = false, depart, ret }) {
+      const base = "https://www.skyscanner.com/transport/flights/atl/bom/";
+      if (oneway) return base + yymmdd(depart) + "/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price";
+      return base + yymmdd(depart) + "/" + yymmdd(ret) + "/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price";
+    }
+    function gfUrl(cellOrOpt, oneway) {
+      if (cellOrOpt && cellOrOpt.google_url) return cellOrOpt.google_url;
+      if (oneway) return googleFlightsUrl({ oneway: true, depart: cellOrOpt.date || cellOrOpt.depart });
+      return googleFlightsUrl({ depart: cellOrOpt.depart, ret: cellOrOpt.return });
+    }
+    function ssUrl(cellOrOpt, oneway) {
+      if (cellOrOpt && cellOrOpt.skyscanner_url) return cellOrOpt.skyscanner_url;
+      if (oneway) return skyscannerUrl({ oneway: true, depart: cellOrOpt.date || cellOrOpt.depart });
+      return skyscannerUrl({ depart: cellOrOpt.depart, ret: cellOrOpt.return });
+    }
+    function extLink(href, inner, cls) {
+      if (!href) return inner;
+      return `<a class="${cls || ""}" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${inner}</a>`;
+    }
     function badge(type) {
       if (type === "calendar_estimate") return '<span class="badge est">Estimate</span>';
       if (type === "itinerary") return '<span class="badge real">Itinerary</span>';
@@ -537,17 +638,18 @@
 
       const options = (data.best_options || []).filter(o => isMumbaiRoute(o.route)).map(o => {
         const dates = o.return ? `${fmtDate(o.depart)} – ${fmtDate(o.return)}` : fmtDate(o.depart);
-        const link = o.source_url
-          ? `<a class="src" href="${esc(o.source_url)}" target="_blank" rel="noopener noreferrer">${esc(o.source_name || "Open")}</a>`
-          : "";
-        return `<tr>
-          <td>${esc(tripLabel(o.trip))}<br><small>${esc(dates)}</small></td>
+        const href = o.source_url || o.google_url || (o.return
+          ? googleFlightsUrl({ depart: o.depart, ret: o.return })
+          : googleFlightsUrl({ oneway: true, depart: o.depart }));
+        const linkLabel = esc(o.source_name || "Open");
+        return `<tr class="opt-row">
+          <td>${esc(tripLabel(o.trip))}<br><small>${esc(dates)}</small>${href ? `<a class="row-hit" href="${esc(href)}" target="_blank" rel="noopener noreferrer" aria-label="${linkLabel}"></a>` : ""}</td>
           <td class="price">${usd(o.price_usd)}${rate ? `<small>${inr(o.price_usd, rate)}</small>` : ""}</td>
           <td>${esc(o.airline)}</td>
           <td>${esc(o.stops || "")}</td>
           <td>${esc(o.duration || "")}</td>
           <td>${esc(o.bags || "")}</td>
-          <td>${link}</td>
+          <td>${href ? `<a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${linkLabel}</a>` : ""}</td>
         </tr>`;
       }).join("");
 
@@ -689,33 +791,37 @@
           const s = info.skyscanner_usd;
           const vals = [g, s].filter(v => v != null);
           const cheap = vals.length ? Math.min.apply(null, vals) : null;
+          const gUrl = info.google_url || googleFlightsUrl({ oneway: true, depart: iso });
+          const sUrl = info.skyscanner_url || skyscannerUrl({ oneway: true, depart: iso });
           if (!inWindow) {
             cells.push({ type: "out", day });
           } else if (cheap == null) {
-            cells.push({ type: "empty", day });
+            cells.push({ type: "empty", day, iso, gUrl });
           } else {
             const gfOk = g != null && g <= threshold;
             const ssOk = s != null && s <= threshold;
             const book = cheap <= threshold;
             const bookClass = book ? (gfOk ? "book" : (ssOk ? "book-ss" : "book")) : "";
-            cells.push({ type: "has", day, g, s, cheap, book, bookClass, gfOk });
+            const cheapUrl = (s != null && cheap === s && (g == null || s <= g)) ? sUrl : gUrl;
+            cells.push({ type: "has", day, iso, g, s, cheap, book, bookClass, gfOk, gUrl, sUrl, cheapUrl });
           }
         }
         const body = cells.map(c => {
           if (c.type === "pad") return `<div class="cal-cell out" aria-hidden="true"></div>`;
           if (c.type === "out") return `<div class="cal-cell out"><div class="cal-day">${c.day}</div></div>`;
-          if (c.type === "empty") return `<div class="cal-cell empty"><div class="cal-day">${c.day}</div><div class="cal-src">No data</div></div>`;
+          if (c.type === "empty") {
+            return `<a class="cal-cell empty" href="${esc(c.gUrl)}" target="_blank" rel="noopener noreferrer" title="Open Google Flights ${c.iso}">
+              <div class="cal-day">${c.day}</div><div class="cal-src">No data</div>
+            </a>`;
+          }
           const col = fareColor(c.cheap, threshold);
-          const flag = c.book ? `<span class="cal-flag">${c.gfOk ? "≤" + usd(threshold) : "SS ≤" + usd(threshold)}</span>` : "";
-          const src = [
-            c.g != null ? `GF ${usd(c.g)}` : "GF —",
-            c.s != null ? `SS ${usd(c.s)}` : ""
-          ].filter(Boolean).join("<br>");
+          const flag = c.book ? `<span class="cal-flag">${c.gfOk ? "≤" : "SS"}</span>` : "";
+          const gfLine = c.g != null ? extLink(c.gUrl, `GF ${usd(c.g)}`) : "GF —";
+          const ssLine = c.s != null ? extLink(c.sUrl, `SS ${usd(c.s)}`) : "";
           return `<div class="cal-cell has ${c.bookClass}" style="background:${col.bg};color:${col.ink}">
             <div class="cal-day"><span>${c.day}</span>${flag}</div>
-            <div class="cal-main">${usd(c.cheap)}</div>
-            ${rate ? `<div class="cal-inr">${inr(c.cheap, rate)}</div>` : ""}
-            <div class="cal-src">${src}</div>
+            ${extLink(c.cheapUrl, `<div class="cal-main">${usd(c.cheap)}</div>${rate ? `<div class="cal-inr">${inr(c.cheap, rate)}</div>` : ""}`, "cal-main-link")}
+            <div class="cal-src">${gfLine}${ssLine ? "<br>" + ssLine : ""}</div>
           </div>`;
         }).join("");
         return `<div class="cal-month">
@@ -767,37 +873,28 @@
           const cell = scanned.get(dep + "|" + w);
           const retLabel = fmtDate(ret);
           const tip = `Return ${retLabel} · stay ${w} days (visa limit 180 days)`;
+          const href = (cell && cell.google_url) || googleFlightsUrl({ depart: dep, ret });
           if (!cell) {
-            return `<td><div class="rt-cell unscanned" title="${esc(tip)}">Not scanned yet<br><span>${retLabel}</span></div></td>`;
+            return `<td><a class="rt-cell unscanned" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(tip)}">Not scanned yet<br><span>${retLabel}</span></a></td>`;
           }
           const book = cell.price_usd <= threshold;
           const col = fareColor(cell.price_usd, threshold);
-          const src = [cell.source, cell.airline].filter(Boolean).join(" · ");
-          const alt = (cell.alternates || []).filter(a => a.price_usd != null && a.price_usd !== cell.price_usd)
-            .slice(0, 2)
-            .map(a => `also ${usd(a.price_usd)}${a.airline ? " " + a.airline : ""}`)
-            .join("<br>");
-          return `<td><div class="rt-cell has ${book ? "book" : ""}" style="background:${col.bg};color:${col.ink}" title="${esc(tip)}">
+          return `<td><a class="rt-cell has ${book ? "book" : ""}" style="background:${col.bg};color:${col.ink}" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(tip + " · " + usd(cell.price_usd))}">
             <div class="cal-day"><span>${retLabel}</span>${book ? `<span class="cal-flag">≤${usd(threshold)}</span>` : ""}</div>
             <div class="cal-main">${usd(cell.price_usd)}</div>
             ${rate ? `<div class="cal-inr">${inr(cell.price_usd, rate)}</div>` : ""}
-            <div class="cal-src">${esc(src)}${alt ? "<br>" + alt : ""}</div>
-          </div></td>`;
+          </a></td>`;
         }).join("");
         return `<tr><td class="rt-depart">${depLabel}</td>${tds}</tr>`;
       }).join("");
 
       const scannedCount = scanned.size;
       const total = departs.length * windows.length;
-      const filledList = [...scanned.values()]
-        .sort((a, b) => a.depart.localeCompare(b.depart) || a.stay_days - b.stay_days)
-        .map(c => `${fmtDate(c.depart)} +${c.stay_days}d ${usd(c.price_usd)}${c.source ? " (" + c.source + ")" : ""}`)
-        .join("; ");
-      host.innerHTML = `<div class="rt-wrap"><table class="rt-table">
+      host.innerHTML = `<div class="rt-wrap" aria-label="Round-trip fare grid, ${scannedCount} of ${total} cells scanned">
+        <table class="rt-table">
         <thead><tr>${head}</tr></thead>
         <tbody>${body}</tbody>
-      </table></div>
-      <p class="caption">${scannedCount} of ${total} cells in this view have a scanned fare.${filledList ? " Filled: " + filledList + "." : ""}</p>`;
+      </table></div>`;
     }
 
     function renderFareGrids(data, rate) {
