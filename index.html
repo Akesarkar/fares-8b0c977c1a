@@ -220,6 +220,7 @@
     .badge.est { background: #f3e0d4; color: var(--accent); }
     .badge.real { background: #dceee4; color: var(--good); }
     .badge.kayak { background: #e4e8f5; color: #2a3a7a; }
+    .badge.sky { background: #dceeee; color: #155e5a; }
     .badge.warn { background: #f3e0d4; color: var(--accent); }
     a.src {
       color: var(--teal-2);
@@ -315,6 +316,7 @@
       if (type === "calendar_estimate") return '<span class="badge est">Estimate</span>';
       if (type === "itinerary") return '<span class="badge real">Itinerary</span>';
       if (type === "kayak_quote") return '<span class="badge kayak">Kayak quote</span>';
+      if (type === "skyscanner_quote") return '<span class="badge sky">Skyscanner</span>';
       return "";
     }
 
@@ -425,7 +427,7 @@
         <section aria-labelledby="cal-title">
           <h2 id="cal-title">Fare calendar</h2>
           <div class="chart-card">
-            <p class="caption">One-way price by departure date, 15 Dec 2026 to 15 Feb 2027, from Google Flights calendar estimates (read 17 Nov 2026). Round-trip lines appear when those calendars are in the data.</p>
+            <p class="caption">One-way price by departure date, 15 Dec 2026 to 15 Feb 2027. The Google Flights line is a calendar estimate (read 17 Nov 2026). The Skyscanner line is the cheapest fare shown that day, including self-transfers (read 17 Nov 2026, about 9:49 AM IST); those lows are often not recommended. Gaps are days with no Skyscanner price. Round-trip lines appear when those calendars are in the data.</p>
             <div class="chart-box"><canvas id="calChart"></canvas></div>
           </div>
         </section>
@@ -478,9 +480,10 @@
       const cal = data.calendar || {};
       const colors = {
         "ATL-BOM OW": "#8c2f14",
+        "ATL-BOM OW_skyscanner": "#1b5a52",
         "ATL-BOM RT": "#c47b3a",
-        "NYC-BOM OW": "#1b5a52",
-        "NYC-BOM RT": "#3b6fa0"
+        "NYC-BOM OW": "#3b6fa0",
+        "NYC-BOM RT": "#5a3d7a"
       };
       const datasets = [];
       for (const route of Object.keys(cal)) {
@@ -488,7 +491,13 @@
         for (const trip of Object.keys(cal[route] || {})) {
           const pts = cal[route][trip];
           if (!pts || !pts.length) continue;
-          const label = `${route} ${trip === "RT" ? "round trip" : "one-way"}`;
+          // Skip a series that is all null / empty of actual prices
+          if (!pts.some(pt => pt && pt.price != null)) continue;
+          let label;
+          if (trip === "OW_skyscanner") label = "Skyscanner (cheapest incl. self-transfer)";
+          else if (trip === "OW") label = `${route} one-way (Google Flights)`;
+          else if (trip === "RT") label = `${route} round trip`;
+          else label = `${route} ${trip}`;
           const key = `${route} ${trip}`;
           datasets.push({
             label,
