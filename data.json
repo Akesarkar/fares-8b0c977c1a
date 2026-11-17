@@ -1,5 +1,5 @@
 {
-  "updated_ist": "17 Nov 2026, 9:56 AM IST",
+  "updated_ist": "17 Nov 2026, 10:02 AM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
@@ -9,15 +9,15 @@
       "reasoning": "The one-way call is unchanged: book a confirmed fare at or under $500, otherwise wait through Black Friday / Cyber Monday (27–30 Nov 2026) and plan to book by about 10 Dec for January travel. The best reliable single-ticket one-ways on Skyscanner (17 Nov 2026, about 9:49 AM IST) are United + SWISS at $499 (20 Jan, 2 stops ORD/ZRH, 22h 53m) and Lufthansa at $516 (13 Feb, 1 stop FRA, 22h 05m) — around the $500 line, with the one-stop just above it. Skyscanner’s cheaper one-way calendar prints ($368–$419) are mostly self-transfer itineraries (for example Frontier + Etihad/Royal Jordanian via IAD, 40–50 hours) or Ethiopian ($419), and are not recommended. The $450 Ethiopian itinerary on 1 Feb still meets the price line but has a weak on-time record (59.8% in Oct 2026, OAG). Mid-December remains peak-priced."
     },
     "roundtrip": {
-      "action": "BOOK-NOW SIGNAL (17 Nov): Turkish $849 round trip 27 Jan–27 Apr, booked direct with Turkish, meets the ≤ $850 line. Before paying, confirm the fare includes 2×23kg checked bags. Qatar $846 is equivalent but sold via third-party sites; prefer booking on qatarairways.com if the price matches.",
+      "action": "170–179-day round trips are being scanned now (visa limit 180 days). The $850 book-now line is provisional and will be re-evaluated when those fares are in. Do not book the earlier $846–$849 Turkish/Qatar fares — those were ~90-day stays and are not valid for this trip.",
       "threshold_usd": 850,
-      "reasoning": "Skyscanner (read 17 Nov 2026, about 9:49 AM IST, USD, 1 adult economy) found two one-stop, single-ticket-style round trips at the book-now line: Turkish Airlines $849 via Istanbul, bookable direct with Turkish, and Qatar Airways + IndiGo $846 via Doha, offered on third-party sites. Both are 27 Jan–27 Apr 2027. Bags on the Turkish fare were not verified in this scan. Kayak’s ‘good deal’ line for ATL–Mumbai is under $765, and $850 still beats the typical $765–$1,170 band and the December median of $1,363. Fuel has been falling, which supported waiting — but a confirmed fare at the threshold is the reason to book this one now, after checking bags."
+      "reasoning": "The required stay is 170–179 days (visa limit 180 days). Earlier book-now signals — Turkish $849 and Qatar + IndiGo $846 (27 Jan–27 Apr 2027) and a Google Flights $1,008 fare (6 Jan–6 Apr 2027) — were about 90-day trips and do not meet that rule. Fresh 170–179-day fares are being collected and will be added to the grid when they arrive. Until then, $850 remains a provisional threshold, based on Kayak’s ‘good deal’ line under $765 and typical ATL–Mumbai round trips of $765–$1,170 (December median $1,363). It will be re-evaluated against the new scan. Fuel is still easing, which supports waiting for the 170–179-day quotes rather than stretching a short-stay fare."
     }
   },
   "why": {
     "historical_trend": "Kayak’s median Atlanta–Mumbai round trip is $1,363 in December versus $707 in April (Kayak route data, read 17 Nov 2026). Google Flights calendar estimates from the same day show the same seasonal drop: one-way ATL–BOM around $1,460–$2,040 in mid-December, then a sharp decline after Christmas, with most mid-January to mid-February dates about $450–$540 (the low is $450 on 1 Feb). Kayak also puts the current average one-way ATL–BOM at about $487, 11% below its typical $412–$667 range. Kayak’s 1 Apr 2026 booking study finds international fares cheapest on average 7–14 days before departure (domestic 21–30 days). That average window is tight for a long-haul holiday-season trip; Kayak also says to book early for Christmas through New Year’s and to book when a fare meets your budget rather than waiting for a lower one that may not come.",
     "fuel_outlook": "Jet fuel and crude have been falling, not rising, over the past three to six weeks. IATA’s Jet Fuel Price Monitor (checked 17 Nov 2026) puts the global average at $169.82 a barrel last week, down 5.1% from the week before — the third straight weekly decline from about $196.70 in late October. That is still far above pre-conflict levels (IATA $94.97/bbl for the week ending 30 Jan 2026). The EIA U.S. Gulf Coast jet-fuel spot was $4.035/gal on 11 Nov 2026, down from a recent high of $4.686/gal on 23 Oct (EIA via FRED, retrieved 17 Nov 2026). Brent was about $92/bbl early on 17 Nov 2026 (CNBC, 17 Nov 2026, 0102 GMT), down from $103.60 on 3 Nov and from a North Sea Dated high of $136 on 8 Oct (IEA Oil Market Report, 13 Nov 2026). The EIA Short-Term Energy Outlook (released 10 Nov 2026; inputs frozen 5 Nov, so it misses the mid-November drop) forecasts Brent near $100/bbl for the rest of 2026, then $94.90 in Q1 2027 and $85.78 as the 2027 average, with U.S. wholesale jet fuel easing from $4.09/gal in Q4 2026 to $3.71 in Q1 2027. Goldman Sachs (note cited by CNBC, 16 Nov 2026) expects Brent to average $88 in 2027 and $78 by year-end. Airline surcharges are still elevated: Air India $215 one-way on North America sectors (revised 9 Oct 2026) and Emirates $322 economy one-way to the Americas (effective 1 Nov 2026). Gulf shipping attacks continue, and EASA extended Middle East airspace warnings on 16 Nov 2026 through 31 Jan 2027. Implication: falling fuel gives some room to wait for a sale; still-high fuel, surcharges, and geopolitical volatility are not a reason to wait past mid-December.",
-    "verdict": "Round trip: this is a book-now signal. Skyscanner on 17 Nov 2026 showed Turkish Airlines at $849 (27 Jan–27 Apr 2027, one stop in Istanbul each way), bookable direct with Turkish and at the ≤ $850 line. Confirm 2×23 kg checked bags before paying. Qatar + IndiGo at $846 on the same dates is equivalent in price but was listed via third-party sites — prefer qatarairways.com if the fare matches. One-way: the call is unchanged. The best reliable single-ticket fares now are $499–$516, around or just above the $500 line, so wait through Black Friday / Cyber Monday (27–30 Nov 2026) unless you want to take the $499 two-stop now, and plan to book by about 10 Dec for January travel. Ignore Skyscanner one-way calendar lows in the $368–$419 range when they are long self-transfers or Ethiopian. Avoid departing before about 26 Dec unless the dates are fixed: that is peak pricing. Fuel is still easing, which is why one-way can wait for the sale window; the round-trip threshold has already been met."
+    "verdict": "Round trip: 170–179-day fares are being scanned now (visa limit 180 days). The $850 book-now line is provisional and will be re-evaluated when those fares are in. The earlier Turkish $849 / Qatar $846 (27 Jan–27 Apr) and Google $1,008 (6 Jan–6 Apr) quotes were ~90-day stays and are not valid for this trip. One-way: the call is unchanged. The best reliable single-ticket fares now are $499–$516, around or just above the $500 line, so wait through Black Friday / Cyber Monday (27–30 Nov 2026) unless you want to take the $499 two-stop now, and plan to book by about 10 Dec for January travel. Ignore Skyscanner one-way calendar lows in the $368–$419 range when they are long self-transfers or Ethiopian. Avoid departing before about 26 Dec unless the dates are fixed: that is peak pricing. Fuel is still easing, which is why one-way can wait for the sale window."
   },
   "fuel": {
     "researched_ist": "17 Nov 2026, morning IST",
@@ -31,38 +31,6 @@
     "brent_asof": "17 Nov 2026, 0102 GMT (CNBC)"
   },
   "best_options": [
-    {
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "depart": "2027-01-27",
-      "return": "2027-04-27",
-      "price_usd": 849,
-      "airline": "Turkish Airlines",
-      "stops": "1 stop (IST) each way",
-      "duration": "Out 21h (9:50 PM → 5:20 AM +2); back 22h 15m (7:00 AM → 7:45 PM)",
-      "bags": "Not verified in this scan — confirm 2×23 kg before paying.",
-      "reliability": "Skytrax 2026 World Airline Ranking #5. OAG October on-time data was not available for Turkish in this scan.",
-      "source_name": "Skyscanner",
-      "source_url": "https://www.skyscanner.com/transport/flights/atl/bom/270127/270427/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD",
-      "price_type": "skyscanner_quote",
-      "note": "BOOK-NOW: read 17 Nov 2026, about 9:49 AM IST, 1 adult economy, USD. Bookable direct with Turkish."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "depart": "2027-01-27",
-      "return": "2027-04-27",
-      "price_usd": 846,
-      "airline": "Qatar Airways + IndiGo",
-      "stops": "1 stop (DOH) each way",
-      "duration": "Out 21h (7:20 PM → 2:50 AM +2); back 27h 10m (10:15 PM → 3:55 PM +1)",
-      "bags": "Qatar Classic includes 2×23 kg; Lite includes 1×23 kg — confirm the brand. IndiGo bags depend on the fare.",
-      "reliability": "Qatar on-time 73.4% in Oct 2026 (OAG). Skytrax 2026 World Airline Ranking #2.",
-      "source_name": "Skyscanner",
-      "source_url": "https://www.skyscanner.com/transport/flights/atl/bom/270127/270427/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD",
-      "price_type": "skyscanner_quote",
-      "note": "Same dates as the Turkish $849 fare, 17 Nov 2026, about 9:49 AM IST. Listed via third-party sites (provider not checked). Prefer booking on qatarairways.com if the price matches."
-    },
     {
       "route": "ATL-BOM",
       "trip": "OW",
@@ -158,70 +126,6 @@
       "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
       "price_type": "itinerary",
       "note": "Actual itinerary, 17 Nov 2026. Just over the $500 book-now line. The Google calendar still prints $466 on this date; that cheaper figure has not been confirmed as a ticket in this scan."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "depart": "2027-01-06",
-      "return": "2027-04-06",
-      "price_usd": 1008,
-      "airline": "American Airlines / Etihad",
-      "stops": "2 stops (Etihad one-stop was $1,053 on the same dates)",
-      "duration": "See Google Flights",
-      "bags": "Etihad Value+ includes 2×23 kg; Basic includes none — confirm the brand.",
-      "reliability": "Etihad on-time 72.3% in Oct 2026 (OAG).",
-      "source_name": "Google Flights",
-      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "note": "Cheapest confirmed mid-January ATL–BOM round trip in this scan, 17 Nov 2026. Above the $850 line."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "depart": "2026-12-30",
-      "return": "2027-03-10",
-      "price_usd": 796,
-      "airline": "SAS",
-      "stops": "Via Copenhagen (CPH)",
-      "duration": "See Kayak / Google Flights",
-      "bags": "Not confirmed in this scan — check at booking.",
-      "reliability": "SAS on-time 86.4% in Oct 2026 (OAG), the strongest carrier in this set. Copenhagen transit-visa rules for an Indian passport were not verified in this scan.",
-      "source_name": "Kayak",
-      "source_url": "https://www.kayak.com/flight-routes/Atlanta-Hartsfield-Jackson-ATL/Mumbai-Chhatrapati-Shivaji-BOM",
-      "price_type": "kayak_quote",
-      "note": "Kayak quote, 17 Nov 2026. Under the $850 book-now line if it is still offered as a single ticket."
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "depart": "2027-01-08",
-      "return": "2027-01-24",
-      "price_usd": 805,
-      "airline": "Ethiopian Airlines",
-      "stops": "See Kayak (typically via ADD)",
-      "duration": "See Kayak / Google Flights",
-      "bags": "Not confirmed in this scan — check at booking.",
-      "reliability": "Caution: Ethiopian on-time only 59.8% in Oct 2026 (OAG).",
-      "source_name": "Kayak",
-      "source_url": "https://www.kayak.com/flight-routes/Atlanta-Hartsfield-Jackson-ATL/Mumbai-Chhatrapati-Shivaji-BOM",
-      "price_type": "kayak_quote",
-      "note": "Kayak quote, 17 Nov 2026. Cheap, but the reliability flag is the main trade-off versus SAS at $796."
-    },
-    {
-      "route": "NYC-BOM",
-      "trip": "RT",
-      "depart": "2027-01-25",
-      "return": "2027-01-29",
-      "price_usd": 737,
-      "airline": "SAS",
-      "stops": "See Kayak",
-      "duration": "See Kayak / Google Flights",
-      "bags": "Not confirmed in this scan — check at booking.",
-      "reliability": "SAS on-time 86.4% in Oct 2026 (OAG). Copenhagen transit-visa rules for an Indian passport were not verified in this scan.",
-      "source_name": "Kayak",
-      "source_url": "https://www.kayak.com/flight-routes/New-York-NYC/Mumbai-Chhatrapati-Shivaji-BOM",
-      "price_type": "kayak_quote",
-      "note": "Alternative from the New York area, 25–29 Jan 2027. Kayak quote, 17 Nov 2026."
     },
     {
       "route": "ATL-BOM",
@@ -809,7 +713,9 @@
       "price": 1008,
       "depart": "2027-01-06",
       "return": "2027-04-06",
-      "note": "American/Etihad 2 stops (Etihad 1-stop $1053) — Google Flights"
+      "note": "Superseded (90-day stay, not valid). American/Etihad 2 stops (Etihad 1-stop $1053) — Google Flights",
+      "valid_stay": false,
+      "stay_days": 90
     },
     {
       "ts": "2026-11-17",
@@ -818,7 +724,9 @@
       "price": 849,
       "depart": "2027-01-27",
       "return": "2027-04-27",
-      "note": "Turkish Airlines 1 stop IST, bookable direct — Skyscanner"
+      "note": "Superseded (90-day stay, not valid). Turkish Airlines 1 stop IST, bookable direct — Skyscanner",
+      "valid_stay": false,
+      "stay_days": 90
     },
     {
       "ts": "2026-11-17",
@@ -827,7 +735,9 @@
       "price": 846,
       "depart": "2027-01-27",
       "return": "2027-04-27",
-      "note": "Qatar + IndiGo 1 stop DOH, third-party listing — Skyscanner"
+      "note": "Superseded (90-day stay, not valid). Qatar + IndiGo 1 stop DOH, third-party listing — Skyscanner",
+      "valid_stay": false,
+      "stay_days": 90
     },
     {
       "ts": "2026-11-17",
@@ -856,7 +766,8 @@
   ],
   "notes": [
     "Hyderabad dropped: Mumbai was cheaper on every date checked (17 Nov 2026).",
-    "Skyscanner (read 17 Nov 2026, about 9:49 AM IST, USD, 1 adult economy) produced a book-now round trip: Turkish $849, 27 Jan–27 Apr 2027, one stop in Istanbul, bookable direct with Turkish. Qatar + IndiGo was $846 on the same dates via third-party sites; prefer qatarairways.com if the price matches. Skyscanner’s cheapest one-way calendar prices ($368–$419) are mostly self-transfer itineraries (Frontier + Etihad/Royal Jordanian via IAD, 40–50 hours) or Ethiopian ($419) and are not recommended. The best reliable single-ticket one-ways on that scan were United + SWISS $499 (20 Jan, 2 stops) and Lufthansa $516 (13 Feb, 1 stop FRA).",
+    "Superseded (90-day stay, not valid): earlier round-trip quotes of Turkish $849 and Qatar + IndiGo $846 (27 Jan–27 Apr 2027) and American/Etihad $1,008 (6 Jan–6 Apr 2027) were ~90-day stays. The trip needs a stay of 170–179 days (visa limit 180 days), so those fares are not valid options. They are kept in the history log only. Shorter Kayak quotes (SAS $796 for 70 days, Ethiopian $805 for 16 days, and a 4-day NYC–BOM fare) were also the wrong stay length and were removed from the options list.",
+    "Skyscanner (read 17 Nov 2026, about 9:49 AM IST, USD, 1 adult economy): the cheapest one-way calendar prices ($368–$419) are mostly self-transfer itineraries (Frontier + Etihad/Royal Jordanian via IAD, 40–50 hours) or Ethiopian ($419) and are not recommended. The best reliable single-ticket one-ways on that scan were United + SWISS $499 (20 Jan, 2 stops) and Lufthansa $516 (13 Feb, 1 stop FRA). Its $846–$849 round trips were ~90-day stays and are not valid for this trip (see the superseded note).",
     "December is the peak. Kayak’s median Atlanta–Mumbai round trip is $1,363 in December versus $707 in April (Kayak, read 17 Nov 2026). On the Google calendar, mid-December one-ways are roughly three to four times the mid-January prints. Avoid departing before about 26 Dec unless the dates are fixed.",
     "Airline reliability (OAG on-time performance, October 2026): SAS 86.4%, Air India 80.5%, Lufthansa 78.5%, Gulf Air 77.3% (but 5.7% cancellations), Emirates 74.4%, Qatar 73.4%, Etihad 72.3%, British Airways 71.6%, KLM 71.2% (3.8% cancellations), Ethiopian 59.8% — a clear caution on the cheap Ethiopian round trip.",
     "Checked bags vary by fare brand, which is why a headline price can disappoint. Qatar Classic+ 2×23 kg (Lite 1×23); Etihad Value+ 2×23 kg (Basic none); Air India Classic/Flex 2×23 kg (Value 1×23); Emirates Saver+ 2×23 kg (Special 1×23); Lufthansa economy typically 1×23 kg; Air France economy often 0–1×23 kg. Confirm bags before buying a ‘basic’ or ‘lite’ fare, especially for a move.",
@@ -1258,69 +1169,26 @@
     "roundtrip": {
       "route": "ATL-BOM",
       "threshold_usd": 850,
-      "max_stay_days": 175,
+      "threshold_provisional": true,
+      "min_stay_days": 170,
+      "max_stay_days": 179,
+      "visa_limit_days": 180,
       "return_windows_days": [
-        30,
-        60,
-        90,
-        120,
-        150,
-        175
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
       ],
       "depart_start": "2026-12-15",
       "depart_end": "2027-02-15",
-      "row_step_days": 7,
-      "cells": [
-        {
-          "depart": "2027-01-06",
-          "return": "2027-04-06",
-          "stay_days": 90,
-          "price_usd": 1008,
-          "source": "Google Flights",
-          "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-          "airline": "American Airlines / Etihad",
-          "price_type": "itinerary",
-          "note": "Confirmed itinerary, 17 Nov 2026. Etihad one-stop was $1,053 on the same dates.",
-          "alternates": [
-            {
-              "price_usd": 1053,
-              "source": "Google Flights",
-              "airline": "Etihad Airways",
-              "price_type": "itinerary",
-              "note": "One-stop on the same dates"
-            }
-          ]
-        },
-        {
-          "depart": "2027-01-27",
-          "return": "2027-04-27",
-          "stay_days": 90,
-          "price_usd": 846,
-          "source": "Skyscanner",
-          "source_url": "https://www.skyscanner.com/transport/flights/atl/bom/270127/270427/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD",
-          "airline": "Qatar Airways + IndiGo",
-          "price_type": "skyscanner_quote",
-          "note": "Cheapest scanned fare for this stay. Turkish Airlines $849 is also available on these dates and is bookable direct with Turkish (confirm 2×23 kg bags). A Google Flights calendar estimate for the same dates was $849.",
-          "alternates": [
-            {
-              "price_usd": 849,
-              "source": "Skyscanner",
-              "airline": "Turkish Airlines",
-              "price_type": "skyscanner_quote",
-              "note": "Bookable direct with Turkish"
-            },
-            {
-              "price_usd": 849,
-              "source": "Google Flights calendar",
-              "price_type": "calendar_estimate"
-            },
-            {
-              "price_usd": 849,
-              "source": "Turkish Airlines 1 stop IST, bookable direct — Skyscanner"
-            }
-          ]
-        }
-      ]
+      "row_step_days": 1,
+      "cells": []
     }
   }
 }
