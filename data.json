@@ -1,23 +1,23 @@
 {
-  "updated_ist": "17 Nov 2026, 9:32 AM IST",
+  "updated_ist": "17 Nov 2026, 9:35 AM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
     "oneway": {
       "action": "Book now if a confirmed one-way is $500 or less. Otherwise wait through Black Friday / Cyber Monday (27–30 Nov 2026), and plan to book by about 10 Dec 2026 for January travel.",
       "threshold_usd": 500,
-      "reasoning": "Google’s mid-Jan to mid-Feb ATL–Mumbai calendar already prints about $450–$540, and Kayak’s current one-way average is about $487 (11% below typical). Those calendar figures still need to be confirmed as real tickets. Mid-December departures are peak-priced. Jet fuel has been falling for three weeks, so there is some room to wait for a sale — but fuel is still far above pre-conflict levels, and waiting past mid-December is a poor trade for January travel."
+      "reasoning": "A $450 Atlanta–Mumbai one-way on 1 Feb has now appeared as a real Ethiopian itinerary via Addis Ababa, which meets the price line — but Google rates that fare ‘high’ and Ethiopian’s October 2026 on-time rate was only 59.8%. A one-stop Lufthansa itinerary on 6 Jan is a confirmed $538, just over $500. Google’s mid-Jan to mid-Feb calendar still prints many dates at $450–$540 that have not all been pulled as tickets yet. Mid-December departures remain peak-priced. Jet fuel has been falling for three weeks, so there is some room to wait for a sale or a better airline at the same price — but fuel is still far above pre-conflict levels, and waiting past mid-December is a poor trade for January travel."
     },
     "roundtrip": {
       "action": "Book now if a confirmed round trip is $850 or less. Otherwise wait through Black Friday / Cyber Monday (27–30 Nov 2026), and plan to book by about 10 Dec 2026 for January travel.",
       "threshold_usd": 850,
-      "reasoning": "Kayak’s ‘good deal’ line for ATL–Mumbai round trips is under $765, and the typical band is $765–$1,170 against a December median of $1,363. $850 is a practical book-now ceiling that still beats typical winter pricing. Recent Kayak quotes include SAS at $796 (30 Dec–10 Mar, via Copenhagen) and Ethiopian at $805 (8–24 Jan); the SAS fare has a much stronger on-time record. Detailed bag-inclusive itineraries for the cheapest dates are still being confirmed."
+      "reasoning": "Kayak’s ‘good deal’ line for ATL–Mumbai round trips is under $765, and the typical band is $765–$1,170 against a December median of $1,363. $850 is a practical book-now ceiling that still beats typical winter pricing. Google’s cheaper ATL–BOM round-trip calendar print is $849 (27 Jan–27 Apr), just under that line, but it is still an estimate. The cheapest confirmed mid-January round trip found so far is $1,008 on American/Etihad (6 Jan–6 Apr; Etihad one-stop $1,053), which is above the line. Kayak also quoted SAS at $796 (30 Dec–10 Mar, via Copenhagen) and Ethiopian at $805 (8–24 Jan); SAS has the stronger on-time record. Wait through Black Friday unless a confirmed fare comes in at or under $850."
     }
   },
   "why": {
     "historical_trend": "Kayak’s median Atlanta–Mumbai round trip is $1,363 in December versus $707 in April (Kayak route data, read 17 Nov 2026). Google Flights calendar estimates from the same day show the same seasonal drop: one-way ATL–BOM around $1,460–$2,040 in mid-December, then a sharp decline after Christmas, with most mid-January to mid-February dates about $450–$540 (the low is $450 on 1 Feb). ATL–HYD stays higher on every date in the window, with a floor near $601. Kayak also puts the current average one-way ATL–BOM at about $487, 11% below its typical $412–$667 range, and ATL–HYD at about $575, 22% below typical. Kayak’s 1 Apr 2026 booking study finds international fares cheapest on average 7–14 days before departure (domestic 21–30 days). That average window is tight for a long-haul holiday-season trip; Kayak also says to book early for Christmas through New Year’s and to book when a fare meets your budget rather than waiting for a lower one that may not come.",
     "fuel_outlook": "Jet fuel and crude have been falling, not rising, over the past three to six weeks. IATA’s Jet Fuel Price Monitor (checked 17 Nov 2026) puts the global average at $169.82 a barrel last week, down 5.1% from the week before — the third straight weekly decline from about $196.70 in late October. That is still far above pre-conflict levels (IATA $94.97/bbl for the week ending 30 Jan 2026). The EIA U.S. Gulf Coast jet-fuel spot was $4.035/gal on 11 Nov 2026, down from a recent high of $4.686/gal on 23 Oct (EIA via FRED, retrieved 17 Nov 2026). Brent was about $92/bbl early on 17 Nov 2026 (CNBC, 17 Nov 2026, 0102 GMT), down from $103.60 on 3 Nov and from a North Sea Dated high of $136 on 8 Oct (IEA Oil Market Report, 13 Nov 2026). The EIA Short-Term Energy Outlook (released 10 Nov 2026; inputs frozen 5 Nov, so it misses the mid-November drop) forecasts Brent near $100/bbl for the rest of 2026, then $94.90 in Q1 2027 and $85.78 as the 2027 average, with U.S. wholesale jet fuel easing from $4.09/gal in Q4 2026 to $3.71 in Q1 2027. Goldman Sachs (note cited by CNBC, 16 Nov 2026) expects Brent to average $88 in 2027 and $78 by year-end. Airline surcharges are still elevated: Air India $215 one-way on North America sectors (revised 9 Oct 2026) and Emirates $322 economy one-way to the Americas (effective 1 Nov 2026). Gulf shipping attacks continue, and EASA extended Middle East airspace warnings on 16 Nov 2026 through 31 Jan 2027. Implication: falling fuel gives some room to wait for a sale; still-high fuel, surcharges, and geopolitical volatility are not a reason to wait past mid-December.",
-    "verdict": "For one-way, book a confirmed fare at or under $500 now; otherwise wait through Black Friday / Cyber Monday (27–30 Nov 2026) and plan to book by about 10 Dec 2026 for January travel. For round trip, use $850 as the equivalent book-now line (Kayak’s ‘good deal’ for ATL–BOM is under $765; $850 still beats the typical $765–$1,170 band and the December median of $1,363). Google’s January–February calendar already prints Mumbai one-ways in the $450–$540 range — treat those as book-now if they appear as real, bag-inclusive tickets. Avoid departing before about 26 Dec unless the dates are fixed: that is peak pricing. Fuel is easing, so the thresholds were not tightened; they were also not loosened, because fuel remains historically high and can reverse quickly."
+    "verdict": "For one-way, book a confirmed fare at or under $500 now; otherwise wait through Black Friday / Cyber Monday (27–30 Nov 2026) and plan to book by about 10 Dec 2026 for January travel. The $450 Ethiopian ticket on 1 Feb meets the price line but is a weak reliability choice; prefer a wait for a better airline in the same band, or a Lufthansa-type one-stop if it falls to $500. For round trip, use $850 as the equivalent book-now line (Kayak’s ‘good deal’ for ATL–BOM is under $765; $850 still beats the typical $765–$1,170 band and the December median of $1,363). The $849 Google calendar print (27 Jan–27 Apr) would be a book-now fare if it confirms as a real, bag-inclusive, single-ticket itinerary; the cheapest confirmed ATL–BOM round trip so far is $1,008. Avoid departing before about 26 Dec unless the dates are fixed: that is peak pricing. Fuel is easing, so the thresholds were not tightened; they were also not loosened, because fuel remains historically high and can reverse quickly."
   },
   "fuel": {
     "researched_ist": "17 Nov 2026, morning IST",
@@ -37,15 +37,15 @@
       "depart": "2027-02-01",
       "return": null,
       "price_usd": 450,
-      "airline": "Not yet confirmed (Google calendar estimate)",
-      "stops": "See Google Flights",
+      "airline": "Ethiopian Airlines",
+      "stops": "1 stop (ADD)",
       "duration": "See Google Flights",
-      "bags": "Not confirmed — check fare brand at booking",
-      "reliability": "Calendar estimate only, not a booked itinerary.",
-      "source_name": "Google Flights calendar",
+      "bags": "Not confirmed in this scan — check at booking.",
+      "reliability": "Caution: Ethiopian on-time only 59.8% in Oct 2026 (OAG). Google rates this fare ‘high’ for the date.",
+      "source_name": "Google Flights",
       "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "price_type": "calendar_estimate",
-      "note": "Lowest one-way print in the 15 Dec 2026–15 Feb 2027 window. Verify as a real ticket before treating this as a book-now fare."
+      "price_type": "itinerary",
+      "note": "Actual itinerary, 17 Nov 2026. Meets the $500 book-now price line, but reliability is the trade-off."
     },
     {
       "route": "ATL-BOM",
@@ -82,22 +82,6 @@
     {
       "route": "ATL-HYD",
       "trip": "OW",
-      "depart": "2027-01-24",
-      "return": null,
-      "price_usd": 601,
-      "airline": "Not yet confirmed (Google calendar estimate)",
-      "stops": "See Google Flights",
-      "duration": "See Google Flights",
-      "bags": "Not confirmed — check fare brand at booking",
-      "reliability": "Calendar estimate only. The $601 floor also appears on 25–26 Jan and 9 Feb.",
-      "source_name": "Google Flights calendar",
-      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDSFlEQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "price_type": "calendar_estimate",
-      "note": "Cheapest ATL–HYD one-way print in the window. Still about $150 above the Mumbai calendar floor."
-    },
-    {
-      "route": "ATL-HYD",
-      "trip": "OW",
       "depart": "2027-02-01",
       "return": null,
       "price_usd": 579,
@@ -110,6 +94,118 @@
       "source_url": "https://www.kayak.com/flight-routes/Atlanta-Hartsfield-Jackson-ATL/Hyderabad-Rajiv-Gandhi-Intl-HYD",
       "price_type": "kayak_quote",
       "note": "Kayak quote, 17 Nov 2026. Cheaper than the Google HYD calendar floor of $601, pending confirmation."
+    },
+    {
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "depart": "2027-01-06",
+      "return": null,
+      "price_usd": 538,
+      "airline": "Lufthansa",
+      "stops": "1 stop (FRA)",
+      "duration": "See Google Flights",
+      "bags": "Lufthansa economy typically 1×23 kg.",
+      "reliability": "Lufthansa on-time 78.5% in Oct 2026 (OAG). Germany has not required an airport transit visa since 3 Jun 2026.",
+      "source_name": "Google Flights",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
+      "price_type": "itinerary",
+      "note": "Actual itinerary, 17 Nov 2026. Just over the $500 book-now line. The Google calendar still prints $466 on this date; that cheaper figure has not been confirmed as a ticket in this scan."
+    },
+    {
+      "route": "ATL-HYD",
+      "trip": "OW",
+      "depart": "2027-01-06",
+      "return": null,
+      "price_usd": 621,
+      "airline": "Lufthansa",
+      "stops": "1 stop (FRA)",
+      "duration": "See Google Flights",
+      "bags": "Lufthansa economy typically 1×23 kg.",
+      "reliability": "Lufthansa on-time 78.5% in Oct 2026 (OAG). Germany has not required an airport transit visa since 3 Jun 2026.",
+      "source_name": "Google Flights",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDSFlEQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
+      "price_type": "itinerary",
+      "note": "Actual itinerary, 17 Nov 2026. Matches the mid-January Google calendar level for Hyderabad."
+    },
+    {
+      "route": "ATL-HYD",
+      "trip": "OW",
+      "depart": "2027-01-24",
+      "return": null,
+      "price_usd": 601,
+      "airline": "United / SWISS / Air India",
+      "stops": "3 stops",
+      "duration": "See Google Flights",
+      "bags": "Not confirmed — check each fare brand; Air India Classic/Flex 2×23 kg, Value 1×23 kg; Lufthansa-group economy typically 1×23 kg.",
+      "reliability": "Three connections are the main drawback. Air India on-time 80.5% in Oct 2026 (OAG).",
+      "source_name": "Google Flights",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDSFlEQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
+      "price_type": "itinerary",
+      "note": "Actual itinerary matching the $601 Google calendar floor, 17 Nov 2026. A one-stop Lufthansa option at $621 (6 Jan) is likely the more comfortable Hyderabad choice."
+    },
+    {
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "depart": "2027-01-27",
+      "return": "2027-04-27",
+      "price_usd": 849,
+      "airline": "Not yet confirmed (Google calendar estimate)",
+      "stops": "See Google Flights",
+      "duration": "See Google Flights",
+      "bags": "Not confirmed — check fare brand at booking",
+      "reliability": "Calendar estimate only, not a booked itinerary.",
+      "source_name": "Google Flights calendar",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
+      "price_type": "calendar_estimate",
+      "note": "Just under the $850 book-now line. Confirm as a real, single-ticket, bag-inclusive fare before buying."
+    },
+    {
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "depart": "2027-01-06",
+      "return": "2027-04-06",
+      "price_usd": 1008,
+      "airline": "American Airlines / Etihad",
+      "stops": "2 stops (Etihad one-stop was $1,053 on the same dates)",
+      "duration": "See Google Flights",
+      "bags": "Etihad Value+ includes 2×23 kg; Basic includes none — confirm the brand.",
+      "reliability": "Etihad on-time 72.3% in Oct 2026 (OAG).",
+      "source_name": "Google Flights",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
+      "price_type": "itinerary",
+      "note": "Cheapest confirmed mid-January ATL–BOM round trip in this scan, 17 Nov 2026. Above the $850 line."
+    },
+    {
+      "route": "ATL-HYD",
+      "trip": "RT",
+      "depart": "2027-01-28",
+      "return": "2027-04-28",
+      "price_usd": 992,
+      "airline": "Not yet confirmed (Google calendar estimate)",
+      "stops": "See Google Flights",
+      "duration": "See Google Flights",
+      "bags": "Not confirmed — check fare brand at booking",
+      "reliability": "Calendar estimate only.",
+      "source_name": "Google Flights calendar",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDSFlEQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
+      "price_type": "calendar_estimate",
+      "note": "Cheapest ATL–HYD round-trip calendar print in this scan, still above the $850 line and above the Mumbai calendar print."
+    },
+    {
+      "route": "ATL-HYD",
+      "trip": "RT",
+      "depart": "2027-01-06",
+      "return": "2027-04-06",
+      "price_usd": 1279,
+      "airline": "American Airlines / Etihad",
+      "stops": "2 stops",
+      "duration": "See Google Flights",
+      "bags": "Etihad Value+ includes 2×23 kg; Basic includes none — confirm the brand.",
+      "reliability": "Etihad on-time 72.3% in Oct 2026 (OAG).",
+      "source_name": "Google Flights",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTE1agcIARIDQVRMcgcIARIDSFlEQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
+      "price_type": "itinerary",
+      "note": "Confirmed mid-January ATL–HYD round trip, 17 Nov 2026. Materially more expensive than Mumbai on the same dates."
     },
     {
       "route": "ATL-BOM",
