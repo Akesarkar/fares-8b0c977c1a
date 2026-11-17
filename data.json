@@ -1,5 +1,5 @@
 {
-  "updated_ist": "17 Nov 2026, 4:50 PM IST",
+  "updated_ist": "17 Nov 2026, 4:52 PM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
@@ -50,9 +50,9 @@
       "stops": "1 stop (FRA)",
       "duration": "22h 05m",
       "bags": "Intercontinental Light/Classic includes 1×23 kg. Add a second bag at booking; US→Germany is published at $90, US–India must be confirmed.",
-      "source_name": "Skyscanner",
-      "source_url": "https://www.skyscanner.com/transport/flights/atl/bom/270213/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price",
-      "price_type": "skyscanner_quote",
+      "source_name": "Google Flights itinerary list",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEzOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+      "price_type": "itinerary",
       "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEzOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
       "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270213/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price",
       "hours": "22h 05m",
@@ -2003,7 +2003,6 @@
       "window_start": "2026-12-15",
       "window_end": "2027-02-15",
       "google_asof": "17 Nov 2026, 4:40 PM IST",
-      "skyscanner_asof": "17 Nov 2026, about 9:49 AM IST",
       "cells": [
         {
           "date": "2026-12-15",
