@@ -1,15 +1,17 @@
 {
-  "updated_ist": "17 Nov 2026, 10:24 AM IST",
+  "updated_ist": "17 Nov 2026, 11:10 AM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
     "oneway": {
-      "action": "Book at or under $500. Best now: United + SWISS $499 (20 Jan, 2 stops) and Lufthansa $516 (13 Feb, 1 stop).",
-      "threshold_usd": 500
+      "action": "Book at or under $500 with 2×23 kg bags each way. None at that 2-bag total yet. Closest: Lufthansa $516 (13 Feb, 22h 05m, 1 stop FRA) plus a second bag.",
+      "threshold_usd": 500,
+      "threshold_applies_to": "price_with_2bags"
     },
     "roundtrip": {
-      "action": "Book at or under $900 for a 170–179-day stay. Best now: Virgin Atlantic + Delta $865, 22 Jan–15 Jul, 1 stop LHR (Main Cabin, 2 bags).",
-      "threshold_usd": 900
+      "action": "Book at or under $900 with 2×23 kg bags each way, 170–179-day stay. None under that 2-bag line yet. Closest: Etihad $1,179 (22 Jan–15 Jul, 18h 40m, 1 stop AUH) if Value/Comfort (2 bags included).",
+      "threshold_usd": 900,
+      "threshold_applies_to": "price_with_2bags"
     }
   },
   "fuel": {
@@ -21,64 +23,22 @@
       "trip": "RT",
       "depart": "2027-01-22",
       "return": "2027-07-15",
-      "price_usd": 865,
-      "airline": "Virgin Atlantic + Delta",
-      "stops": "1 stop (LHR) each way",
-      "duration": "Outbound 21h 40m–23h 45m depending on the flight. Three Atlanta departures: 5:30 PM, 6:45 PM, and 10:35 PM.",
-      "bags": "Check that the fare is Main Cabin, which includes 2×23 kg; avoid Basic Economy.",
-      "source_name": "Google Flights itinerary list",
-      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270122/270715/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "depart": "2027-01-22",
-      "return": "2027-07-15",
-      "price_usd": 909,
-      "airline": "Delta + Virgin Atlantic + Saudia",
-      "stops": "Via LHR (and a Saudia sector)",
-      "duration": "20h 25m",
-      "bags": "Check fare brand at booking; avoid Basic Economy if bags matter.",
-      "source_name": "Google Flights itinerary list",
-      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-      "price_type": "itinerary",
-      "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270122/270715/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "RT",
-      "depart": "2027-01-22",
-      "return": "2027-07-15",
       "price_usd": 1179,
       "airline": "Etihad Airways",
       "stops": "1 stop (AUH)",
       "duration": "18h 40m",
-      "bags": "Etihad Value+ includes 2×23 kg; Basic includes none — confirm the brand.",
+      "bags": "2×23 kg if Value/Comfort (US routes). Basic includes none — confirm the fare brand.",
       "source_name": "Google Flights itinerary list",
       "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
       "price_type": "itinerary",
       "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
-      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270122/270715/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
-    },
-    {
-      "route": "ATL-BOM",
-      "trip": "OW",
-      "depart": "2027-01-20",
-      "return": null,
-      "price_usd": 499,
-      "airline": "United + SWISS",
-      "stops": "2 stops (ORD, ZRH)",
-      "duration": "22h 53m",
-      "bags": "Not verified in this scan — check fare brand at booking.",
-      "source_name": "Skyscanner",
-      "source_url": "https://www.skyscanner.com/transport/flights/atl/bom/270120/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price",
-      "price_type": "skyscanner_quote",
-      "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIwagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270120/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price"
+      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270122/270715/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price",
+      "hours": "18h 40m",
+      "single_airline": true,
+      "bags_included": "2×23 kg on Value/Comfort; 0 on Basic",
+      "bag_fee_one_way_usd": null,
+      "price_with_2bags_usd": null,
+      "price_with_2bags_label": "$1,179 if Value/Comfort"
     },
     {
       "route": "ATL-BOM",
@@ -89,12 +49,18 @@
       "airline": "Lufthansa",
       "stops": "1 stop (FRA)",
       "duration": "22h 05m",
-      "bags": "Lufthansa economy typically 1×23 kg.",
+      "bags": "Intercontinental Light/Classic includes 1×23 kg. Add a second bag at booking; US→Germany is published at $90, US–India must be confirmed.",
       "source_name": "Skyscanner",
       "source_url": "https://www.skyscanner.com/transport/flights/atl/bom/270213/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price",
       "price_type": "skyscanner_quote",
       "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTEzagcIARIDQVRMcgcIARIDQk9NQAFIAXABggELCP___________wGYAQI&curr=USD&hl=en",
-      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270213/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price"
+      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270213/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price",
+      "hours": "22h 05m",
+      "single_airline": true,
+      "bags_included": "1×23 kg",
+      "bag_fee_one_way_usd": null,
+      "price_with_2bags_usd": null,
+      "price_with_2bags_label": "$516 + 2nd bag"
     }
   ],
   "calendar": {
@@ -658,14 +624,6 @@
       "price": 516,
       "depart": "2027-02-13",
       "note": "Lufthansa 1 stop FRA — Skyscanner"
-    },
-    {
-      "ts": "2026-11-17",
-      "route": "ATL-BOM",
-      "trip": "OW",
-      "price": 419,
-      "depart": "2027-01-20",
-      "note": "Ethiopian 1 stop ADD — Skyscanner"
     },
     {
       "ts": "2026-11-17",
@@ -5765,5 +5723,14 @@
       ],
       "google_asof": "17 Nov 2026, about 10:05 AM IST"
     }
+  },
+  "qatar": {
+    "status": "awaiting_scan",
+    "title": "Qatar Airways",
+    "note": "Preferred airline. Fares will appear here after a dedicated scan. On flights to or from the Americas, Economy Classic, Convenience and Comfort include 2×23 kg; Lite includes 1×23 kg (a second bag is $255 at the airport, less if prepaid).",
+    "options": []
+  },
+  "alerts": {
+    "black_friday": "Lufthansa Black Friday: book 17 Nov–2 Dec 2026, code BF26, €40 off per person to Asia. Travel 11 Jan–30 Apr 2027 — may help one-ways from 11 Jan. 170–179-day returns in Jun–Aug 2027 are outside that window."
   }
 }

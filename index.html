@@ -496,8 +496,35 @@
       .cal-weekdays, .cal-weeks { gap: 3px; }
       .legend { font-size: 0.8rem; }
       table { min-width: 0; }
-      .table-wrap th:nth-child(n+5),
-      .table-wrap td:nth-child(n+5) { display: none; }
+      .table-wrap table, .table-wrap thead, .table-wrap tbody, .table-wrap th, .table-wrap td, .table-wrap tr {
+        display: block;
+        width: 100%;
+      }
+      .table-wrap thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+      .table-wrap tr.opt-row {
+        padding: 12px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .table-wrap td {
+        padding: 2px 0;
+        border-bottom: 0;
+      }
+      .table-wrap td.price { font-size: 1.05rem; }
+    }
+    .reco-note {
+      margin: 12px 0 0;
+      color: #dce8e5;
+      font-size: 0.88rem;
+      line-height: 1.4;
+    }
+    .hours { white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .qatar-empty {
+      background: var(--paper-2);
+      border: 1px dashed var(--line);
+      border-radius: 12px;
+      padding: 16px;
+      color: var(--muted);
+      margin: 0;
     }
     @media (max-width: 760px) {
       .reco { padding: 18px 16px; border-radius: 18px; }
@@ -636,19 +663,22 @@
         stamp.innerHTML = `Updated <strong id="updated">${esc(data.updated_ist || "—")}</strong>${esc(stampExtra)}`;
       }
 
-      const options = (data.best_options || []).filter(o => isMumbaiRoute(o.route)).map(o => {
+      const options = (data.best_options || []).filter(o => isMumbaiRoute(o.route) && !o.excluded).map(o => {
         const dates = o.return ? `${fmtDate(o.depart)} – ${fmtDate(o.return)}` : fmtDate(o.depart);
         const href = o.source_url || o.google_url || (o.return
           ? googleFlightsUrl({ depart: o.depart, ret: o.return })
           : googleFlightsUrl({ oneway: true, depart: o.depart }));
         const linkLabel = esc(o.source_name || "Open");
+        const hours = o.hours || o.duration || "—";
+        const twoBag = o.price_with_2bags_label
+          || (o.price_with_2bags_usd != null ? usd(o.price_with_2bags_usd) : usd(o.price_usd) + " + bags?");
+        const twoBagInr = (o.price_with_2bags_usd != null && rate)
+          ? `<small>${inr(o.price_with_2bags_usd, rate)}</small>` : "";
         return `<tr class="opt-row">
           <td>${esc(tripLabel(o.trip))}<br><small>${esc(dates)}</small>${href ? `<a class="row-hit" href="${esc(href)}" target="_blank" rel="noopener noreferrer" aria-label="${linkLabel}"></a>` : ""}</td>
-          <td class="price">${usd(o.price_usd)}${rate ? `<small>${inr(o.price_usd, rate)}</small>` : ""}</td>
-          <td>${esc(o.airline)}</td>
-          <td>${esc(o.stops || "")}</td>
-          <td>${esc(o.duration || "")}</td>
-          <td>${esc(o.bags || "")}</td>
+          <td class="price">${esc(twoBag)}${twoBagInr}${o.price_usd != null ? `<small>Fare ${usd(o.price_usd)}</small>` : ""}</td>
+          <td class="hours">${esc(hours)}</td>
+          <td>${esc(o.airline)}${o.stops ? `<br><small>${esc(o.stops)}</small>` : ""}</td>
           <td>${href ? `<a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${linkLabel}</a>` : ""}</td>
         </tr>`;
       }).join("");
@@ -658,21 +688,22 @@
           <h2>Recommendation</h2>
           <div class="reco-grid">
             <article class="reco-card">
-              <div class="label">One-way${ow.threshold_usd ? " · " + usd(ow.threshold_usd) : ""}</div>
+              <div class="label">One-way${ow.threshold_usd ? " · " + usd(ow.threshold_usd) + " with 2 bags" : ""}</div>
               <p class="action">${esc(ow.action || "")}</p>
             </article>
             <article class="reco-card">
-              <div class="label">Round trip · 170–179 days${rt.threshold_usd ? " · " + usd(rt.threshold_usd) : ""}</div>
+              <div class="label">Round trip · 170–179 days${rt.threshold_usd ? " · " + usd(rt.threshold_usd) + " with 2 bags" : ""}</div>
               <p class="action">${esc(rt.action || "")}</p>
             </article>
           </div>
+          ${(data.alerts && data.alerts.black_friday) ? `<p class="reco-note">${esc(data.alerts.black_friday)}</p>` : ""}
         </section>
 
         <section aria-labelledby="cal-title">
           <h2 id="cal-title">Fare calendar</h2>
           <div class="chart-card grid-card">
             <h3>One-way</h3>
-            <p class="caption">15 Dec 2026 – 15 Feb 2027. Large number is the cheapest fare (USD + INR). GF = Google Flights, SS = Skyscanner.</p>
+            <p class="caption">15 Dec 2026 – 15 Feb 2027. Large number is the Google Flights fare (USD + INR). GF = Google Flights. SS = Skyscanner (may include self-transfers, which are excluded).</p>
             <div id="owLegend" class="legend"></div>
             <div id="owGrid"></div>
           </div>
@@ -684,29 +715,49 @@
           </div>
           <div class="chart-card">
             <h3>One-way price trend</h3>
-            <p class="caption">15 Dec 2026 – 15 Feb 2027. Google Flights and Skyscanner one-way fares.</p>
+            <p class="caption">15 Dec 2026 – 15 Feb 2027. Google Flights and Skyscanner one-way fares. Skyscanner can include self-transfers.</p>
             <div class="chart-box"><canvas id="calChart"></canvas></div>
           </div>
         </section>
 
         <section aria-labelledby="best-title">
           <h2 id="best-title">Best options</h2>
+          <p class="caption">Single-airline, single-ticket only. Price with 2 bags is the fare plus any fee to reach 2×23 kg each way.</p>
           <div class="table-wrap">
             <table>
               <thead>
                 <tr>
                   <th>Dates</th>
-                  <th>Price</th>
+                  <th>Price with 2 bags</th>
+                  <th>Hours</th>
                   <th>Airline</th>
-                  <th>Stops</th>
-                  <th>Duration</th>
-                  <th>Bags</th>
                   <th>Link</th>
                 </tr>
               </thead>
               <tbody>${options}</tbody>
             </table>
           </div>
+        </section>
+
+        <section class="qatar" aria-labelledby="qatar-title">
+          <h2 id="qatar-title">${esc((data.qatar && data.qatar.title) || "Qatar Airways")}</h2>
+          <p class="caption">${esc((data.qatar && data.qatar.note) || "Fares will appear here after a dedicated scan.")}</p>
+          ${((data.qatar && data.qatar.options) || []).length
+            ? `<div class="table-wrap"><table><thead><tr><th>Dates</th><th>Price with 2 bags</th><th>Hours</th><th>Fare</th><th>Link</th></tr></thead><tbody>${
+                (data.qatar.options || []).map(o => {
+                  const dates = o.return ? `${fmtDate(o.depart)} – ${fmtDate(o.return)}` : fmtDate(o.depart);
+                  const href = o.source_url || o.google_url || "";
+                  const twoBag = o.price_with_2bags_label || (o.price_with_2bags_usd != null ? usd(o.price_with_2bags_usd) : (o.price_usd != null ? usd(o.price_usd) : "—"));
+                  return `<tr class="opt-row">
+                    <td>${esc(tripLabel(o.trip))}<br><small>${esc(dates)}</small>${href ? `<a class="row-hit" href="${esc(href)}" target="_blank" rel="noopener noreferrer"></a>` : ""}</td>
+                    <td class="price">${esc(twoBag)}</td>
+                    <td class="hours">${esc(o.hours || o.duration || "—")}</td>
+                    <td>${esc(o.fare_family || o.airline || "Qatar Airways")}</td>
+                    <td>${href ? `<a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">Open</a>` : ""}</td>
+                  </tr>`;
+                }).join("")
+              }</tbody></table></div>`
+            : `<p class="qatar-empty">No Qatar itineraries in yet — this section is ready for the next scan.</p>`}
         </section>
       `;
 
@@ -739,7 +790,6 @@
       return `
         <div class="legend-scale"><span>Cheaper</span><span class="legend-bar" aria-hidden="true"></span><span>More expensive</span></div>
         <span class="legend-book"><span class="swatch book"></span> ≤ ${usd(threshold)}</span>
-        <span class="legend-book-ss"><span class="swatch book-ss"></span> Only SS ≤ ${usd(threshold)}</span>
         <span class="legend-empty"><span class="swatch"></span> ${kind === "rt" ? "Not scanned yet" : "No data"}</span>
       `;
     }
@@ -789,20 +839,21 @@
           const info = map.get(iso) || { date: iso };
           const g = info.google_usd;
           const s = info.skyscanner_usd;
-          const vals = [g, s].filter(v => v != null);
-          const cheap = vals.length ? Math.min.apply(null, vals) : null;
+          const cheap = (g != null) ? g : null;
           const gUrl = info.google_url || googleFlightsUrl({ oneway: true, depart: iso });
           const sUrl = info.skyscanner_url || skyscannerUrl({ oneway: true, depart: iso });
           if (!inWindow) {
             cells.push({ type: "out", day });
-          } else if (cheap == null) {
+          } else if (cheap == null && s == null) {
             cells.push({ type: "empty", day, iso, gUrl });
+          } else if (cheap == null) {
+            cells.push({ type: "ss-only", day, iso, s, gUrl, sUrl });
           } else {
             const gfOk = g != null && g <= threshold;
             const ssOk = s != null && s <= threshold;
             const book = cheap <= threshold;
             const bookClass = book ? (gfOk ? "book" : (ssOk ? "book-ss" : "book")) : "";
-            const cheapUrl = (s != null && cheap === s && (g == null || s <= g)) ? sUrl : gUrl;
+            const cheapUrl = gUrl;
             cells.push({ type: "has", day, iso, g, s, cheap, book, bookClass, gfOk, gUrl, sUrl, cheapUrl });
           }
         }
@@ -813,6 +864,12 @@
             return `<a class="cal-cell empty" href="${esc(c.gUrl)}" target="_blank" rel="noopener noreferrer" title="Open Google Flights ${c.iso}">
               <div class="cal-day">${c.day}</div><div class="cal-src">No data</div>
             </a>`;
+          }
+          if (c.type === "ss-only") {
+            return `<div class="cal-cell empty" title="${c.iso}: Google not scanned; Skyscanner may include self-transfers">
+              <div class="cal-day">${c.day}</div>
+              <div class="cal-src">${extLink(c.sUrl, "SS " + usd(c.s))}<br>GF —</div>
+            </div>`;
           }
           const col = fareColor(c.cheap, threshold);
           const flag = c.book ? `<span class="cal-flag">${c.gfOk ? "≤" : "SS"}</span>` : "";
@@ -883,6 +940,7 @@
             <div class="cal-day"><span>${retLabel}</span>${book ? `<span class="cal-flag">≤${usd(threshold)}</span>` : ""}</div>
             <div class="cal-main">${usd(cell.price_usd)}</div>
             ${rate ? `<div class="cal-inr">${inr(cell.price_usd, rate)}</div>` : ""}
+            ${cell.hours || cell.duration ? `<div class="cal-src">${esc(cell.hours || cell.duration)}</div>` : ""}
           </a></td>`;
         }).join("");
         return `<tr><td class="rt-depart">${depLabel}</td>${tds}</tr>`;
