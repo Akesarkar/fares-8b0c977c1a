@@ -622,24 +622,31 @@
     function strBytes(s) { return new TextEncoder().encode(s); }
     function sf(field, s) { return mf(field, strBytes(s)); }
     function airport(code) { return bytesConcat([vf(1, 1), sf(2, code)]); }
-    function leg(day, from, to) { return bytesConcat([sf(2, day), mf(13, airport(from)), mf(14, airport(to))]); }
+    function leg(day, from, to, exclude) {
+      if (exclude === undefined) exclude = "ET";
+      const parts = [sf(2, day)];
+      if (exclude) parts.push(sf(7, exclude));
+      parts.push(mf(13, airport(from)), mf(14, airport(to)));
+      return bytesConcat(parts);
+    }
     function toBase64Url(bytes) {
       let bin = "";
       for (const b of bytes) bin += String.fromCharCode(b);
       return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
     }
-    function tfs({ oneway, origin, dest, depart, ret, cabin = "economy" }) {
+    function tfs({ oneway, origin, dest, depart, ret, cabin = "economy", exclude = "ET" }) {
       const cabinCode = { economy: 1, premium_economy: 2, business: 3, first: 4 }[cabin] || 1;
-      const parts = [vf(1, 28), vf(2, 2), mf(3, leg(depart, origin, dest))];
-      if (!oneway) parts.push(mf(3, leg(ret, dest, origin)));
+      const parts = [vf(1, 28), vf(2, 2), mf(3, leg(depart, origin, dest, exclude))];
+      if (!oneway) parts.push(mf(3, leg(ret, dest, origin, exclude)));
       parts.push(vf(8, 1), vf(9, cabinCode), vf(14, 1));
       parts.push(mf(16, Uint8Array.from([8,255,255,255,255,255,255,255,255,255,1])));
       parts.push(vf(19, oneway ? 2 : 1));
       return toBase64Url(bytesConcat(parts));
     }
-    function googleFlightsUrl({ oneway = false, origin = "ATL", dest = "BOM", depart, ret }) {
+    function googleFlightsUrl({ oneway = false, origin = "ATL", dest = "BOM", depart, ret, exclude = "ET" }) {
       return "https://www.google.com/travel/flights/search?tfs=" +
-        tfs({ oneway, origin, dest, depart, ret }) + "&curr=USD&hl=en";
+        tfs({ oneway, origin, dest, depart, ret, exclude }) +
+        "&tfu=EgYIABAAGAA&hl=en&curr=USD";
     }
     function yymmdd(iso) { return String(iso || "").replace(/-/g, "").slice(2); }
     function skyscannerUrl({ oneway = false, depart, ret }) {
@@ -733,19 +740,19 @@
           <h2 id="cal-title">Fare calendar</h2>
           <div class="chart-card grid-card">
             <h3>One-way</h3>
-            <p class="caption">15 Dec 2026 – 15 Feb 2027. Large number is the Google Flights fare (USD + INR). GF = Google Flights. SS = Skyscanner (may include self-transfers, which are excluded).</p>
+            <p class="caption">15 Dec 2026 – 15 Feb 2027. Google Flights prices from a filtered search. Each cell opens that date’s search.</p>
             <div id="owLegend" class="legend"></div>
             <div id="owGrid"></div>
           </div>
           <div class="chart-card grid-card">
             <h3>Round trip · stay 170–179 days (visa limit 180)</h3>
-            <p class="caption">Every departure 15 Dec 2026 – 15 Feb 2027. Return date is on the cell. Grey = not scanned yet.</p>
+            <p class="caption">Every departure 15 Dec 2026 – 15 Feb 2027. Only 174-day stays have filtered prices so far; other stay lengths are blank. Return date is on the cell. Cells open a filtered Google Flights search.</p>
             <div id="rtLegend" class="legend"></div>
             <div id="rtGrid"></div>
           </div>
           <div class="chart-card">
             <h3>One-way price trend</h3>
-            <p class="caption">15 Dec 2026 – 15 Feb 2027. Google Flights and Skyscanner one-way fares. Skyscanner can include self-transfers.</p>
+            <p class="caption">15 Dec 2026 – 15 Feb 2027. Google Flights one-way fares from a filtered search.</p>
             <div class="chart-box"><canvas id="calChart"></canvas></div>
           </div>
         </section>
@@ -920,7 +927,7 @@
       return `
         <div class="legend-scale"><span>Cheaper</span><span class="legend-bar" aria-hidden="true"></span><span>More expensive</span></div>
         <span class="legend-book"><span class="swatch book"></span> ≤ ${usd(threshold)}</span>
-        <span class="legend-empty"><span class="swatch"></span> ${kind === "rt" ? "Not scanned yet" : "No data"}</span>
+        <span class="legend-empty"><span class="swatch"></span> ${kind === "rt" ? "—" : "No data"}</span>
       `;
     }
 
@@ -968,23 +975,15 @@
           const inWindow = iso >= windowStart && iso <= windowEnd;
           const info = map.get(iso) || { date: iso };
           const g = info.google_usd;
-          const s = info.skyscanner_usd;
           const cheap = (g != null) ? g : null;
           const gUrl = info.google_url || googleFlightsUrl({ oneway: true, depart: iso });
-          const sUrl = info.skyscanner_url || skyscannerUrl({ oneway: true, depart: iso });
           if (!inWindow) {
             cells.push({ type: "out", day });
-          } else if (cheap == null && s == null) {
-            cells.push({ type: "empty", day, iso, gUrl });
           } else if (cheap == null) {
-            cells.push({ type: "ss-only", day, iso, s, gUrl, sUrl });
+            cells.push({ type: "empty", day, iso, gUrl });
           } else {
-            const gfOk = g != null && g <= threshold;
-            const ssOk = s != null && s <= threshold;
             const book = cheap <= threshold;
-            const bookClass = book ? (gfOk ? "book" : (ssOk ? "book-ss" : "book")) : "";
-            const cheapUrl = gUrl;
-            cells.push({ type: "has", day, iso, g, s, cheap, book, bookClass, gfOk, gUrl, sUrl, cheapUrl });
+            cells.push({ type: "has", day, iso, cheap, book, gUrl });
           }
         }
         const body = cells.map(c => {
@@ -992,24 +991,16 @@
           if (c.type === "out") return `<div class="cal-cell out"><div class="cal-day">${c.day}</div></div>`;
           if (c.type === "empty") {
             return `<a class="cal-cell empty" href="${esc(c.gUrl)}" target="_blank" rel="noopener noreferrer" title="Open Google Flights ${c.iso}">
-              <div class="cal-day">${c.day}</div><div class="cal-src">No data</div>
+              <div class="cal-day">${c.day}</div><div class="cal-src">—</div>
             </a>`;
           }
-          if (c.type === "ss-only") {
-            return `<div class="cal-cell empty" title="${c.iso}: Google not scanned; Skyscanner may include self-transfers">
-              <div class="cal-day">${c.day}</div>
-              <div class="cal-src">${extLink(c.sUrl, "SS " + usd(c.s))}<br>GF —</div>
-            </div>`;
-          }
           const col = fareColor(c.cheap, threshold);
-          const flag = c.book ? `<span class="cal-flag">${c.gfOk ? "≤" : "SS"}</span>` : "";
-          const gfLine = c.g != null ? extLink(c.gUrl, `GF ${usd(c.g)}`) : "GF —";
-          const ssLine = c.s != null ? extLink(c.sUrl, `SS ${usd(c.s)}`) : "";
-          return `<div class="cal-cell has ${c.bookClass}" style="background:${col.bg};color:${col.ink}">
+          const flag = c.book ? `<span class="cal-flag">≤</span>` : "";
+          return `<a class="cal-cell has ${c.book ? "book" : ""}" style="background:${col.bg};color:${col.ink}" href="${esc(c.gUrl)}" target="_blank" rel="noopener noreferrer" title="${c.iso} ${usd(c.cheap)}">
             <div class="cal-day"><span>${c.day}</span>${flag}</div>
-            ${extLink(c.cheapUrl, `<div class="cal-main">${usd(c.cheap)}</div>${rate ? `<div class="cal-inr">${inr(c.cheap, rate)}</div>` : ""}`, "cal-main-link")}
-            <div class="cal-src">${gfLine}${ssLine ? "<br>" + ssLine : ""}</div>
-          </div>`;
+            <div class="cal-main">${usd(c.cheap)}</div>
+            ${rate ? `<div class="cal-inr">${inr(c.cheap, rate)}</div>` : ""}
+          </a>`;
         }).join("");
         return `<div class="cal-month">
           <h4>${m.title}</h4>
@@ -1062,7 +1053,7 @@
           const tip = `Return ${retLabel} · stay ${w} days (visa limit 180 days)`;
           const href = (cell && cell.google_url) || googleFlightsUrl({ depart: dep, ret });
           if (!cell) {
-            return `<td><a class="rt-cell unscanned" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(tip)}">Not scanned yet<br><span>${retLabel}</span></a></td>`;
+            return `<td><a class="rt-cell unscanned" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(tip)}">—<br><span>${retLabel}</span></a></td>`;
           }
           const book = cell.price_usd <= threshold;
           const col = fareColor(cell.price_usd, threshold);
@@ -1124,6 +1115,7 @@
       for (const route of Object.keys(cal)) {
         if (!isMumbaiRoute(route)) continue;
         for (const trip of Object.keys(cal[route] || {})) {
+          if (trip === "OW_skyscanner") continue;
           const pts = cal[route][trip];
           if (!pts || !pts.length) continue;
           // Skip a series that is all null / empty of actual prices
