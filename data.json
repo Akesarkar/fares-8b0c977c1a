@@ -1,5 +1,5 @@
 {
-  "updated_ist": "17 Nov 2026, 10:02 AM IST",
+  "updated_ist": "17 Nov 2026, 10:07 AM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
@@ -9,15 +9,15 @@
       "reasoning": "The one-way call is unchanged: book a confirmed fare at or under $500, otherwise wait through Black Friday / Cyber Monday (27–30 Nov 2026) and plan to book by about 10 Dec for January travel. The best reliable single-ticket one-ways on Skyscanner (17 Nov 2026, about 9:49 AM IST) are United + SWISS at $499 (20 Jan, 2 stops ORD/ZRH, 22h 53m) and Lufthansa at $516 (13 Feb, 1 stop FRA, 22h 05m) — around the $500 line, with the one-stop just above it. Skyscanner’s cheaper one-way calendar prints ($368–$419) are mostly self-transfer itineraries (for example Frontier + Etihad/Royal Jordanian via IAD, 40–50 hours) or Ethiopian ($419), and are not recommended. The $450 Ethiopian itinerary on 1 Feb still meets the price line but has a weak on-time record (59.8% in Oct 2026, OAG). Mid-December remains peak-priced."
     },
     "roundtrip": {
-      "action": "170–179-day round trips are being scanned now (visa limit 180 days). The $850 book-now line is provisional and will be re-evaluated when those fares are in. Do not book the earlier $846–$849 Turkish/Qatar fares — those were ~90-day stays and are not valid for this trip.",
-      "threshold_usd": 850,
-      "reasoning": "The required stay is 170–179 days (visa limit 180 days). Earlier book-now signals — Turkish $849 and Qatar + IndiGo $846 (27 Jan–27 Apr 2027) and a Google Flights $1,008 fare (6 Jan–6 Apr 2027) — were about 90-day trips and do not meet that rule. Fresh 170–179-day fares are being collected and will be added to the grid when they arrive. Until then, $850 remains a provisional threshold, based on Kayak’s ‘good deal’ line under $765 and typical ATL–Mumbai round trips of $765–$1,170 (December median $1,363). It will be re-evaluated against the new scan. Fuel is still easing, which supports waiting for the 170–179-day quotes rather than stretching a short-stay fare."
+      "action": "Threshold revised to ≤ $900 for 170–179-day stays (longer stays price higher than the shorter-stay $850 benchmark; cheapest grid cells are $915, itinerary list $865). The cheapest band is departures 7–25 Jan returning 30 Jun–15 Jul ($915–$925 on the grid). Delta/Virgin at $865 for 22 Jan–15 Jul meets the line: book if the Main Cabin fare with 2 checked bags is still ≤ $900. Late Dec departures cost $1,050–$2,200.",
+      "threshold_usd": 900,
+      "reasoning": "Google Flights date grids for 170–179-day Atlanta–Mumbai round trips (read 17 Nov 2026, about 10:05 AM IST, USD, 1 adult economy) cover 402 cells. The cheapest grid prints are $915; many departures from 7–25 Jan 2027 returning 30 Jun–15 Jul sit at $915–$925. 8–9 Jan are a bit higher on the grid ($1,034–$1,041). The itinerary list for 22 Jan–15 Jul (174 days) showed Virgin Atlantic + Delta via London Heathrow at $865, below the grid’s $915 for that cell and under the revised $900 line — book if Main Cabin with 2×23 kg bags is still at or under $900, and avoid Basic Economy. The same list also had Delta + Virgin + Saudia via LHR at $909 (20h 25m) and Etihad via Abu Dhabi at $1,179 (18h 40m). A $900 threshold is higher than the old $850 short-stay benchmark because these longer stays price higher (grid floor $915). Late December is expensive: about $1,050–$2,200, with a mid-December peak up to $2,444 on the grid. The earlier $846–$849 Turkish/Qatar quotes remain invalid — those were ~90-day stays."
     }
   },
   "why": {
     "historical_trend": "Kayak’s median Atlanta–Mumbai round trip is $1,363 in December versus $707 in April (Kayak route data, read 17 Nov 2026). Google Flights calendar estimates from the same day show the same seasonal drop: one-way ATL–BOM around $1,460–$2,040 in mid-December, then a sharp decline after Christmas, with most mid-January to mid-February dates about $450–$540 (the low is $450 on 1 Feb). Kayak also puts the current average one-way ATL–BOM at about $487, 11% below its typical $412–$667 range. Kayak’s 1 Apr 2026 booking study finds international fares cheapest on average 7–14 days before departure (domestic 21–30 days). That average window is tight for a long-haul holiday-season trip; Kayak also says to book early for Christmas through New Year’s and to book when a fare meets your budget rather than waiting for a lower one that may not come.",
     "fuel_outlook": "Jet fuel and crude have been falling, not rising, over the past three to six weeks. IATA’s Jet Fuel Price Monitor (checked 17 Nov 2026) puts the global average at $169.82 a barrel last week, down 5.1% from the week before — the third straight weekly decline from about $196.70 in late October. That is still far above pre-conflict levels (IATA $94.97/bbl for the week ending 30 Jan 2026). The EIA U.S. Gulf Coast jet-fuel spot was $4.035/gal on 11 Nov 2026, down from a recent high of $4.686/gal on 23 Oct (EIA via FRED, retrieved 17 Nov 2026). Brent was about $92/bbl early on 17 Nov 2026 (CNBC, 17 Nov 2026, 0102 GMT), down from $103.60 on 3 Nov and from a North Sea Dated high of $136 on 8 Oct (IEA Oil Market Report, 13 Nov 2026). The EIA Short-Term Energy Outlook (released 10 Nov 2026; inputs frozen 5 Nov, so it misses the mid-November drop) forecasts Brent near $100/bbl for the rest of 2026, then $94.90 in Q1 2027 and $85.78 as the 2027 average, with U.S. wholesale jet fuel easing from $4.09/gal in Q4 2026 to $3.71 in Q1 2027. Goldman Sachs (note cited by CNBC, 16 Nov 2026) expects Brent to average $88 in 2027 and $78 by year-end. Airline surcharges are still elevated: Air India $215 one-way on North America sectors (revised 9 Oct 2026) and Emirates $322 economy one-way to the Americas (effective 1 Nov 2026). Gulf shipping attacks continue, and EASA extended Middle East airspace warnings on 16 Nov 2026 through 31 Jan 2027. Implication: falling fuel gives some room to wait for a sale; still-high fuel, surcharges, and geopolitical volatility are not a reason to wait past mid-December.",
-    "verdict": "Round trip: 170–179-day fares are being scanned now (visa limit 180 days). The $850 book-now line is provisional and will be re-evaluated when those fares are in. The earlier Turkish $849 / Qatar $846 (27 Jan–27 Apr) and Google $1,008 (6 Jan–6 Apr) quotes were ~90-day stays and are not valid for this trip. One-way: the call is unchanged. The best reliable single-ticket fares now are $499–$516, around or just above the $500 line, so wait through Black Friday / Cyber Monday (27–30 Nov 2026) unless you want to take the $499 two-stop now, and plan to book by about 10 Dec for January travel. Ignore Skyscanner one-way calendar lows in the $368–$419 range when they are long self-transfers or Ethiopian. Avoid departing before about 26 Dec unless the dates are fixed: that is peak pricing. Fuel is still easing, which is why one-way can wait for the sale window."
+    "verdict": "Round trip: the book-now line for a 170–179-day stay (visa limit 180 days) is revised to ≤ $900. Google’s date grid (17 Nov 2026, about 10:05 AM IST) bottoms out at $915, with the cheapest band mostly 7–25 Jan returning 30 Jun–15 Jul at $915–$925. Virgin Atlantic + Delta at $865 (22 Jan–15 Jul, 174 days, one stop at Heathrow) on the itinerary list meets that line if the Main Cabin fare with two checked bags still holds. Do not book late-December departures if you can move the date — those grid prices run about $1,050–$2,200. One-way: the call is unchanged. The best reliable single-ticket fares now are $499–$516, around or just above the $500 line, so wait through Black Friday / Cyber Monday (27–30 Nov 2026) unless you want to take the $499 two-stop now, and plan to book by about 10 Dec for January travel. Ignore Skyscanner one-way calendar lows in the $368–$419 range when they are long self-transfers or Ethiopian. Avoid departing before about 26 Dec unless the dates are fixed: that is peak pricing. Fuel is still easing, which is why one-way can wait for the sale window."
   },
   "fuel": {
     "researched_ist": "17 Nov 2026, morning IST",
@@ -31,6 +31,54 @@
     "brent_asof": "17 Nov 2026, 0102 GMT (CNBC)"
   },
   "best_options": [
+    {
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "depart": "2027-01-22",
+      "return": "2027-07-15",
+      "price_usd": 865,
+      "airline": "Virgin Atlantic + Delta",
+      "stops": "1 stop (LHR) each way",
+      "duration": "Outbound 21h 40m–23h 45m depending on the flight. Three Atlanta departures: 5:30 PM, 6:45 PM, and 10:35 PM.",
+      "bags": "Check that the fare is Main Cabin, which includes 2×23 kg; avoid Basic Economy.",
+      "reliability": "Delta is among the most punctual US carriers; Virgin Atlantic is solid. Confirm the operating flights at booking.",
+      "source_name": "Google Flights itinerary list",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+      "price_type": "itinerary",
+      "note": "Read 17 Nov 2026, about 10:05 AM IST, 1 adult economy, USD. 174-day stay (within 170–179; visa limit 180 days). The date grid showed $915 for this pair; this $865 itinerary is the one to book if Main Cabin with bags is still ≤ $900."
+    },
+    {
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "depart": "2027-01-22",
+      "return": "2027-07-15",
+      "price_usd": 909,
+      "airline": "Delta + Virgin Atlantic + Saudia",
+      "stops": "Via LHR (and a Saudia sector)",
+      "duration": "20h 25m",
+      "bags": "Check fare brand at booking; avoid Basic Economy if bags matter.",
+      "reliability": "Delta is among the most punctual US carriers; Virgin Atlantic is solid. Confirm the Saudia sector and bags at booking.",
+      "source_name": "Google Flights itinerary list",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+      "price_type": "itinerary",
+      "note": "Same 22 Jan–15 Jul 2027 date pair as the $865 Virgin + Delta itinerary, on the itinerary list (17 Nov 2026, about 10:05 AM IST). Just over the $900 line."
+    },
+    {
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "depart": "2027-01-22",
+      "return": "2027-07-15",
+      "price_usd": 1179,
+      "airline": "Etihad Airways",
+      "stops": "1 stop (AUH)",
+      "duration": "18h 40m",
+      "bags": "Etihad Value+ includes 2×23 kg; Basic includes none — confirm the brand.",
+      "reliability": "Etihad on-time 72.3% in Oct 2026 (OAG).",
+      "source_name": "Google Flights itinerary list",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en",
+      "price_type": "itinerary",
+      "note": "Same 22 Jan–15 Jul 2027 date pair, faster routing, but above the $900 line. Read 17 Nov 2026, about 10:05 AM IST."
+    },
     {
       "route": "ATL-BOM",
       "trip": "OW",
@@ -762,11 +810,588 @@
       "price": 419,
       "depart": "2027-01-20",
       "note": "Ethiopian 1 stop ADD — Skyscanner"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1812,
+      "depart": "2026-12-15",
+      "return": "2027-06-08",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1948,
+      "depart": "2026-12-16",
+      "return": "2027-06-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 2207,
+      "depart": "2026-12-17",
+      "return": "2027-06-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1733,
+      "depart": "2026-12-18",
+      "return": "2027-06-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 2203,
+      "depart": "2026-12-19",
+      "return": "2027-06-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1693,
+      "depart": "2026-12-20",
+      "return": "2027-06-08",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1643,
+      "depart": "2026-12-21",
+      "return": "2027-06-09",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1647,
+      "depart": "2026-12-22",
+      "return": "2027-06-15",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1575,
+      "depart": "2026-12-23",
+      "return": "2027-06-15",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1488,
+      "depart": "2026-12-24",
+      "return": "2027-06-15",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1500,
+      "depart": "2026-12-25",
+      "return": "2027-06-16",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1048,
+      "depart": "2026-12-26",
+      "return": "2027-06-14",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1391,
+      "depart": "2026-12-27",
+      "return": "2027-06-15",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1397,
+      "depart": "2026-12-28",
+      "return": "2027-06-17",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1196,
+      "depart": "2026-12-29",
+      "return": "2027-06-21",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1271,
+      "depart": "2026-12-30",
+      "return": "2027-06-22",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1352,
+      "depart": "2026-12-31",
+      "return": "2027-06-21",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1251,
+      "depart": "2027-01-01",
+      "return": "2027-06-21",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1251,
+      "depart": "2027-01-02",
+      "return": "2027-06-21",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1211,
+      "depart": "2027-01-03",
+      "return": "2027-06-22",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1196,
+      "depart": "2027-01-04",
+      "return": "2027-06-23",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1108,
+      "depart": "2027-01-05",
+      "return": "2027-07-01",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1045,
+      "depart": "2027-01-06",
+      "return": "2027-06-30",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-07",
+      "return": "2027-06-30",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1041,
+      "depart": "2027-01-08",
+      "return": "2027-06-30",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1034,
+      "depart": "2027-01-09",
+      "return": "2027-06-28",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-10",
+      "return": "2027-06-30",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-11",
+      "return": "2027-06-30",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 925,
+      "depart": "2027-01-12",
+      "return": "2027-07-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 925,
+      "depart": "2027-01-13",
+      "return": "2027-07-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 925,
+      "depart": "2027-01-14",
+      "return": "2027-07-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 925,
+      "depart": "2027-01-15",
+      "return": "2027-07-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 925,
+      "depart": "2027-01-16",
+      "return": "2027-07-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 925,
+      "depart": "2027-01-17",
+      "return": "2027-07-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 925,
+      "depart": "2027-01-18",
+      "return": "2027-07-07",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-19",
+      "return": "2027-07-14",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-20",
+      "return": "2027-07-14",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-21",
+      "return": "2027-07-14",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-22",
+      "return": "2027-07-14",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-23",
+      "return": "2027-07-14",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-24",
+      "return": "2027-07-14",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 915,
+      "depart": "2027-01-25",
+      "return": "2027-07-14",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1089,
+      "depart": "2027-01-26",
+      "return": "2027-07-20",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1080,
+      "depart": "2027-01-27",
+      "return": "2027-07-20",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1080,
+      "depart": "2027-01-28",
+      "return": "2027-07-20",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1080,
+      "depart": "2027-01-29",
+      "return": "2027-07-20",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1026,
+      "depart": "2027-01-30",
+      "return": "2027-07-20",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1026,
+      "depart": "2027-01-31",
+      "return": "2027-07-20",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1118,
+      "depart": "2027-02-01",
+      "return": "2027-07-22",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1107,
+      "depart": "2027-02-02",
+      "return": "2027-07-29",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1099,
+      "depart": "2027-02-03",
+      "return": "2027-07-27",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1107,
+      "depart": "2027-02-04",
+      "return": "2027-07-29",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1099,
+      "depart": "2027-02-05",
+      "return": "2027-07-27",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1026,
+      "depart": "2027-02-06",
+      "return": "2027-07-27",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1026,
+      "depart": "2027-02-07",
+      "return": "2027-07-27",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1099,
+      "depart": "2027-02-08",
+      "return": "2027-07-29",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1094,
+      "depart": "2027-02-09",
+      "return": "2027-08-03",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1099,
+      "depart": "2027-02-10",
+      "return": "2027-08-03",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1125,
+      "depart": "2027-02-11",
+      "return": "2027-08-02",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1099,
+      "depart": "2027-02-12",
+      "return": "2027-08-03",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1107,
+      "depart": "2027-02-13",
+      "return": "2027-08-02",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1026,
+      "depart": "2027-02-14",
+      "return": "2027-08-03",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1129,
+      "depart": "2027-02-15",
+      "return": "2027-08-04",
+      "note": "Google Flights date grid"
+    },
+    {
+      "ts": "2026-11-17",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 865,
+      "depart": "2027-01-22",
+      "return": "2027-07-15",
+      "note": "Virgin Atlantic+Delta 1 stop LHR (itinerary list; grid $915) — Google Flights"
     }
   ],
   "notes": [
     "Hyderabad dropped: Mumbai was cheaper on every date checked (17 Nov 2026).",
     "Superseded (90-day stay, not valid): earlier round-trip quotes of Turkish $849 and Qatar + IndiGo $846 (27 Jan–27 Apr 2027) and American/Etihad $1,008 (6 Jan–6 Apr 2027) were ~90-day stays. The trip needs a stay of 170–179 days (visa limit 180 days), so those fares are not valid options. They are kept in the history log only. Shorter Kayak quotes (SAS $796 for 70 days, Ethiopian $805 for 16 days, and a 4-day NYC–BOM fare) were also the wrong stay length and were removed from the options list.",
+    "Google Flights 170–179-day date grids (read 17 Nov 2026, about 10:05 AM IST, USD, 1 adult economy, ATL–BOM) filled 402 cells. The cheapest grid prints are $915. The cheapest band is mostly departures 7–25 Jan 2027 returning 30 Jun–15 Jul ($915–$925); 8–9 Jan are $1,034–$1,041. The itinerary list for 22 Jan–15 Jul (174 days) showed Virgin Atlantic + Delta via Heathrow at $865 (grid $915), Delta + Virgin + Saudia at $909, and Etihad via Abu Dhabi at $1,179. Late December grid prices are about $1,050–$2,200, with a mid-December peak of $2,444. The book-now line for this stay length is now ≤ $900.",
     "Skyscanner (read 17 Nov 2026, about 9:49 AM IST, USD, 1 adult economy): the cheapest one-way calendar prices ($368–$419) are mostly self-transfer itineraries (Frontier + Etihad/Royal Jordanian via IAD, 40–50 hours) or Ethiopian ($419) and are not recommended. The best reliable single-ticket one-ways on that scan were United + SWISS $499 (20 Jan, 2 stops) and Lufthansa $516 (13 Feb, 1 stop FRA). Its $846–$849 round trips were ~90-day stays and are not valid for this trip (see the superseded note).",
     "December is the peak. Kayak’s median Atlanta–Mumbai round trip is $1,363 in December versus $707 in April (Kayak, read 17 Nov 2026). On the Google calendar, mid-December one-ways are roughly three to four times the mid-January prints. Avoid departing before about 26 Dec unless the dates are fixed.",
     "Airline reliability (OAG on-time performance, October 2026): SAS 86.4%, Air India 80.5%, Lufthansa 78.5%, Gulf Air 77.3% (but 5.7% cancellations), Emirates 74.4%, Qatar 73.4%, Etihad 72.3%, British Airways 71.6%, KLM 71.2% (3.8% cancellations), Ethiopian 59.8% — a clear caution on the cheap Ethiopian round trip.",
@@ -796,6 +1421,10 @@
     {
       "name": "Skyscanner, ATL–BOM one-way 13 Feb 2027 (read 17 Nov 2026)",
       "url": "https://www.skyscanner.com/transport/flights/atl/bom/270213/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price"
+    },
+    {
+      "name": "Google Flights, ATL–BOM round trip 22 Jan–15 Jul 2027 (read 17 Nov 2026)",
+      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIyagcIARIDQVRMcgcIARIDQk9NGh4SCjIwMjctMDctMTVqBwgBEgNCT01yBwgBEgNBVExAAUgBcAGCAQsI____________AZgBAQ&curr=USD&hl=en"
     },
     {
       "name": "OAG on-time performance data (Oct 2026)",
@@ -1168,8 +1797,8 @@
     },
     "roundtrip": {
       "route": "ATL-BOM",
-      "threshold_usd": 850,
-      "threshold_provisional": true,
+      "threshold_usd": 900,
+      "threshold_provisional": false,
       "min_stay_days": 170,
       "max_stay_days": 179,
       "visa_limit_days": 180,
@@ -1188,7 +1817,3254 @@
       "depart_start": "2026-12-15",
       "depart_end": "2027-02-15",
       "row_step_days": 1,
-      "cells": []
+      "cells": [
+        {
+          "depart": "2026-12-15",
+          "return": "2027-06-07",
+          "stay_days": 174,
+          "price_usd": 1852,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-15",
+          "return": "2027-06-08",
+          "stay_days": 175,
+          "price_usd": 1812,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-15",
+          "return": "2027-06-09",
+          "stay_days": 176,
+          "price_usd": 1812,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-15",
+          "return": "2027-06-10",
+          "stay_days": 177,
+          "price_usd": 1812,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-15",
+          "return": "2027-06-11",
+          "stay_days": 178,
+          "price_usd": 1812,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-15",
+          "return": "2027-06-12",
+          "stay_days": 179,
+          "price_usd": 1927,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-16",
+          "return": "2027-06-07",
+          "stay_days": 173,
+          "price_usd": 1948,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-16",
+          "return": "2027-06-08",
+          "stay_days": 174,
+          "price_usd": 1948,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-16",
+          "return": "2027-06-09",
+          "stay_days": 175,
+          "price_usd": 1948,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-16",
+          "return": "2027-06-10",
+          "stay_days": 176,
+          "price_usd": 1948,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-16",
+          "return": "2027-06-11",
+          "stay_days": 177,
+          "price_usd": 1948,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-16",
+          "return": "2027-06-12",
+          "stay_days": 178,
+          "price_usd": 1988,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-16",
+          "return": "2027-06-13",
+          "stay_days": 179,
+          "price_usd": 1988,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-17",
+          "return": "2027-06-07",
+          "stay_days": 172,
+          "price_usd": 2207,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-17",
+          "return": "2027-06-08",
+          "stay_days": 173,
+          "price_usd": 2364,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-17",
+          "return": "2027-06-09",
+          "stay_days": 174,
+          "price_usd": 2364,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-17",
+          "return": "2027-06-10",
+          "stay_days": 175,
+          "price_usd": 2364,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-17",
+          "return": "2027-06-11",
+          "stay_days": 176,
+          "price_usd": 2364,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-17",
+          "return": "2027-06-12",
+          "stay_days": 177,
+          "price_usd": 2228,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-17",
+          "return": "2027-06-13",
+          "stay_days": 178,
+          "price_usd": 2404,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-18",
+          "return": "2027-06-07",
+          "stay_days": 171,
+          "price_usd": 1733,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-18",
+          "return": "2027-06-08",
+          "stay_days": 172,
+          "price_usd": 1733,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-18",
+          "return": "2027-06-09",
+          "stay_days": 173,
+          "price_usd": 1733,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-18",
+          "return": "2027-06-10",
+          "stay_days": 174,
+          "price_usd": 1733,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-18",
+          "return": "2027-06-11",
+          "stay_days": 175,
+          "price_usd": 1733,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-18",
+          "return": "2027-06-12",
+          "stay_days": 176,
+          "price_usd": 1773,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-18",
+          "return": "2027-06-13",
+          "stay_days": 177,
+          "price_usd": 1773,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-19",
+          "return": "2027-06-07",
+          "stay_days": 170,
+          "price_usd": 2203,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-19",
+          "return": "2027-06-08",
+          "stay_days": 171,
+          "price_usd": 2385,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-19",
+          "return": "2027-06-09",
+          "stay_days": 172,
+          "price_usd": 2385,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-19",
+          "return": "2027-06-10",
+          "stay_days": 173,
+          "price_usd": 2385,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-19",
+          "return": "2027-06-11",
+          "stay_days": 174,
+          "price_usd": 2385,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-19",
+          "return": "2027-06-12",
+          "stay_days": 175,
+          "price_usd": 2223,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-19",
+          "return": "2027-06-13",
+          "stay_days": 176,
+          "price_usd": 2444,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-20",
+          "return": "2027-06-08",
+          "stay_days": 170,
+          "price_usd": 1693,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-20",
+          "return": "2027-06-09",
+          "stay_days": 171,
+          "price_usd": 1693,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-20",
+          "return": "2027-06-10",
+          "stay_days": 172,
+          "price_usd": 1693,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-20",
+          "return": "2027-06-11",
+          "stay_days": 173,
+          "price_usd": 1693,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-20",
+          "return": "2027-06-12",
+          "stay_days": 174,
+          "price_usd": 1733,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-20",
+          "return": "2027-06-13",
+          "stay_days": 175,
+          "price_usd": 1733,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-21",
+          "return": "2027-06-09",
+          "stay_days": 170,
+          "price_usd": 1643,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-21",
+          "return": "2027-06-10",
+          "stay_days": 171,
+          "price_usd": 1643,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-21",
+          "return": "2027-06-11",
+          "stay_days": 172,
+          "price_usd": 1643,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-21",
+          "return": "2027-06-12",
+          "stay_days": 173,
+          "price_usd": 1683,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-21",
+          "return": "2027-06-13",
+          "stay_days": 174,
+          "price_usd": 1683,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-22",
+          "return": "2027-06-14",
+          "stay_days": 174,
+          "price_usd": 1687,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-22",
+          "return": "2027-06-15",
+          "stay_days": 175,
+          "price_usd": 1647,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-22",
+          "return": "2027-06-16",
+          "stay_days": 176,
+          "price_usd": 1647,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-22",
+          "return": "2027-06-17",
+          "stay_days": 177,
+          "price_usd": 1647,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-22",
+          "return": "2027-06-18",
+          "stay_days": 178,
+          "price_usd": 1647,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-22",
+          "return": "2027-06-19",
+          "stay_days": 179,
+          "price_usd": 1762,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-23",
+          "return": "2027-06-14",
+          "stay_days": 173,
+          "price_usd": 1644,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-23",
+          "return": "2027-06-15",
+          "stay_days": 174,
+          "price_usd": 1575,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-23",
+          "return": "2027-06-16",
+          "stay_days": 175,
+          "price_usd": 1575,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-23",
+          "return": "2027-06-17",
+          "stay_days": 176,
+          "price_usd": 1575,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-23",
+          "return": "2027-06-18",
+          "stay_days": 177,
+          "price_usd": 1704,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-23",
+          "return": "2027-06-19",
+          "stay_days": 178,
+          "price_usd": 1782,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-23",
+          "return": "2027-06-20",
+          "stay_days": 179,
+          "price_usd": 1705,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-24",
+          "return": "2027-06-14",
+          "stay_days": 172,
+          "price_usd": 1557,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-24",
+          "return": "2027-06-15",
+          "stay_days": 173,
+          "price_usd": 1488,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-24",
+          "return": "2027-06-16",
+          "stay_days": 174,
+          "price_usd": 1488,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-24",
+          "return": "2027-06-17",
+          "stay_days": 175,
+          "price_usd": 1488,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-24",
+          "return": "2027-06-18",
+          "stay_days": 176,
+          "price_usd": 1637,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-24",
+          "return": "2027-06-19",
+          "stay_days": 177,
+          "price_usd": 1752,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-24",
+          "return": "2027-06-20",
+          "stay_days": 178,
+          "price_usd": 1613,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-25",
+          "return": "2027-06-14",
+          "stay_days": 171,
+          "price_usd": 1501,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-25",
+          "return": "2027-06-15",
+          "stay_days": 172,
+          "price_usd": 1501,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-25",
+          "return": "2027-06-16",
+          "stay_days": 173,
+          "price_usd": 1500,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-25",
+          "return": "2027-06-17",
+          "stay_days": 174,
+          "price_usd": 1501,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-25",
+          "return": "2027-06-18",
+          "stay_days": 175,
+          "price_usd": 1657,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-25",
+          "return": "2027-06-19",
+          "stay_days": 176,
+          "price_usd": 1694,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-25",
+          "return": "2027-06-20",
+          "stay_days": 177,
+          "price_usd": 1645,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-26",
+          "return": "2027-06-14",
+          "stay_days": 170,
+          "price_usd": 1048,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-26",
+          "return": "2027-06-15",
+          "stay_days": 171,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-26",
+          "return": "2027-06-16",
+          "stay_days": 172,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-26",
+          "return": "2027-06-17",
+          "stay_days": 173,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-26",
+          "return": "2027-06-18",
+          "stay_days": 174,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-26",
+          "return": "2027-06-19",
+          "stay_days": 175,
+          "price_usd": 1291,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-26",
+          "return": "2027-06-20",
+          "stay_days": 176,
+          "price_usd": 1291,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-27",
+          "return": "2027-06-15",
+          "stay_days": 170,
+          "price_usd": 1391,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-27",
+          "return": "2027-06-16",
+          "stay_days": 171,
+          "price_usd": 1391,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-27",
+          "return": "2027-06-17",
+          "stay_days": 172,
+          "price_usd": 1391,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-27",
+          "return": "2027-06-18",
+          "stay_days": 173,
+          "price_usd": 1391,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-27",
+          "return": "2027-06-19",
+          "stay_days": 174,
+          "price_usd": 1431,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-27",
+          "return": "2027-06-20",
+          "stay_days": 175,
+          "price_usd": 1431,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-28",
+          "return": "2027-06-16",
+          "stay_days": 170,
+          "price_usd": 1412,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-28",
+          "return": "2027-06-17",
+          "stay_days": 171,
+          "price_usd": 1397,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-28",
+          "return": "2027-06-18",
+          "stay_days": 172,
+          "price_usd": 1406,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-28",
+          "return": "2027-06-19",
+          "stay_days": 173,
+          "price_usd": 1448,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-28",
+          "return": "2027-06-20",
+          "stay_days": 174,
+          "price_usd": 1448,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-29",
+          "return": "2027-06-21",
+          "stay_days": 174,
+          "price_usd": 1196,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-29",
+          "return": "2027-06-22",
+          "stay_days": 175,
+          "price_usd": 1196,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-29",
+          "return": "2027-06-23",
+          "stay_days": 176,
+          "price_usd": 1196,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-29",
+          "return": "2027-06-24",
+          "stay_days": 177,
+          "price_usd": 1196,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-29",
+          "return": "2027-06-25",
+          "stay_days": 178,
+          "price_usd": 1196,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-29",
+          "return": "2027-06-26",
+          "stay_days": 179,
+          "price_usd": 1236,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-30",
+          "return": "2027-06-21",
+          "stay_days": 173,
+          "price_usd": 1276,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-30",
+          "return": "2027-06-22",
+          "stay_days": 174,
+          "price_usd": 1271,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-30",
+          "return": "2027-06-23",
+          "stay_days": 175,
+          "price_usd": 1271,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-30",
+          "return": "2027-06-24",
+          "stay_days": 176,
+          "price_usd": 1271,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-30",
+          "return": "2027-06-25",
+          "stay_days": 177,
+          "price_usd": 1271,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-30",
+          "return": "2027-06-26",
+          "stay_days": 178,
+          "price_usd": 1316,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-30",
+          "return": "2027-06-27",
+          "stay_days": 179,
+          "price_usd": 1316,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-31",
+          "return": "2027-06-21",
+          "stay_days": 172,
+          "price_usd": 1352,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-31",
+          "return": "2027-06-22",
+          "stay_days": 173,
+          "price_usd": 1352,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-31",
+          "return": "2027-06-23",
+          "stay_days": 174,
+          "price_usd": 1352,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-31",
+          "return": "2027-06-24",
+          "stay_days": 175,
+          "price_usd": 1352,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-31",
+          "return": "2027-06-25",
+          "stay_days": 176,
+          "price_usd": 1352,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-31",
+          "return": "2027-06-26",
+          "stay_days": 177,
+          "price_usd": 1392,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2026-12-31",
+          "return": "2027-06-27",
+          "stay_days": 178,
+          "price_usd": 1392,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-01",
+          "return": "2027-06-21",
+          "stay_days": 171,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-01",
+          "return": "2027-06-22",
+          "stay_days": 172,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-01",
+          "return": "2027-06-23",
+          "stay_days": 173,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-01",
+          "return": "2027-06-24",
+          "stay_days": 174,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-01",
+          "return": "2027-06-25",
+          "stay_days": 175,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-01",
+          "return": "2027-06-26",
+          "stay_days": 176,
+          "price_usd": 1291,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-01",
+          "return": "2027-06-27",
+          "stay_days": 177,
+          "price_usd": 1291,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-02",
+          "return": "2027-06-21",
+          "stay_days": 170,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-02",
+          "return": "2027-06-22",
+          "stay_days": 171,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-02",
+          "return": "2027-06-23",
+          "stay_days": 172,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-02",
+          "return": "2027-06-24",
+          "stay_days": 173,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-02",
+          "return": "2027-06-25",
+          "stay_days": 174,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-02",
+          "return": "2027-06-26",
+          "stay_days": 175,
+          "price_usd": 1291,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-02",
+          "return": "2027-06-27",
+          "stay_days": 176,
+          "price_usd": 1291,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-03",
+          "return": "2027-06-22",
+          "stay_days": 170,
+          "price_usd": 1211,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-03",
+          "return": "2027-06-23",
+          "stay_days": 171,
+          "price_usd": 1211,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-03",
+          "return": "2027-06-24",
+          "stay_days": 172,
+          "price_usd": 1211,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-03",
+          "return": "2027-06-25",
+          "stay_days": 173,
+          "price_usd": 1211,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-03",
+          "return": "2027-06-26",
+          "stay_days": 174,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-03",
+          "return": "2027-06-27",
+          "stay_days": 175,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-04",
+          "return": "2027-06-23",
+          "stay_days": 170,
+          "price_usd": 1196,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-04",
+          "return": "2027-06-24",
+          "stay_days": 171,
+          "price_usd": 1196,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-04",
+          "return": "2027-06-25",
+          "stay_days": 172,
+          "price_usd": 1196,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-04",
+          "return": "2027-06-26",
+          "stay_days": 173,
+          "price_usd": 1236,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-04",
+          "return": "2027-06-27",
+          "stay_days": 174,
+          "price_usd": 1236,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-05",
+          "return": "2027-06-28",
+          "stay_days": 174,
+          "price_usd": 1140,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-05",
+          "return": "2027-06-29",
+          "stay_days": 175,
+          "price_usd": 1149,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-05",
+          "return": "2027-06-30",
+          "stay_days": 176,
+          "price_usd": 1145,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-05",
+          "return": "2027-07-01",
+          "stay_days": 177,
+          "price_usd": 1108,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-05",
+          "return": "2027-07-03",
+          "stay_days": 179,
+          "price_usd": 1251,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-06",
+          "return": "2027-06-28",
+          "stay_days": 173,
+          "price_usd": 1140,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-06",
+          "return": "2027-06-29",
+          "stay_days": 174,
+          "price_usd": 1055,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-06",
+          "return": "2027-06-30",
+          "stay_days": 175,
+          "price_usd": 1045,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-06",
+          "return": "2027-07-01",
+          "stay_days": 176,
+          "price_usd": 1065,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-06",
+          "return": "2027-07-02",
+          "stay_days": 177,
+          "price_usd": 1055,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-06",
+          "return": "2027-07-03",
+          "stay_days": 178,
+          "price_usd": 1065,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-06",
+          "return": "2027-07-04",
+          "stay_days": 179,
+          "price_usd": 1181,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-07",
+          "return": "2027-06-28",
+          "stay_days": 172,
+          "price_usd": 1140,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-07",
+          "return": "2027-06-29",
+          "stay_days": 173,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-07",
+          "return": "2027-06-30",
+          "stay_days": 174,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-07",
+          "return": "2027-07-01",
+          "stay_days": 175,
+          "price_usd": 935,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-07",
+          "return": "2027-07-02",
+          "stay_days": 176,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-07",
+          "return": "2027-07-03",
+          "stay_days": 177,
+          "price_usd": 935,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-07",
+          "return": "2027-07-04",
+          "stay_days": 178,
+          "price_usd": 1051,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-08",
+          "return": "2027-06-28",
+          "stay_days": 171,
+          "price_usd": 1147,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-08",
+          "return": "2027-06-29",
+          "stay_days": 172,
+          "price_usd": 1051,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-08",
+          "return": "2027-06-30",
+          "stay_days": 173,
+          "price_usd": 1041,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-08",
+          "return": "2027-07-01",
+          "stay_days": 174,
+          "price_usd": 1061,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-08",
+          "return": "2027-07-02",
+          "stay_days": 175,
+          "price_usd": 1051,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-08",
+          "return": "2027-07-03",
+          "stay_days": 176,
+          "price_usd": 1061,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-08",
+          "return": "2027-07-04",
+          "stay_days": 177,
+          "price_usd": 1177,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-09",
+          "return": "2027-06-28",
+          "stay_days": 170,
+          "price_usd": 1034,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-09",
+          "return": "2027-06-29",
+          "stay_days": 171,
+          "price_usd": 1038,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-09",
+          "return": "2027-06-30",
+          "stay_days": 172,
+          "price_usd": 1038,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-09",
+          "return": "2027-07-01",
+          "stay_days": 173,
+          "price_usd": 1097,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-09",
+          "return": "2027-07-02",
+          "stay_days": 174,
+          "price_usd": 1097,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-09",
+          "return": "2027-07-03",
+          "stay_days": 175,
+          "price_usd": 1137,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-09",
+          "return": "2027-07-04",
+          "stay_days": 176,
+          "price_usd": 1137,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-10",
+          "return": "2027-06-29",
+          "stay_days": 170,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-10",
+          "return": "2027-06-30",
+          "stay_days": 171,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-10",
+          "return": "2027-07-01",
+          "stay_days": 172,
+          "price_usd": 935,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-10",
+          "return": "2027-07-02",
+          "stay_days": 173,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-10",
+          "return": "2027-07-03",
+          "stay_days": 174,
+          "price_usd": 935,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-10",
+          "return": "2027-07-04",
+          "stay_days": 175,
+          "price_usd": 1051,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-11",
+          "return": "2027-06-30",
+          "stay_days": 170,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-11",
+          "return": "2027-07-01",
+          "stay_days": 171,
+          "price_usd": 935,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-11",
+          "return": "2027-07-02",
+          "stay_days": 172,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-11",
+          "return": "2027-07-03",
+          "stay_days": 173,
+          "price_usd": 935,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-11",
+          "return": "2027-07-04",
+          "stay_days": 174,
+          "price_usd": 1051,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-12",
+          "return": "2027-07-05",
+          "stay_days": 174,
+          "price_usd": 1221,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-12",
+          "return": "2027-07-06",
+          "stay_days": 175,
+          "price_usd": 975,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-12",
+          "return": "2027-07-07",
+          "stay_days": 176,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-12",
+          "return": "2027-07-08",
+          "stay_days": 177,
+          "price_usd": 1112,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-12",
+          "return": "2027-07-09",
+          "stay_days": 178,
+          "price_usd": 1122,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-12",
+          "return": "2027-07-10",
+          "stay_days": 179,
+          "price_usd": 1254,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-13",
+          "return": "2027-07-05",
+          "stay_days": 173,
+          "price_usd": 1221,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-13",
+          "return": "2027-07-06",
+          "stay_days": 174,
+          "price_usd": 975,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-13",
+          "return": "2027-07-07",
+          "stay_days": 175,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-13",
+          "return": "2027-07-08",
+          "stay_days": 176,
+          "price_usd": 1108,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-13",
+          "return": "2027-07-09",
+          "stay_days": 177,
+          "price_usd": 1118,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-13",
+          "return": "2027-07-10",
+          "stay_days": 178,
+          "price_usd": 1261,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-13",
+          "return": "2027-07-11",
+          "stay_days": 179,
+          "price_usd": 1258,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-14",
+          "return": "2027-07-05",
+          "stay_days": 172,
+          "price_usd": 1179,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-14",
+          "return": "2027-07-06",
+          "stay_days": 173,
+          "price_usd": 975,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-14",
+          "return": "2027-07-07",
+          "stay_days": 174,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-14",
+          "return": "2027-07-08",
+          "stay_days": 175,
+          "price_usd": 1108,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-14",
+          "return": "2027-07-09",
+          "stay_days": 176,
+          "price_usd": 1118,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-14",
+          "return": "2027-07-10",
+          "stay_days": 177,
+          "price_usd": 1219,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-14",
+          "return": "2027-07-11",
+          "stay_days": 178,
+          "price_usd": 1219,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-15",
+          "return": "2027-07-05",
+          "stay_days": 171,
+          "price_usd": 1222,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-15",
+          "return": "2027-07-06",
+          "stay_days": 172,
+          "price_usd": 975,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-15",
+          "return": "2027-07-07",
+          "stay_days": 173,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-15",
+          "return": "2027-07-08",
+          "stay_days": 174,
+          "price_usd": 1137,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-15",
+          "return": "2027-07-09",
+          "stay_days": 175,
+          "price_usd": 1147,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-15",
+          "return": "2027-07-10",
+          "stay_days": 176,
+          "price_usd": 1210,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-15",
+          "return": "2027-07-11",
+          "stay_days": 177,
+          "price_usd": 1262,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-16",
+          "return": "2027-07-05",
+          "stay_days": 170,
+          "price_usd": 1089,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-16",
+          "return": "2027-07-06",
+          "stay_days": 171,
+          "price_usd": 958,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-16",
+          "return": "2027-07-07",
+          "stay_days": 172,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-16",
+          "return": "2027-07-08",
+          "stay_days": 173,
+          "price_usd": 1089,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-16",
+          "return": "2027-07-09",
+          "stay_days": 174,
+          "price_usd": 1089,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-16",
+          "return": "2027-07-10",
+          "stay_days": 175,
+          "price_usd": 1129,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-16",
+          "return": "2027-07-11",
+          "stay_days": 176,
+          "price_usd": 1129,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-17",
+          "return": "2027-07-06",
+          "stay_days": 170,
+          "price_usd": 958,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-17",
+          "return": "2027-07-07",
+          "stay_days": 171,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-17",
+          "return": "2027-07-08",
+          "stay_days": 172,
+          "price_usd": 1137,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-17",
+          "return": "2027-07-09",
+          "stay_days": 173,
+          "price_usd": 1147,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-17",
+          "return": "2027-07-10",
+          "stay_days": 174,
+          "price_usd": 1137,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-17",
+          "return": "2027-07-11",
+          "stay_days": 175,
+          "price_usd": 1236,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-18",
+          "return": "2027-07-07",
+          "stay_days": 170,
+          "price_usd": 925,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-18",
+          "return": "2027-07-08",
+          "stay_days": 171,
+          "price_usd": 1108,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-18",
+          "return": "2027-07-09",
+          "stay_days": 172,
+          "price_usd": 1118,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-18",
+          "return": "2027-07-10",
+          "stay_days": 173,
+          "price_usd": 1264,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-18",
+          "return": "2027-07-11",
+          "stay_days": 174,
+          "price_usd": 1202,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-19",
+          "return": "2027-07-12",
+          "stay_days": 174,
+          "price_usd": 1061,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-19",
+          "return": "2027-07-13",
+          "stay_days": 175,
+          "price_usd": 1065,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-19",
+          "return": "2027-07-14",
+          "stay_days": 176,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-19",
+          "return": "2027-07-15",
+          "stay_days": 177,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-19",
+          "return": "2027-07-16",
+          "stay_days": 178,
+          "price_usd": 1177,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-19",
+          "return": "2027-07-17",
+          "stay_days": 179,
+          "price_usd": 1217,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-20",
+          "return": "2027-07-12",
+          "stay_days": 173,
+          "price_usd": 1137,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-20",
+          "return": "2027-07-13",
+          "stay_days": 174,
+          "price_usd": 1099,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-20",
+          "return": "2027-07-14",
+          "stay_days": 175,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-20",
+          "return": "2027-07-15",
+          "stay_days": 176,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-20",
+          "return": "2027-07-16",
+          "stay_days": 177,
+          "price_usd": 1220,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-20",
+          "return": "2027-07-17",
+          "stay_days": 178,
+          "price_usd": 1235,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-20",
+          "return": "2027-07-18",
+          "stay_days": 179,
+          "price_usd": 1342,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-21",
+          "return": "2027-07-12",
+          "stay_days": 172,
+          "price_usd": 1059,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-21",
+          "return": "2027-07-13",
+          "stay_days": 173,
+          "price_usd": 1063,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-21",
+          "return": "2027-07-14",
+          "stay_days": 174,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-21",
+          "return": "2027-07-15",
+          "stay_days": 175,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-21",
+          "return": "2027-07-16",
+          "stay_days": 176,
+          "price_usd": 1175,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-21",
+          "return": "2027-07-17",
+          "stay_days": 177,
+          "price_usd": 1215,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-21",
+          "return": "2027-07-18",
+          "stay_days": 178,
+          "price_usd": 1215,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-22",
+          "return": "2027-07-12",
+          "stay_days": 171,
+          "price_usd": 1035,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-22",
+          "return": "2027-07-13",
+          "stay_days": 172,
+          "price_usd": 1040,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-22",
+          "return": "2027-07-14",
+          "stay_days": 173,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-22",
+          "return": "2027-07-15",
+          "stay_days": 174,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate",
+          "note": "Grid price $915. The Google Flights itinerary list for this date pair showed Virgin Atlantic + Delta at $865 (Main Cabin bags to be confirmed).",
+          "alternates": [
+            {
+              "price_usd": 865,
+              "source": "Google Flights itinerary list",
+              "airline": "Virgin Atlantic + Delta",
+              "price_type": "itinerary",
+              "note": "1 stop LHR each way, 22 Jan–15 Jul 2027"
+            },
+            {
+              "price_usd": 865,
+              "source": "Virgin Atlantic+Delta 1 stop LHR (itinerary list; grid $915) — Google Flights",
+              "note": "Virgin Atlantic+Delta 1 stop LHR (itinerary list; grid $915) — Google Flights"
+            },
+            {
+              "price_usd": 909,
+              "source": "Google Flights itinerary list",
+              "airline": "Delta + Virgin Atlantic + Saudia",
+              "price_type": "itinerary",
+              "note": "Same 22 Jan–15 Jul 2027 date pair as the $865 Virgin + Delta itinerary, on the itinerary list (17 Nov 2026, about 10:05 AM IST). Just over the $900 line."
+            },
+            {
+              "price_usd": 1179,
+              "source": "Google Flights itinerary list",
+              "airline": "Etihad Airways",
+              "price_type": "itinerary",
+              "note": "Same 22 Jan–15 Jul 2027 date pair, faster routing, but above the $900 line. Read 17 Nov 2026, about 10:05 AM IST."
+            }
+          ]
+        },
+        {
+          "depart": "2027-01-22",
+          "return": "2027-07-16",
+          "stay_days": 175,
+          "price_usd": 1151,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-22",
+          "return": "2027-07-17",
+          "stay_days": 176,
+          "price_usd": 1191,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-22",
+          "return": "2027-07-18",
+          "stay_days": 177,
+          "price_usd": 1191,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-23",
+          "return": "2027-07-12",
+          "stay_days": 170,
+          "price_usd": 1097,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-23",
+          "return": "2027-07-13",
+          "stay_days": 171,
+          "price_usd": 1026,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-23",
+          "return": "2027-07-14",
+          "stay_days": 172,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-23",
+          "return": "2027-07-15",
+          "stay_days": 173,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-23",
+          "return": "2027-07-16",
+          "stay_days": 174,
+          "price_usd": 1213,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-23",
+          "return": "2027-07-17",
+          "stay_days": 175,
+          "price_usd": 1226,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-23",
+          "return": "2027-07-18",
+          "stay_days": 176,
+          "price_usd": 1242,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-13",
+          "stay_days": 170,
+          "price_usd": 1000,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-14",
+          "stay_days": 171,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-15",
+          "stay_days": 172,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-16",
+          "stay_days": 173,
+          "price_usd": 1111,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-17",
+          "stay_days": 174,
+          "price_usd": 1151,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-24",
+          "return": "2027-07-18",
+          "stay_days": 175,
+          "price_usd": 1151,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-25",
+          "return": "2027-07-14",
+          "stay_days": 170,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-25",
+          "return": "2027-07-15",
+          "stay_days": 171,
+          "price_usd": 915,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-25",
+          "return": "2027-07-16",
+          "stay_days": 172,
+          "price_usd": 1111,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-25",
+          "return": "2027-07-17",
+          "stay_days": 173,
+          "price_usd": 1151,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-25",
+          "return": "2027-07-18",
+          "stay_days": 174,
+          "price_usd": 1151,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-26",
+          "return": "2027-07-19",
+          "stay_days": 174,
+          "price_usd": 1177,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-26",
+          "return": "2027-07-20",
+          "stay_days": 175,
+          "price_usd": 1089,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-26",
+          "return": "2027-07-21",
+          "stay_days": 176,
+          "price_usd": 1192,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-26",
+          "return": "2027-07-22",
+          "stay_days": 177,
+          "price_usd": 1118,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-26",
+          "return": "2027-07-23",
+          "stay_days": 178,
+          "price_usd": 1192,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-26",
+          "return": "2027-07-24",
+          "stay_days": 179,
+          "price_usd": 1232,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-27",
+          "return": "2027-07-19",
+          "stay_days": 173,
+          "price_usd": 1113,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-27",
+          "return": "2027-07-20",
+          "stay_days": 174,
+          "price_usd": 1080,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-27",
+          "return": "2027-07-21",
+          "stay_days": 175,
+          "price_usd": 1128,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-27",
+          "return": "2027-07-22",
+          "stay_days": 176,
+          "price_usd": 1118,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-27",
+          "return": "2027-07-24",
+          "stay_days": 178,
+          "price_usd": 1168,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-27",
+          "return": "2027-07-25",
+          "stay_days": 179,
+          "price_usd": 1168,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-28",
+          "return": "2027-07-19",
+          "stay_days": 172,
+          "price_usd": 1175,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-28",
+          "return": "2027-07-20",
+          "stay_days": 173,
+          "price_usd": 1080,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-28",
+          "return": "2027-07-21",
+          "stay_days": 174,
+          "price_usd": 1190,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-28",
+          "return": "2027-07-22",
+          "stay_days": 175,
+          "price_usd": 1118,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-28",
+          "return": "2027-07-23",
+          "stay_days": 176,
+          "price_usd": 1190,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-28",
+          "return": "2027-07-24",
+          "stay_days": 177,
+          "price_usd": 1230,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-28",
+          "return": "2027-07-25",
+          "stay_days": 178,
+          "price_usd": 1230,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-29",
+          "return": "2027-07-19",
+          "stay_days": 171,
+          "price_usd": 1151,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-29",
+          "return": "2027-07-20",
+          "stay_days": 172,
+          "price_usd": 1080,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-29",
+          "return": "2027-07-21",
+          "stay_days": 173,
+          "price_usd": 1166,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-29",
+          "return": "2027-07-22",
+          "stay_days": 174,
+          "price_usd": 1122,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-29",
+          "return": "2027-07-23",
+          "stay_days": 175,
+          "price_usd": 1166,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-29",
+          "return": "2027-07-24",
+          "stay_days": 176,
+          "price_usd": 1206,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-29",
+          "return": "2027-07-25",
+          "stay_days": 177,
+          "price_usd": 1206,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-30",
+          "return": "2027-07-19",
+          "stay_days": 170,
+          "price_usd": 1205,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-30",
+          "return": "2027-07-20",
+          "stay_days": 171,
+          "price_usd": 1026,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-30",
+          "return": "2027-07-21",
+          "stay_days": 172,
+          "price_usd": 1210,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-30",
+          "return": "2027-07-22",
+          "stay_days": 173,
+          "price_usd": 1118,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-30",
+          "return": "2027-07-23",
+          "stay_days": 174,
+          "price_usd": 1220,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-30",
+          "return": "2027-07-24",
+          "stay_days": 175,
+          "price_usd": 1235,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-30",
+          "return": "2027-07-25",
+          "stay_days": 176,
+          "price_usd": 1260,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-20",
+          "stay_days": 170,
+          "price_usd": 1026,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-21",
+          "stay_days": 171,
+          "price_usd": 1126,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-22",
+          "stay_days": 172,
+          "price_usd": 1118,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-23",
+          "stay_days": 173,
+          "price_usd": 1126,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-24",
+          "stay_days": 174,
+          "price_usd": 1166,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-01-31",
+          "return": "2027-07-25",
+          "stay_days": 175,
+          "price_usd": 1166,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-01",
+          "return": "2027-07-21",
+          "stay_days": 170,
+          "price_usd": 1126,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-01",
+          "return": "2027-07-22",
+          "stay_days": 171,
+          "price_usd": 1118,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-01",
+          "return": "2027-07-23",
+          "stay_days": 172,
+          "price_usd": 1126,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-01",
+          "return": "2027-07-24",
+          "stay_days": 173,
+          "price_usd": 1166,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-01",
+          "return": "2027-07-25",
+          "stay_days": 174,
+          "price_usd": 1166,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-02",
+          "return": "2027-07-26",
+          "stay_days": 174,
+          "price_usd": 1192,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-02",
+          "return": "2027-07-27",
+          "stay_days": 175,
+          "price_usd": 1130,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-02",
+          "return": "2027-07-28",
+          "stay_days": 176,
+          "price_usd": 1130,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-02",
+          "return": "2027-07-29",
+          "stay_days": 177,
+          "price_usd": 1107,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-02",
+          "return": "2027-07-30",
+          "stay_days": 178,
+          "price_usd": 1130,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-02",
+          "return": "2027-07-31",
+          "stay_days": 179,
+          "price_usd": 1232,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-03",
+          "return": "2027-07-26",
+          "stay_days": 173,
+          "price_usd": 1128,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-03",
+          "return": "2027-07-27",
+          "stay_days": 174,
+          "price_usd": 1099,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-03",
+          "return": "2027-07-28",
+          "stay_days": 175,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-03",
+          "return": "2027-07-29",
+          "stay_days": 176,
+          "price_usd": 1099,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-03",
+          "return": "2027-07-30",
+          "stay_days": 177,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-03",
+          "return": "2027-07-31",
+          "stay_days": 178,
+          "price_usd": 1168,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-03",
+          "return": "2027-08-01",
+          "stay_days": 179,
+          "price_usd": 1178,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-04",
+          "return": "2027-07-26",
+          "stay_days": 172,
+          "price_usd": 1190,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-04",
+          "return": "2027-07-27",
+          "stay_days": 173,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-04",
+          "return": "2027-07-28",
+          "stay_days": 174,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-04",
+          "return": "2027-07-29",
+          "stay_days": 175,
+          "price_usd": 1107,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-04",
+          "return": "2027-07-30",
+          "stay_days": 176,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-04",
+          "return": "2027-07-31",
+          "stay_days": 177,
+          "price_usd": 1230,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-04",
+          "return": "2027-08-01",
+          "stay_days": 178,
+          "price_usd": 1240,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-05",
+          "return": "2027-07-26",
+          "stay_days": 171,
+          "price_usd": 1166,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-05",
+          "return": "2027-07-27",
+          "stay_days": 172,
+          "price_usd": 1099,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-05",
+          "return": "2027-07-28",
+          "stay_days": 173,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-05",
+          "return": "2027-07-29",
+          "stay_days": 174,
+          "price_usd": 1099,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-05",
+          "return": "2027-07-30",
+          "stay_days": 175,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-05",
+          "return": "2027-07-31",
+          "stay_days": 176,
+          "price_usd": 1206,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-05",
+          "return": "2027-08-01",
+          "stay_days": 177,
+          "price_usd": 1216,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-06",
+          "return": "2027-07-26",
+          "stay_days": 170,
+          "price_usd": 1205,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-06",
+          "return": "2027-07-27",
+          "stay_days": 171,
+          "price_usd": 1026,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-06",
+          "return": "2027-07-28",
+          "stay_days": 172,
+          "price_usd": 1129,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-06",
+          "return": "2027-07-29",
+          "stay_days": 173,
+          "price_usd": 1026,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-06",
+          "return": "2027-07-30",
+          "stay_days": 174,
+          "price_usd": 1129,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-06",
+          "return": "2027-07-31",
+          "stay_days": 175,
+          "price_usd": 1252,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-06",
+          "return": "2027-08-01",
+          "stay_days": 176,
+          "price_usd": 1270,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-07",
+          "return": "2027-07-27",
+          "stay_days": 170,
+          "price_usd": 1026,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-07",
+          "return": "2027-07-28",
+          "stay_days": 171,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-07",
+          "return": "2027-07-29",
+          "stay_days": 172,
+          "price_usd": 1026,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-07",
+          "return": "2027-07-30",
+          "stay_days": 173,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-07",
+          "return": "2027-07-31",
+          "stay_days": 174,
+          "price_usd": 1166,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-07",
+          "return": "2027-08-01",
+          "stay_days": 175,
+          "price_usd": 1176,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-08",
+          "return": "2027-07-28",
+          "stay_days": 170,
+          "price_usd": 1126,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-08",
+          "return": "2027-07-29",
+          "stay_days": 171,
+          "price_usd": 1099,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-08",
+          "return": "2027-07-30",
+          "stay_days": 172,
+          "price_usd": 1126,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-08",
+          "return": "2027-07-31",
+          "stay_days": 173,
+          "price_usd": 1166,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-08",
+          "return": "2027-08-01",
+          "stay_days": 174,
+          "price_usd": 1176,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-09",
+          "return": "2027-08-02",
+          "stay_days": 174,
+          "price_usd": 1107,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-09",
+          "return": "2027-08-03",
+          "stay_days": 175,
+          "price_usd": 1094,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-09",
+          "return": "2027-08-04",
+          "stay_days": 176,
+          "price_usd": 1130,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-09",
+          "return": "2027-08-05",
+          "stay_days": 177,
+          "price_usd": 1202,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-09",
+          "return": "2027-08-06",
+          "stay_days": 178,
+          "price_usd": 1130,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-09",
+          "return": "2027-08-07",
+          "stay_days": 179,
+          "price_usd": 1242,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-10",
+          "return": "2027-08-02",
+          "stay_days": 173,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-10",
+          "return": "2027-08-03",
+          "stay_days": 174,
+          "price_usd": 1099,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-10",
+          "return": "2027-08-04",
+          "stay_days": 175,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-10",
+          "return": "2027-08-05",
+          "stay_days": 176,
+          "price_usd": 1138,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-10",
+          "return": "2027-08-06",
+          "stay_days": 177,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-10",
+          "return": "2027-08-07",
+          "stay_days": 178,
+          "price_usd": 1178,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-10",
+          "return": "2027-08-08",
+          "stay_days": 179,
+          "price_usd": 1178,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-11",
+          "return": "2027-08-02",
+          "stay_days": 172,
+          "price_usd": 1125,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-11",
+          "return": "2027-08-03",
+          "stay_days": 173,
+          "price_usd": 1147,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-11",
+          "return": "2027-08-04",
+          "stay_days": 174,
+          "price_usd": 1137,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-11",
+          "return": "2027-08-05",
+          "stay_days": 175,
+          "price_usd": 1200,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-11",
+          "return": "2027-08-06",
+          "stay_days": 176,
+          "price_usd": 1200,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-11",
+          "return": "2027-08-07",
+          "stay_days": 177,
+          "price_usd": 1240,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-11",
+          "return": "2027-08-08",
+          "stay_days": 178,
+          "price_usd": 1240,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-12",
+          "return": "2027-08-02",
+          "stay_days": 171,
+          "price_usd": 1121,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-12",
+          "return": "2027-08-03",
+          "stay_days": 172,
+          "price_usd": 1099,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-12",
+          "return": "2027-08-04",
+          "stay_days": 173,
+          "price_usd": 1137,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-12",
+          "return": "2027-08-05",
+          "stay_days": 174,
+          "price_usd": 1176,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-12",
+          "return": "2027-08-06",
+          "stay_days": 175,
+          "price_usd": 1144,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-12",
+          "return": "2027-08-07",
+          "stay_days": 176,
+          "price_usd": 1216,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-12",
+          "return": "2027-08-08",
+          "stay_days": 177,
+          "price_usd": 1216,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-13",
+          "return": "2027-08-02",
+          "stay_days": 170,
+          "price_usd": 1107,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-13",
+          "return": "2027-08-04",
+          "stay_days": 172,
+          "price_usd": 1129,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-13",
+          "return": "2027-08-05",
+          "stay_days": 173,
+          "price_usd": 1206,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-13",
+          "return": "2027-08-06",
+          "stay_days": 174,
+          "price_usd": 1129,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-13",
+          "return": "2027-08-07",
+          "stay_days": 175,
+          "price_usd": 1270,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-13",
+          "return": "2027-08-08",
+          "stay_days": 176,
+          "price_usd": 1270,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-14",
+          "return": "2027-08-03",
+          "stay_days": 170,
+          "price_usd": 1026,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-14",
+          "return": "2027-08-04",
+          "stay_days": 171,
+          "price_usd": 1130,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-14",
+          "return": "2027-08-05",
+          "stay_days": 172,
+          "price_usd": 1136,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-14",
+          "return": "2027-08-06",
+          "stay_days": 173,
+          "price_usd": 1130,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-14",
+          "return": "2027-08-07",
+          "stay_days": 174,
+          "price_usd": 1176,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-14",
+          "return": "2027-08-08",
+          "stay_days": 175,
+          "price_usd": 1176,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-15",
+          "return": "2027-08-04",
+          "stay_days": 170,
+          "price_usd": 1129,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-15",
+          "return": "2027-08-05",
+          "stay_days": 171,
+          "price_usd": 1136,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-15",
+          "return": "2027-08-06",
+          "stay_days": 172,
+          "price_usd": 1129,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-15",
+          "return": "2027-08-07",
+          "stay_days": 173,
+          "price_usd": 1176,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        },
+        {
+          "depart": "2027-02-15",
+          "return": "2027-08-08",
+          "stay_days": 174,
+          "price_usd": 1176,
+          "source": "Google Flights date grid",
+          "price_type": "calendar_estimate"
+        }
+      ],
+      "google_asof": "17 Nov 2026, about 10:05 AM IST"
     }
   }
 }
