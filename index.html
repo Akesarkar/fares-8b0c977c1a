@@ -310,6 +310,7 @@
       return DATE_FMT.format(d);
     }
     function tripLabel(t) { return t === "RT" || t === "roundtrip" ? "Round trip" : "One-way"; }
+    function isMumbaiRoute(s) { return /BOM/i.test(String(s || "")); }
     function badge(type) {
       if (type === "calendar_estimate") return '<span class="badge est">Estimate</span>';
       if (type === "itinerary") return '<span class="badge real">Itinerary</span>';
@@ -320,6 +321,7 @@
     function cheapestHistory(history) {
       const map = new Map();
       for (const row of history || []) {
+        if (!isMumbaiRoute(row.route)) continue;
         const key = [row.ts, row.route, row.trip].join("|");
         const prev = map.get(key);
         if (!prev || row.price < prev.price) map.set(key, row);
@@ -335,7 +337,7 @@
       const rt = rec.roundtrip || {};
       const why = data.why || {};
 
-      const options = (data.best_options || []).map(o => {
+      const options = (data.best_options || []).filter(o => isMumbaiRoute(o.route)).map(o => {
         const dates = o.return ? `${fmtDate(o.depart)} – ${fmtDate(o.return)}` : fmtDate(o.depart);
         return `<tr>
           <td>${esc(o.route)}<br><small>${esc(tripLabel(o.trip))}</small></td>
@@ -476,12 +478,13 @@
       const cal = data.calendar || {};
       const colors = {
         "ATL-BOM OW": "#8c2f14",
-        "ATL-HYD OW": "#1b5a52",
         "ATL-BOM RT": "#c47b3a",
-        "ATL-HYD RT": "#3b6fa0"
+        "NYC-BOM OW": "#1b5a52",
+        "NYC-BOM RT": "#3b6fa0"
       };
       const datasets = [];
       for (const route of Object.keys(cal)) {
+        if (!isMumbaiRoute(route)) continue;
         for (const trip of Object.keys(cal[route] || {})) {
           const pts = cal[route][trip];
           if (!pts || !pts.length) continue;
