@@ -587,7 +587,12 @@
         "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
       }[ch]));
     }
-    function usd(n) { return "$" + USD_FMT.format(Math.round(n)); }
+    function usd(n) {
+      const x = Number(n);
+      if (!Number.isFinite(x)) return "";
+      if (Math.abs(x - Math.round(x)) < 1e-9) return "$" + USD_FMT.format(Math.round(x));
+      return "$" + x.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
     function inr(n, rate) { return "₹" + INR_FMT.format(Math.round(n * rate)); }
     function fmtDate(iso) {
       if (!iso) return "—";
@@ -1055,7 +1060,7 @@
           if (!cell) {
             return `<td><a class="rt-cell unscanned" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(tip)}">—<br><span>${retLabel}</span></a></td>`;
           }
-          const book = cell.price_usd <= threshold;
+          const book = cell.price_with_2bags_usd != null && cell.price_with_2bags_usd <= threshold;
           const col = fareColor(cell.price_usd, threshold);
           return `<td><a class="rt-cell has ${book ? "book" : ""}" style="background:${col.bg};color:${col.ink}" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(tip + " · " + usd(cell.price_usd))}">
             <div class="cal-day"><span>${retLabel}</span>${book ? `<span class="cal-flag">≤${usd(threshold)}</span>` : ""}</div>
