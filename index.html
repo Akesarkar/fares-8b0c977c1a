@@ -786,6 +786,7 @@
           ${(data.qatar && data.qatar.recommendation) ? `<p class="qatar-rec">${esc(data.qatar.recommendation)}</p>` : ""}
           ${(data.qatar && data.qatar.black_friday) ? `<p class="caption">${esc(data.qatar.black_friday)}</p>` : ""}
           <p class="caption">${esc((data.qatar && ( (data.qatar.asof ? data.qatar.asof + ". " : "") + (data.qatar.note || "") )) || "")}</p>
+          ${qatarFeaturedHTML(data, rate)}
           <h3>One-way calendar</h3>
           <p class="caption">Google Flights, Qatar filter. Cell opens that date’s search. Colour is relative to the $600 Classic (2-bag) line; a cheap cell is not automatically Classic.</p>
           ${qatarOnewayHTML(data, rate)}
@@ -803,6 +804,22 @@
       drawCalendar(data);
     }
 
+
+
+    function qatarFeaturedHTML(data, rate) {
+      const f = (data.qatar || {}).featured;
+      if (!f || f.price_usd == null) return "";
+      const dates = f.return ? `${fmtDate(f.depart)} – ${fmtDate(f.return)}` : fmtDate(f.depart);
+      const href = f.source_url || f.google_url || "";
+      const twoBag = f.price_with_2bags_label || (f.price_with_2bags_usd != null ? usd(f.price_with_2bags_usd) : usd(f.price_usd));
+      const hours = f.hours || f.duration || "";
+      const bags = f.bags_included || f.bags || "";
+      return `<div class="qatar-featured">
+        <h3>Featured round trip</h3>
+        <p class="qatar-rec">${esc(twoBag)} Classic · ${esc(dates)}${hours ? " · " + esc(hours) : ""}${bags ? " · " + esc(bags) : ""}</p>
+        ${href ? `<p class="caption"><a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(f.source_name || "Open search")}</a></p>` : ""}
+      </div>`;
+    }
 
     function qatarOnewayHTML(data, rate) {
       const q = data.qatar || {};
