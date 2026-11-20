@@ -784,6 +784,7 @@
         <section class="qatar" aria-labelledby="qatar-title">
           <h2 id="qatar-title">${esc((data.qatar && data.qatar.title) || "Qatar Airways")}</h2>
           ${(data.qatar && data.qatar.recommendation) ? `<p class="qatar-rec">${esc(data.qatar.recommendation)}</p>` : ""}
+          ${(data.qatar && data.qatar.black_friday) ? `<p class="caption">${esc(data.qatar.black_friday)}</p>` : ""}
           <p class="caption">${esc((data.qatar && ( (data.qatar.asof ? data.qatar.asof + ". " : "") + (data.qatar.note || "") )) || "")}</p>
           <h3>One-way calendar</h3>
           <p class="caption">Google Flights, Qatar filter. Cell opens that date’s search. Colour is relative to the $600 Classic (2-bag) line; a cheap cell is not automatically Classic.</p>
@@ -987,8 +988,9 @@
           } else if (cheap == null) {
             cells.push({ type: "empty", day, iso, gUrl });
           } else {
-            const book = cheap <= threshold;
-            cells.push({ type: "has", day, iso, cheap, book, gUrl });
+            const twoBag = info.price_with_2bags_usd;
+            const book = twoBag != null && twoBag <= threshold;
+            cells.push({ type: "has", day, iso, cheap, book, gUrl, hours: info.hours || info.duration || "", bags: info.bags_included || info.bags || "" });
           }
         }
         const body = cells.map(c => {
@@ -1001,10 +1003,12 @@
           }
           const col = fareColor(c.cheap, threshold);
           const flag = c.book ? `<span class="cal-flag">≤</span>` : "";
-          return `<a class="cal-cell has ${c.book ? "book" : ""}" style="background:${col.bg};color:${col.ink}" href="${esc(c.gUrl)}" target="_blank" rel="noopener noreferrer" title="${c.iso} ${usd(c.cheap)}">
+          const tip = [c.iso, usd(c.cheap), c.hours, c.bags].filter(Boolean).join(" · ");
+          return `<a class="cal-cell has ${c.book ? "book" : ""}" style="background:${col.bg};color:${col.ink}" href="${esc(c.gUrl)}" target="_blank" rel="noopener noreferrer" title="${esc(tip)}">
             <div class="cal-day"><span>${c.day}</span>${flag}</div>
             <div class="cal-main">${usd(c.cheap)}</div>
             ${rate ? `<div class="cal-inr">${inr(c.cheap, rate)}</div>` : ""}
+            ${c.hours ? `<div class="cal-src">${esc(c.hours)}</div>` : ""}
           </a>`;
         }).join("");
         return `<div class="cal-month">

@@ -1,5 +1,5 @@
 {
-  "updated_ist": "20 Nov 2026, 1:04 PM IST",
+  "updated_ist": "20 Nov 2026, 6:59 PM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
@@ -115,7 +115,7 @@
       "OW": [
         {
           "date": "2026-12-15",
-          "price": 1680
+          "price": 1622.4
         },
         {
           "date": "2026-12-16",
@@ -143,7 +143,7 @@
         },
         {
           "date": "2026-12-22",
-          "price": 1390
+          "price": 1594
         },
         {
           "date": "2026-12-23",
@@ -171,7 +171,7 @@
         },
         {
           "date": "2026-12-29",
-          "price": 722
+          "price": 651.8
         },
         {
           "date": "2026-12-30",
@@ -199,7 +199,7 @@
         },
         {
           "date": "2027-01-05",
-          "price": 537
+          "price": 536.8
         },
         {
           "date": "2027-01-06",
@@ -2248,6 +2248,99 @@
       "depart": "2027-01-24",
       "return": "2027-07-14",
       "note": "Virgin Atlantic — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1622.4,
+      "depart": "2026-12-15",
+      "note": "Delta — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1594,
+      "depart": "2026-12-22",
+      "note": "Air France — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 651.8,
+      "depart": "2026-12-29",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 786.36,
+      "depart": "2026-12-29",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 536.8,
+      "depart": "2027-01-05",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 599.2,
+      "depart": "2027-01-05",
+      "note": "Virgin Atlantic — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1912.25,
+      "depart": "2026-12-15",
+      "return": "2027-06-08",
+      "note": "Etihad Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1867.95,
+      "depart": "2026-12-22",
+      "return": "2027-06-15",
+      "note": "Etihad Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1188.45,
+      "depart": "2026-12-29",
+      "return": "2027-06-22",
+      "note": "Lufthansa+SWISS — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1207.95,
+      "depart": "2026-12-29",
+      "return": "2027-06-22",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-20",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1358.25,
+      "depart": "2027-01-05",
+      "return": "2027-06-29",
+      "note": "Air France — Live search (filtered)"
     }
   ],
   "calendar_grid": {
@@ -2256,12 +2349,20 @@
       "threshold_usd": 500,
       "window_start": "2026-12-15",
       "window_end": "2027-02-15",
-      "google_asof": "20 Nov 2026, about 1:00 PM IST",
+      "google_asof": "20 Nov 2026, about 7:00 PM IST",
       "cells": [
         {
           "date": "2026-12-15",
-          "google_usd": 1680,
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "google_usd": 1622.4,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "20h 55m",
+          "airline": "Delta",
+          "stops": "2 stops",
+          "bags": "2 checked bags included",
+          "bags_included": "2 checked bags",
+          "source": "Live search (filtered)",
+          "fare_family": "Main Classic",
+          "price_with_2bags_usd": 1622.4
         },
         {
           "date": "2026-12-16",
@@ -2295,8 +2396,15 @@
         },
         {
           "date": "2026-12-22",
-          "google_usd": 1390,
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTIyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "google_usd": 1594,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTIyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "21h 45m",
+          "airline": "Air France",
+          "stops": "1 stop (CDG)",
+          "bags": "Light: no checked bag",
+          "bags_included": "none",
+          "source": "Live search (filtered)",
+          "fare_family": "Light"
         },
         {
           "date": "2026-12-23",
@@ -2330,8 +2438,15 @@
         },
         {
           "date": "2026-12-29",
-          "google_usd": 722,
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTI5OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "google_usd": 651.8,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTI5OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "28h 15m",
+          "airline": "Lufthansa",
+          "stops": "2 stops (FRA)",
+          "bags": "1 checked bag included; 1-stop FRA $786.36, 22h 05m also found",
+          "bags_included": "1 checked bag",
+          "source": "Live search (filtered)",
+          "fare_family": "Economy"
         },
         {
           "date": "2026-12-30",
@@ -2365,8 +2480,14 @@
         },
         {
           "date": "2027-01-05",
-          "google_usd": 537,
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTA1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "google_usd": 536.8,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTA1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "22h 05m",
+          "airline": "Lufthansa",
+          "stops": "1 stop (FRA)",
+          "bags": "1 checked bag included. Virgin Atlantic Light $599.20, 20h 25m via LHR, no checked bag.",
+          "bags_included": "1 checked bag",
+          "source": "Live search (filtered)"
         },
         {
           "date": "2027-01-06",
@@ -2609,6 +2730,20 @@
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTA3OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
         },
         {
+          "depart": "2026-12-15",
+          "return": "2027-06-08",
+          "stay_days": 175,
+          "price_usd": 1912.25,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "Etihad Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTA4OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "26h 13m / 20h 50m",
+          "fare_family": "Basic",
+          "bags": "Basic includes no checked bag",
+          "bags_included": "none"
+        },
+        {
           "depart": "2026-12-16",
           "return": "2027-06-08",
           "stay_days": 174,
@@ -2670,6 +2805,20 @@
           "source": "Google Flights (filtered)",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTIyOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTE0OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
+        },
+        {
+          "depart": "2026-12-22",
+          "return": "2027-06-15",
+          "stay_days": 175,
+          "price_usd": 1867.95,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "Etihad Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTIyOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTE1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "46h 20m / 20h 50m",
+          "fare_family": "Basic",
+          "bags": "Basic includes no checked bag",
+          "bags_included": "none"
         },
         {
           "depart": "2026-12-23",
@@ -2735,6 +2884,20 @@
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTI5OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTIxOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
         },
         {
+          "depart": "2026-12-29",
+          "return": "2027-06-22",
+          "stay_days": 175,
+          "price_usd": 1188.45,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "Lufthansa+SWISS",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTI5OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTIyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "28h 15m / 30h 11m",
+          "bags_included": "1 checked bag",
+          "bags": "1 checked bag included. Lufthansa Group, one ticket. Lufthansa-only $1,207.95 also found.",
+          "note": "Lufthansa Group, one ticket"
+        },
+        {
           "depart": "2026-12-30",
           "return": "2027-06-22",
           "stay_days": 174,
@@ -2796,6 +2959,20 @@
           "source": "Google Flights (filtered)",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTA1OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTI4OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
+        },
+        {
+          "depart": "2027-01-05",
+          "return": "2027-06-29",
+          "stay_days": 175,
+          "price_usd": 1358.25,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "Air France",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTA1OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTI5OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "21h 36m / 24h 05m",
+          "fare_family": "Light",
+          "bags": "1 checked bag included",
+          "bags_included": "1 checked bag"
         },
         {
           "depart": "2027-01-06",
@@ -3193,7 +3370,7 @@
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTA4OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
         }
       ],
-      "google_asof": "20 Nov 2026, about 1:00 PM IST",
+      "google_asof": "20 Nov 2026, about 7:00 PM IST",
       "source": "Google Flights (filtered)"
     }
   },
@@ -3716,7 +3893,8 @@
           "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270131/270727/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
         }
       ]
-    }
+    },
+    "black_friday": "Qatar Black Friday early access PCBF26 (up to 25% off, Privilege Club, book by 20 Nov 2026): max stay 3 months so round trip does not qualify; one-way departures outside 11–23 Dec may."
   },
   "alerts": {
     "black_friday": "Lufthansa Black Friday: book 17 Nov–2 Dec 2026, code BF26, €40 off per person to Asia. Travel 11 Jan–30 Apr 2027 — may help one-ways from 11 Jan. 170–179-day returns in Jun–Aug 2027 are outside that window."
