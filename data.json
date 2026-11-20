@@ -1,5 +1,5 @@
 {
-  "updated_ist": "20 Nov 2026, 6:59 PM IST",
+  "updated_ist": "20 Nov 2026, 7:00 PM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
@@ -2402,7 +2402,7 @@
           "airline": "Air France",
           "stops": "1 stop (CDG)",
           "bags": "Light: no checked bag",
-          "bags_included": "none",
+          "bags_included": "no checked bag",
           "source": "Live search (filtered)",
           "fare_family": "Light"
         },
@@ -2741,7 +2741,7 @@
           "hours": "26h 13m / 20h 50m",
           "fare_family": "Basic",
           "bags": "Basic includes no checked bag",
-          "bags_included": "none"
+          "bags_included": "no checked bag"
         },
         {
           "depart": "2026-12-16",
@@ -2818,7 +2818,7 @@
           "hours": "46h 20m / 20h 50m",
           "fare_family": "Basic",
           "bags": "Basic includes no checked bag",
-          "bags_included": "none"
+          "bags_included": "no checked bag"
         },
         {
           "depart": "2026-12-23",
@@ -3061,7 +3061,7 @@
           "fare_family": "Go Light",
           "hours": "22h 10m / 20h 25m",
           "stops": "1 stop (CPH)",
-          "bags_included": "none",
+          "bags_included": "no checked bag",
           "bag_fee_one_way_usd": 188,
           "price_with_2bags_usd": 1266.55,
           "note": "New low. Go Light has no checked bag. Prepaid Asia/N. America: $82 + $106 = $188 one way, $376 round trip."
