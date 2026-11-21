@@ -807,18 +807,19 @@
 
 
     function qatarFeaturedHTML(data, rate) {
-      const f = (data.qatar || {}).featured;
-      if (!f || f.price_usd == null) return "";
-      const dates = f.return ? `${fmtDate(f.depart)} – ${fmtDate(f.return)}` : fmtDate(f.depart);
-      const href = f.source_url || f.google_url || "";
-      const twoBag = f.price_with_2bags_label || (f.price_with_2bags_usd != null ? usd(f.price_with_2bags_usd) : usd(f.price_usd));
-      const hours = f.hours || f.duration || "";
-      const bags = f.bags_included || f.bags || "";
-      return `<div class="qatar-featured">
-        <h3>Featured round trip</h3>
-        <p class="qatar-rec">${esc(twoBag)} Classic · ${esc(dates)}${hours ? " · " + esc(hours) : ""}${bags ? " · " + esc(bags) : ""}</p>
-        ${href ? `<p class="caption"><a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(f.source_name || "Open search")}</a></p>` : ""}
-      </div>`;
+      const raw = (data.qatar || {}).featured;
+      const items = Array.isArray(raw) ? raw : (raw && raw.price_usd != null ? [raw] : []);
+      if (!items.length) return "";
+      const rows = items.map(f => {
+        const dates = f.return ? `${fmtDate(f.depart)} – ${fmtDate(f.return)}` : fmtDate(f.depart);
+        const href = f.source_url || f.google_url || "";
+        const twoBag = f.price_with_2bags_label || (f.price_with_2bags_usd != null ? usd(f.price_with_2bags_usd) : usd(f.price_usd));
+        const hours = f.hours || f.duration || "";
+        const bags = f.bags_included || f.bags || "";
+        const note = f.note || "";
+        return `<p class="qatar-rec">${esc(twoBag)} Classic · ${esc(dates)}${hours ? " · " + esc(hours) : ""}${bags ? " · " + esc(bags) : ""}${note ? " · " + esc(note) : ""}${href ? ` <a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(f.source_name || "Open search")}</a>` : ""}</p>`;
+      }).join("");
+      return `<div class="qatar-featured"><h3>Featured round trip</h3>${rows}</div>`;
     }
 
     function qatarOnewayHTML(data, rate) {
