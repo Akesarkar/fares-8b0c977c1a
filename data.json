@@ -1,15 +1,15 @@
 {
-  "updated_ist": "21 Nov 2026, 6:59 AM IST",
+  "updated_ist": "21 Nov 2026, 12:59 PM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
     "oneway": {
-      "action": "Book at or under $500 with 2×23 kg bags each way. Live low is still $513.90 (SWISS, 12 / 20 / 27 / 31 Jan and 7 Feb, 22h 53m, 2 stops, 1 bag; also 8 Feb at 44h 23m). A second bag is not in the published US–India fee table.",
+      "action": "Book the Qatar 15 Feb one-way now: Economy Classic $460 with 2×23 kg, 20h 45m via DOH (a 21h itinerary arriving 02:50 is also $460). That is under the $500 2-bag line.",
       "threshold_usd": 500,
       "threshold_applies_to": "price_with_2bags"
     },
     "roundtrip": {
-      "action": "Book at or under $900 with 2×23 kg bags each way, 170–179-day stay. New 174-day low is $878 (SAS Go Light, 8 Feb–1 Aug, 22h / 20h 25m via CPH). 2 bags add $82 + $106 each way, so $1,254 with bags. Etihad $1,179 (22 Jan–15 Jul, 18h 40m) if Value/Comfort still includes 2 bags.",
+      "action": "Wait for Black Friday sales 27–30 Nov. Current 174-day low is $878 (SAS Go Light, 8 Feb–1 Aug, 22h / 20h 25m via CPH); 2 bags add $376, so $1,254. Etihad $1,179 (22 Jan–15 Jul, 18h 40m) if Value/Comfort still includes 2 bags.",
       "threshold_usd": 900,
       "threshold_applies_to": "price_with_2bags"
     }
@@ -18,6 +18,29 @@
     "direction": "falling"
   },
   "best_options": [
+    {
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "depart": "2027-02-15",
+      "return": null,
+      "price_usd": 460,
+      "airline": "Qatar Airways",
+      "stops": "1 stop (DOH)",
+      "duration": "20h 45m",
+      "hours": "20h 45m",
+      "schedule": "QR 19:20, via DOH; a 21h itinerary arriving 02:50 is also $460",
+      "bags": "Economy Classic includes 2×23 kg (verified on qatarairways.com).",
+      "source_name": "qatarairways.com",
+      "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-15&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
+      "price_type": "itinerary",
+      "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+      "single_airline": true,
+      "fare_family": "Economy Classic",
+      "bags_included": "2×23 kg",
+      "price_with_2bags_usd": 460,
+      "price_with_2bags_label": "$460 Classic (2 bags)",
+      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270215/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price"
+    },
     {
       "route": "ATL-BOM",
       "trip": "RT",
@@ -40,6 +63,28 @@
       "price_with_2bags_usd": 1254,
       "price_with_2bags_label": "$1,254 with 2 bags",
       "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270208/270801/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
+    },
+    {
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "depart": "2027-01-27",
+      "return": "2027-07-19",
+      "price_usd": 1117.15,
+      "airline": "Qatar Airways",
+      "stops": "1 stop (DOH)",
+      "duration": "25h 40m / 21h",
+      "hours": "25h 40m / 21h",
+      "bags": "Economy Classic includes 2×23 kg on flights to or from the Americas.",
+      "source_name": "Live search 21 Nov 2026",
+      "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI3OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE5OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+      "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI3OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE5OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+      "price_type": "itinerary",
+      "single_airline": true,
+      "fare_family": "Economy Classic",
+      "bags_included": "2×23 kg",
+      "price_with_2bags_usd": 1117.15,
+      "price_with_2bags_label": "$1,117.15 Classic (2 bags)",
+      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270127/270719/?adultsv2=1&cabinclass=economy&rtn=1&currency=USD&sortby=price"
     },
     {
       "route": "ATL-BOM",
@@ -115,7 +160,7 @@
       "OW": [
         {
           "date": "2026-12-15",
-          "price": 1622.4
+          "price": 1709.9
         },
         {
           "date": "2026-12-16",
@@ -363,7 +408,7 @@
         },
         {
           "date": "2027-02-15",
-          "price": 522
+          "price": 460
         }
       ],
       "RT": [],
@@ -2635,6 +2680,229 @@
       "depart": "2027-02-08",
       "return": "2027-08-01",
       "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1709.9,
+      "depart": "2026-12-15",
+      "note": "SWISS — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1848.4,
+      "depart": "2026-12-15",
+      "note": "Delta — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1594,
+      "depart": "2026-12-22",
+      "note": "Air France — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 536.8,
+      "depart": "2027-01-05",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 599.1,
+      "depart": "2027-01-05",
+      "note": "Virgin Atlantic — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 461,
+      "depart": "2027-02-15",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 460,
+      "depart": "2027-02-15",
+      "note": "Qatar Airways — qatarairways.com"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 536.8,
+      "depart": "2027-02-15",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 539,
+      "depart": "2027-02-15",
+      "note": "Etihad Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 548.9,
+      "depart": "2027-02-15",
+      "note": "KLM — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 549,
+      "depart": "2027-02-15",
+      "note": "Air France — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1098.55,
+      "depart": "2027-01-10",
+      "return": "2027-07-01",
+      "note": "SWISS — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1126,
+      "depart": "2027-01-10",
+      "return": "2027-07-01",
+      "note": "Etihad Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1079.05,
+      "depart": "2027-01-25",
+      "return": "2027-07-15",
+      "note": "SWISS — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1088.05,
+      "depart": "2027-01-25",
+      "return": "2027-07-15",
+      "note": "Lufthansa+SWISS — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1117.15,
+      "depart": "2027-01-25",
+      "return": "2027-07-15",
+      "note": "Delta — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1142.15,
+      "depart": "2027-02-14",
+      "return": "2027-08-05",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1186.71,
+      "depart": "2027-02-14",
+      "return": "2027-08-05",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1070.75,
+      "depart": "2027-02-15",
+      "return": "2027-08-10",
+      "note": "Etihad Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1117.15,
+      "depart": "2027-02-15",
+      "return": "2027-08-10",
+      "note": "Delta — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1340,
+      "depart": "2027-01-20",
+      "return": "2027-07-12",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1117.15,
+      "depart": "2027-01-27",
+      "return": "2027-07-19",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1165,
+      "depart": "2027-01-27",
+      "return": "2027-07-19",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1128,
+      "depart": "2027-02-03",
+      "return": "2027-07-26",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1132.15,
+      "depart": "2027-02-03",
+      "return": "2027-07-26",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-21",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1138,
+      "depart": "2027-02-10",
+      "return": "2027-08-02",
+      "note": "Qatar Airways — Live search (filtered)"
     }
   ],
   "calendar_grid": {
@@ -2643,20 +2911,19 @@
       "threshold_usd": 500,
       "window_start": "2026-12-15",
       "window_end": "2027-02-15",
-      "google_asof": "21 Nov 2026, about 7:00 AM IST",
+      "google_asof": "21 Nov 2026, about 1:00 PM IST",
       "cells": [
         {
           "date": "2026-12-15",
-          "google_usd": 1622.4,
+          "google_usd": 1709.9,
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
-          "hours": "20h 55m",
-          "airline": "Delta",
+          "hours": "22h 40m",
+          "airline": "SWISS",
           "stops": "2 stops",
-          "bags": "2 checked bags included",
-          "bags_included": "2 checked bags",
+          "bags": "1 checked bag included. Delta Main Classic $1,848.40 (20h 55m) also found.",
+          "bags_included": "1 checked bag",
           "source": "Live search (filtered)",
-          "fare_family": "Main Classic",
-          "price_with_2bags_usd": 1622.4
+          "fare_family": "Main Classic"
         },
         {
           "date": "2026-12-16",
@@ -2706,11 +2973,11 @@
           "date": "2026-12-22",
           "google_usd": 1594,
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTIyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
-          "hours": "21h 45m",
+          "hours": "19h 45m",
           "airline": "Air France",
           "stops": "1 stop (CDG)",
-          "bags": "Light: no checked bag",
-          "bags_included": "no checked bag",
+          "bags": "Bags unknown",
+          "bags_included": "bags unknown",
           "source": "Live search (filtered)",
           "fare_family": "Light"
         },
@@ -2793,9 +3060,10 @@
           "hours": "22h 05m",
           "airline": "Lufthansa",
           "stops": "1 stop (FRA)",
-          "bags": "1 checked bag included. Virgin Atlantic Light $599.20, 20h 25m via LHR, no checked bag.",
+          "bags": "Economy Comfort, 1 checked bag. Virgin Light $599.10, 20h 25m also found.",
           "bags_included": "1 checked bag",
-          "source": "Live search (filtered)"
+          "source": "Live search (filtered)",
+          "fare_family": "Economy Comfort"
         },
         {
           "date": "2027-01-06",
@@ -3038,8 +3306,17 @@
         },
         {
           "date": "2027-02-15",
-          "google_usd": 522,
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "google_usd": 460,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "20h 45m",
+          "airline": "Qatar Airways",
+          "stops": "1 stop (DOH)",
+          "bags": "Economy Classic, 2×23 kg included (verified on qatarairways.com). A 21h itinerary arriving 02:50 is also $460.",
+          "bags_included": "2×23 kg",
+          "fare_family": "Economy Classic",
+          "price_with_2bags_usd": 460,
+          "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-15&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
+          "source": "Live search (filtered)"
         }
       ],
       "source": "Google Flights (filtered)"
@@ -3364,15 +3641,15 @@
           "depart": "2027-01-10",
           "return": "2027-07-01",
           "stay_days": 172,
-          "price_usd": 1085.75,
+          "price_usd": 1098.55,
           "source": "Live search (filtered)",
           "price_type": "itinerary",
-          "airline": "Etihad Airways",
+          "airline": "SWISS",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTEwOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTAxOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
-          "hours": "35h 45m / 20h 50m",
+          "hours": "44h 23m / 32h 20m",
           "fare_family": "Basic",
-          "bags": "Basic includes no checked bag. Faster Basic $1,125.75 (18h 40m / 20h 50m) and SWISS $1,098.55 (1 bag) also found.",
-          "bags_included": "no checked bag"
+          "bags": "1 checked bag. Etihad $1,126 (18h 40m / 20h 50m) also found.",
+          "bags_included": "1 checked bag"
         },
         {
           "depart": "2027-01-10",
@@ -3562,6 +3839,17 @@
         },
         {
           "depart": "2027-01-25",
+          "return": "2027-07-15",
+          "stay_days": 171,
+          "price_usd": 1079.05,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "SWISS",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI1OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "bags": "Lufthansa+SWISS $1,088.05 (22h 51m / 32h 20m, 1 bag) and Delta Main Basic $1,117.15 also found."
+        },
+        {
+          "depart": "2027-01-25",
           "return": "2027-07-18",
           "stay_days": 174,
           "price_usd": 1150,
@@ -3577,6 +3865,22 @@
           "source": "Google Flights (filtered)",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI2OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE5OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
+        },
+        {
+          "depart": "2027-01-27",
+          "return": "2027-07-19",
+          "stay_days": 173,
+          "price_usd": 1117.15,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "Qatar Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI3OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE5OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "25h 40m / 21h",
+          "fare_family": "Economy Classic",
+          "bags": "2 checked bags included",
+          "bags_included": "2 checked bags",
+          "price_with_2bags_usd": 1117.15,
+          "note": "New best Qatar round trip. Also $1,165 listed (20h 45m / 21h 15m)."
         },
         {
           "depart": "2027-01-27",
@@ -3671,6 +3975,20 @@
         },
         {
           "depart": "2027-02-03",
+          "return": "2027-07-26",
+          "stay_days": 173,
+          "price_usd": 1128,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "Qatar Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTAzOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTI2OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "20h 45m / 21h 15m",
+          "listed_fare": true,
+          "bags": "listed fare; Economy Classic $1,132.15 with 2 bags (20h 45m / 21h) also found.",
+          "bags_included": "bags unverified (listed fare)"
+        },
+        {
+          "depart": "2027-02-03",
           "return": "2027-07-27",
           "stay_days": 174,
           "price_usd": 1100,
@@ -3756,6 +4074,20 @@
         },
         {
           "depart": "2027-02-10",
+          "return": "2027-08-02",
+          "stay_days": 173,
+          "price_usd": 1138,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "Qatar Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEwOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTAyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "20h 45m / 21h 15m",
+          "listed_fare": true,
+          "bags": "listed fare",
+          "bags_included": "bags unverified (listed fare)"
+        },
+        {
+          "depart": "2027-02-10",
           "return": "2027-08-03",
           "stay_days": 174,
           "price_usd": 1100,
@@ -3800,6 +4132,22 @@
         },
         {
           "depart": "2027-02-14",
+          "return": "2027-08-05",
+          "stay_days": 172,
+          "price_usd": 1142.15,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "Qatar Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE0OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTA1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "20h 45m / 27h 10m",
+          "fare_family": "Economy Classic",
+          "bags": "2 checked bags included",
+          "bags_included": "2 checked bags",
+          "price_with_2bags_usd": 1142.15,
+          "note": "Lufthansa $1,186.71 also found."
+        },
+        {
+          "depart": "2027-02-14",
           "return": "2027-08-07",
           "stay_days": 174,
           "price_usd": 1180,
@@ -3815,17 +4163,32 @@
           "source": "Google Flights (filtered)",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTA4OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
+        },
+        {
+          "depart": "2027-02-15",
+          "return": "2027-08-10",
+          "stay_days": 176,
+          "price_usd": 1070.75,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "airline": "Etihad Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTEwOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "18h 40m / 20h 50m",
+          "fare_family": "Basic",
+          "bags": "bags unknown",
+          "bags_included": "bags unknown",
+          "note": "Delta Main Basic $1,117.15 (1 bag) also found."
         }
       ],
-      "google_asof": "21 Nov 2026, about 7:00 AM IST",
+      "google_asof": "21 Nov 2026, about 1:00 PM IST",
       "source": "Google Flights (filtered)"
     }
   },
   "qatar": {
     "status": "scanned",
     "title": "Qatar Airways",
-    "asof": "21 Nov 2026, about 7:00 AM IST",
-    "recommendation": "Qatar Economy Classic round trips, 2 bags included, both $1,182.15: 8 Feb–1 Aug (174d, 20h 45m / 21h via DOH — better return timing) and 12 Feb–5 Aug (174d, 21h / 27h 10m via DOH). One-way: book Classic at ≤ $600 (2 bags). Calendar $603 (14 Feb), $643 (5 Feb); none found 16 Jan or 30 Jan. Verified OW Classic $621 (24 Jan).",
+    "asof": "21 Nov 2026, about 1:00 PM IST",
+    "recommendation": "BOOK NOW: 15 Feb one-way Economy Classic $460 with 2×23 kg, 20h 45m via DOH (21h arriving 02:50 also $460). Verified on qatarairways.com. New best Qatar round trip: Classic $1,117.15 (27 Jan–19 Jul, 173d, 25h 40m / 21h, 2 bags). Also Classic $1,132.15 (3 Feb–26 Jul) and $1,142.15 (14 Feb–5 Aug).",
     "note": "One-way calendar is Google Flights with a Qatar filter; the cheapest fare on a date may include partner legs. Classic includes 2×23 kg on flights to or from the Americas.",
     "return_note": "All-Qatar return not confirmed for these dates; Qatar's own return from BOM 4:10 AM → ATL 3:55 PM, 21h 15m, exists on some dates.",
     "gf_rt_note": "Google Flights Qatar-filter RT, 5–11 Jan departures / 28 Jun–4 Jul returns: cheapest $1,115 (9 Jan–28 Jun) used Alaska+IndiGo legs.",
@@ -4156,13 +4519,41 @@
         },
         {
           "date": "2027-02-15",
-          "price_usd": 603,
+          "price_usd": 460,
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
-          "hours": "20h 45m"
+          "hours": "20h 45m",
+          "airline": "Qatar Airways",
+          "fare_family": "Economy Classic",
+          "bags": "2×23 kg included (verified)",
+          "bags_included": "2×23 kg",
+          "price_with_2bags_usd": 460,
+          "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-15&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N"
         }
       ]
     },
     "options": [
+      {
+        "route": "ATL-BOM",
+        "trip": "OW",
+        "depart": "2027-02-15",
+        "return": null,
+        "price_usd": 460,
+        "airline": "Qatar Airways",
+        "stops": "1 stop (DOH)",
+        "duration": "20h 45m",
+        "hours": "20h 45m",
+        "schedule": "QR 19:20, via DOH; a 21h itinerary arriving 02:50 is also $460",
+        "bags": "Economy Classic includes 2×23 kg (verified on qatarairways.com).",
+        "source_name": "qatarairways.com",
+        "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-15&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
+        "price_type": "itinerary",
+        "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+        "single_airline": true,
+        "fare_family": "Economy Classic",
+        "bags_included": "2×23 kg",
+        "price_with_2bags_usd": 460,
+        "price_with_2bags_label": "$460 Classic (2 bags)"
+      },
       {
         "route": "ATL-BOM",
         "trip": "OW",
@@ -4375,55 +4766,168 @@
           "hours": "20h 45m / 21h",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTA4OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTAxOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
           "note": "Better return timing than 12 Feb–5 Aug"
+        },
+        {
+          "depart": "2027-01-20",
+          "return": "2027-07-12",
+          "stay_days": 173,
+          "price_usd": 1340,
+          "source": "Live search (filtered)",
+          "airline": "Qatar Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTIwOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTEyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "price_type": "itinerary",
+          "hours": "20h 45m / 21h 15m",
+          "listed_fare": true,
+          "bags": "listed fare",
+          "bags_included": "bags unverified (listed fare)"
+        },
+        {
+          "depart": "2027-01-27",
+          "return": "2027-07-19",
+          "stay_days": 173,
+          "price_usd": 1117.15,
+          "source": "Live search (filtered)",
+          "airline": "Qatar Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI3OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE5OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "price_type": "itinerary",
+          "hours": "25h 40m / 21h",
+          "fare_family": "Economy Classic",
+          "bags": "2 checked bags included",
+          "bags_included": "2 checked bags included",
+          "price_with_2bags_usd": 1117.15,
+          "note": "New best. Also $1,165 listed (20h 45m / 21h 15m)."
+        },
+        {
+          "depart": "2027-02-03",
+          "return": "2027-07-26",
+          "stay_days": 173,
+          "price_usd": 1132.15,
+          "source": "Live search (filtered)",
+          "airline": "Qatar Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTAzOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTI2OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "price_type": "itinerary",
+          "hours": "20h 45m / 21h",
+          "fare_family": "Economy Classic",
+          "bags": "2 checked bags included",
+          "bags_included": "2 checked bags included",
+          "price_with_2bags_usd": 1132.15,
+          "note": "listed fare $1,128 (20h 45m / 21h 15m) also found."
+        },
+        {
+          "depart": "2027-02-10",
+          "return": "2027-08-02",
+          "stay_days": 173,
+          "price_usd": 1138,
+          "source": "Live search (filtered)",
+          "airline": "Qatar Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEwOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTAyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "price_type": "itinerary",
+          "hours": "20h 45m / 21h 15m",
+          "listed_fare": true,
+          "bags": "listed fare",
+          "bags_included": "bags unverified (listed fare)"
+        },
+        {
+          "depart": "2027-02-14",
+          "return": "2027-08-05",
+          "stay_days": 172,
+          "price_usd": 1142.15,
+          "source": "Live search (filtered)",
+          "airline": "Qatar Airways",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE0OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTA1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "price_type": "itinerary",
+          "hours": "20h 45m / 27h 10m",
+          "fare_family": "Economy Classic",
+          "bags": "2 checked bags included",
+          "bags_included": "2 checked bags included",
+          "price_with_2bags_usd": 1142.15
         }
       ]
     },
     "black_friday": "Qatar Black Friday early access PCBF26 closed 20 Nov 2026 (up to 25% off, Privilege Club): max stay was 3 months, so 170–179-day round trip did not qualify.",
     "featured": [
       {
-        "trip": "RT",
-        "depart": "2027-02-08",
-        "return": "2027-08-01",
-        "stay_days": 174,
-        "price_usd": 1182.15,
-        "airline": "Qatar Airways",
-        "single_airline": true,
+        "depart": "2027-01-27",
+        "stay_days": 173,
+        "price_usd": 1117.15,
         "fare_family": "Economy Classic",
-        "hours": "20h 45m / 21h via DOH",
-        "stops": "1 stop (DOH, 4h out / 2h 30m back)",
+        "hours": "25h 40m / 21h",
         "bags": "2 checked bags included",
         "bags_included": "2 checked bags included",
-        "price_with_2bags_usd": 1182.15,
-        "price_with_2bags_label": "$1,182.15",
-        "note": "Better return timing",
-        "source_name": "Live search 21 Nov 2026",
-        "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTA4OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTAxOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
-        "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTA4OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTAxOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
-        "price_type": "itinerary"
+        "price_with_2bags_usd": 1117.15,
+        "price_with_2bags_label": "$1,117.15",
+        "note": "New best",
+        "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI3OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE5OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+        "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI3OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE5OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+        "return": "2027-07-19",
+        "trip": "RT",
+        "airline": "Qatar Airways",
+        "single_airline": true,
+        "price_type": "itinerary",
+        "source_name": "Live search 21 Nov 2026"
       },
       {
-        "trip": "RT",
-        "depart": "2027-02-12",
-        "return": "2027-08-05",
-        "stay_days": 174,
-        "price_usd": 1182.15,
-        "airline": "Qatar Airways",
-        "single_airline": true,
+        "depart": "2027-02-03",
+        "stay_days": 173,
+        "price_usd": 1132.15,
         "fare_family": "Economy Classic",
-        "hours": "21h / 27h 10m via DOH",
-        "stops": "1 stop (DOH, 4h 05m outbound)",
+        "hours": "20h 45m / 21h",
         "bags": "2 checked bags included",
         "bags_included": "2 checked bags included",
-        "price_with_2bags_usd": 1182.15,
-        "price_with_2bags_label": "$1,182.15",
-        "source_name": "Live search 20 Nov 2026",
-        "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEyOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTA1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
-        "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEyOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTA1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
-        "price_type": "itinerary"
+        "price_with_2bags_usd": 1132.15,
+        "price_with_2bags_label": "$1,132.15",
+        "note": "listed fare $1,128 also found",
+        "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTAzOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTI2OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+        "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTAzOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTI2OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+        "return": "2027-07-26",
+        "trip": "RT",
+        "airline": "Qatar Airways",
+        "single_airline": true,
+        "price_type": "itinerary",
+        "source_name": "Live search 21 Nov 2026"
+      },
+      {
+        "depart": "2027-02-14",
+        "stay_days": 172,
+        "price_usd": 1142.15,
+        "fare_family": "Economy Classic",
+        "hours": "20h 45m / 27h 10m",
+        "bags": "2 checked bags included",
+        "bags_included": "2 checked bags included",
+        "price_with_2bags_usd": 1142.15,
+        "price_with_2bags_label": "$1,142.15",
+        "source_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE0OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTA1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+        "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE0OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTA1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+        "return": "2027-08-05",
+        "trip": "RT",
+        "airline": "Qatar Airways",
+        "single_airline": true,
+        "price_type": "itinerary",
+        "source_name": "Live search 21 Nov 2026"
       }
-    ]
+    ],
+    "book_now": {
+      "trip": "OW",
+      "depart": "2027-02-15",
+      "price_usd": 460,
+      "airline": "Qatar Airways",
+      "fare_family": "Economy Classic",
+      "hours": "20h 45m via DOH",
+      "stops": "1 stop (DOH)",
+      "bags": "2×23 kg included",
+      "bags_included": "2×23 kg included",
+      "price_with_2bags_usd": 460,
+      "price_with_2bags_label": "$460",
+      "note": "Verified on qatarairways.com. A 21h itinerary arriving 02:50 is also $460.",
+      "source_name": "qatarairways.com",
+      "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-15&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
+      "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+      "price_type": "itinerary",
+      "single_airline": true
+    }
   },
   "alerts": {
-    "black_friday": "Lufthansa Black Friday: book 17 Nov–2 Dec 2026, code BF26, €40 off per person to Asia. Travel 11 Jan–30 Apr 2027 — may help one-ways from 11 Jan. 170–179-day returns in Jun–Aug 2027 are outside that window."
+    "black_friday": "Lufthansa Black Friday: book 17 Nov–2 Dec 2026, code BF26, €40 off per person to Asia. Travel 11 Jan–30 Apr 2027 — may help one-ways from 11 Jan. 170–179-day returns in Jun–Aug 2027 are outside that window.",
+    "wait": "Wait for Black Friday sales 27–30 Nov for round trips. Book the verified Qatar 15 Feb one-way Classic $460 (2 bags) now."
   }
 }

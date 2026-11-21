@@ -739,6 +739,7 @@
             </article>
           </div>
           ${(data.alerts && data.alerts.black_friday) ? `<p class="reco-note">${esc(data.alerts.black_friday)}</p>` : ""}
+          ${(data.alerts && data.alerts.wait) ? `<p class="reco-note">${esc(data.alerts.wait)}</p>` : ""}
         </section>
 
         <section aria-labelledby="cal-title">
@@ -751,7 +752,7 @@
           </div>
           <div class="chart-card grid-card">
             <h3>Round trip · stay 170–179 days (visa limit 180)</h3>
-            <p class="caption">Every departure 15 Dec 2026 – 15 Feb 2027. Only 174-day stays have filtered prices so far; other stay lengths are blank. Return date is on the cell. Cells open a filtered Google Flights search.</p>
+            <p class="caption">Every departure 15 Dec 2026 – 15 Feb 2027. Priced cells are from a filtered search; blank stay lengths have no filtered fare yet. Return date is on the cell. Cells open a filtered Google Flights search.</p>
             <div id="rtLegend" class="legend"></div>
             <div id="rtGrid"></div>
           </div>
@@ -785,6 +786,7 @@
           <h2 id="qatar-title">${esc((data.qatar && data.qatar.title) || "Qatar Airways")}</h2>
           ${(data.qatar && data.qatar.recommendation) ? `<p class="qatar-rec">${esc(data.qatar.recommendation)}</p>` : ""}
           ${(data.qatar && data.qatar.black_friday) ? `<p class="caption">${esc(data.qatar.black_friday)}</p>` : ""}
+          ${qatarBookNowHTML(data, rate)}
           <p class="caption">${esc((data.qatar && ( (data.qatar.asof ? data.qatar.asof + ". " : "") + (data.qatar.note || "") )) || "")}</p>
           ${qatarFeaturedHTML(data, rate)}
           <h3>One-way calendar</h3>
@@ -805,6 +807,22 @@
     }
 
 
+
+
+    function qatarBookNowHTML(data, rate) {
+      const b = (data.qatar || {}).book_now;
+      if (!b || b.price_usd == null) return "";
+      const dates = b.return ? `${fmtDate(b.depart)} – ${fmtDate(b.return)}` : fmtDate(b.depart);
+      const href = b.source_url || b.google_url || "";
+      const twoBag = b.price_with_2bags_label || (b.price_with_2bags_usd != null ? usd(b.price_with_2bags_usd) : usd(b.price_usd));
+      const hours = b.hours || b.duration || "";
+      const bags = b.bags_included || b.bags || "";
+      const extra = [hours, bags, b.note].filter(Boolean).join(" · ");
+      return `<div class="qatar-featured book-now">
+        <h3>Book now</h3>
+        <p class="qatar-rec">${esc(twoBag)} Classic · ${esc(dates)}${extra ? " · " + esc(extra) : ""}${href ? ` <a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(b.source_name || "Open booking")}</a>` : ""}</p>
+      </div>`;
+    }
 
     function qatarFeaturedHTML(data, rate) {
       const raw = (data.qatar || {}).featured;
@@ -856,7 +874,9 @@
             const href = googleFlightsUrl({ oneway: true, depart: iso });
             items.push({ type: "empty", day, iso, href });
           } else {
-            items.push({ type: "has", day, iso, price: info.price_usd, href: info.google_url || googleFlightsUrl({ oneway: true, depart: iso }) });
+            const twoBag = info.price_with_2bags_usd;
+            const book = twoBag != null && twoBag <= threshold;
+            items.push({ type: "has", day, iso, price: info.price_usd, href: info.google_url || googleFlightsUrl({ oneway: true, depart: iso }), hours: info.hours || "", bags: info.bags_included || info.bags || "", bagsPending: !!(info.bags_pending || info.bags_unverified), listed: !!info.listed_fare, book });
           }
         }
         const body = items.map(c => {
@@ -864,10 +884,13 @@
           if (c.type === "out") return `<div class="cal-cell out"><div class="cal-day">${c.day}</div></div>`;
           if (c.type === "empty") return `<a class="cal-cell empty" href="${esc(c.href)}" target="_blank" rel="noopener noreferrer" title="Open Google Flights ${c.iso}"><div class="cal-day">${c.day}</div></a>`;
           const col = fareColor(c.price, threshold);
-          return `<a class="cal-cell has" style="background:${col.bg};color:${col.ink}" href="${esc(c.href)}" target="_blank" rel="noopener noreferrer" title="Qatar-filter ${c.iso} ${usd(c.price)} — may include partner legs">
-            <div class="cal-day">${c.day}</div>
+          const qBits = [c.listed ? "listed fare" : "", c.bagsPending ? "bags being verified" : (c.bags || ""), c.hours, c.book ? "book now" : ""].filter(Boolean);
+          const qTip = ["Qatar", c.iso, usd(c.price)].concat(qBits).join(" · ");
+          return `<a class="cal-cell has ${c.book ? "book" : ""}" style="background:${col.bg};color:${col.ink}" href="${esc(c.href)}" target="_blank" rel="noopener noreferrer" title="${esc(qTip)}">
+            <div class="cal-day"><span>${c.day}</span>${c.book ? `<span class="cal-flag">≤</span>` : ""}</div>
             <div class="cal-main">${usd(c.price)}</div>
             ${rate ? `<div class="cal-inr">${inr(c.price, rate)}</div>` : ""}
+            ${c.bagsPending ? `<div class="cal-src">bags?</div>` : (c.hours ? `<div class="cal-src">${esc(c.hours)}</div>` : "")}
           </a>`;
         }).join("");
         return `<div class="cal-month"><h4>${esc(label)}</h4><div class="cal-weekdays">${weekdays}</div><div class="cal-weeks">${body}</div></div>`;
