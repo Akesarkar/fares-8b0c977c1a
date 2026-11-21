@@ -810,18 +810,19 @@
 
 
     function qatarBookNowHTML(data, rate) {
-      const b = (data.qatar || {}).book_now;
-      if (!b || b.price_usd == null) return "";
-      const dates = b.return ? `${fmtDate(b.depart)} – ${fmtDate(b.return)}` : fmtDate(b.depart);
-      const href = b.source_url || b.google_url || "";
-      const twoBag = b.price_with_2bags_label || (b.price_with_2bags_usd != null ? usd(b.price_with_2bags_usd) : usd(b.price_usd));
-      const hours = b.hours || b.duration || "";
-      const bags = b.bags_included || b.bags || "";
-      const extra = [hours, bags, b.note].filter(Boolean).join(" · ");
-      return `<div class="qatar-featured book-now">
-        <h3>Book now</h3>
-        <p class="qatar-rec">${esc(twoBag)} Classic · ${esc(dates)}${extra ? " · " + esc(extra) : ""}${href ? ` <a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(b.source_name || "Open booking")}</a>` : ""}</p>
-      </div>`;
+      const raw = (data.qatar || {}).book_now;
+      const items = Array.isArray(raw) ? raw : (raw && raw.price_usd != null ? [raw] : []);
+      if (!items.length) return "";
+      const rows = items.map(b => {
+        const dates = b.return ? `${fmtDate(b.depart)} – ${fmtDate(b.return)}` : fmtDate(b.depart);
+        const href = b.source_url || b.google_url || "";
+        const twoBag = b.price_with_2bags_label || (b.price_with_2bags_usd != null ? usd(b.price_with_2bags_usd) : usd(b.price_usd));
+        const hours = b.hours || b.duration || "";
+        const bags = b.bags_included || b.bags || "";
+        const extra = [hours, bags, b.note].filter(Boolean).join(" · ");
+        return `<p class="qatar-rec">${esc(twoBag)} Classic · ${esc(dates)}${extra ? " · " + esc(extra) : ""}${href ? ` <a class="src" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(b.source_name || "Open booking")}</a>` : ""}</p>`;
+      }).join("");
+      return `<div class="qatar-featured book-now"><h3>Book now</h3>${rows}</div>`;
     }
 
     function qatarFeaturedHTML(data, rate) {
