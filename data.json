@@ -1,5 +1,5 @@
 {
-  "updated_ist": "22 Nov 2026, 6:57 AM IST",
+  "updated_ist": "22 Nov 2026, 1:01 PM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
@@ -199,7 +199,7 @@
       "bag_fee_one_way_usd": null,
       "price_with_2bags_usd": null,
       "price_with_2bags_label": "$513.90 + 2nd bag",
-      "note": "Same fare also on 20 and 31 Jan, 3 Feb and 7 Feb (22h 53m). 8 Feb and 12 Jan are also $513.90 but 44h 23m. Lufthansa Group, one ticket.",
+      "note": "Same fare also on 20 and 31 Jan, 3 Feb and 7 Feb (22h 53m). 8 Feb, 12 Jan, 19 Jan and 9 Feb are also $513.90 but 44h 23m. Lufthansa Group, one ticket.",
       "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270127/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price"
     },
     {
@@ -280,7 +280,7 @@
         },
         {
           "date": "2026-12-22",
-          "price": 1594
+          "price": 1622.5
         },
         {
           "date": "2026-12-23",
@@ -348,7 +348,7 @@
         },
         {
           "date": "2027-01-08",
-          "price": 600
+          "price": 564.47
         },
         {
           "date": "2027-01-09",
@@ -392,7 +392,7 @@
         },
         {
           "date": "2027-01-19",
-          "price": 523
+          "price": 513.9
         },
         {
           "date": "2027-01-20",
@@ -476,7 +476,7 @@
         },
         {
           "date": "2027-02-09",
-          "price": 523
+          "price": 513.9
         },
         {
           "date": "2027-02-10",
@@ -3430,6 +3430,142 @@
       "depart": "2027-02-03",
       "return": "2027-07-27",
       "note": "SWISS+Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1622.5,
+      "depart": "2026-12-22",
+      "note": "KLM — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 1707.2,
+      "depart": "2026-12-22",
+      "note": "British Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 564.47,
+      "depart": "2027-01-08",
+      "note": "Delta — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 599.1,
+      "depart": "2027-01-08",
+      "note": "Delta — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 513.9,
+      "depart": "2027-01-19",
+      "note": "SWISS — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 522.9,
+      "depart": "2027-01-19",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 513.9,
+      "depart": "2027-02-09",
+      "note": "SWISS — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 522.9,
+      "depart": "2027-02-09",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1390.75,
+      "depart": "2026-12-27",
+      "return": "2027-06-18",
+      "note": "Etihad Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1240.14,
+      "depart": "2027-01-09",
+      "return": "2027-07-02",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1246,
+      "depart": "2027-01-09",
+      "return": "2027-07-02",
+      "note": "Etihad Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1204.35,
+      "depart": "2027-01-29",
+      "return": "2027-07-22",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1142.15,
+      "depart": "2027-02-14",
+      "return": "2027-08-05",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1189.12,
+      "depart": "2027-02-14",
+      "return": "2027-08-05",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1526.15,
+      "depart": "2026-12-28",
+      "return": "2027-06-20",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-22",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1138,
+      "depart": "2027-02-10",
+      "return": "2027-08-02",
+      "note": "Qatar Airways — Live search (filtered)"
     }
   ],
   "calendar_grid": {
@@ -3438,7 +3574,7 @@
       "threshold_usd": 500,
       "window_start": "2026-12-15",
       "window_end": "2027-02-15",
-      "google_asof": "22 Nov 2026, about 7:00 AM IST",
+      "google_asof": "22 Nov 2026, about 1:00 PM IST",
       "cells": [
         {
           "date": "2026-12-15",
@@ -3498,15 +3634,15 @@
         },
         {
           "date": "2026-12-22",
-          "google_usd": 1594,
+          "google_usd": 1622.5,
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTIyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
-          "hours": "19h 45m",
-          "airline": "Delta",
-          "stops": "1 stop (CDG)",
-          "bags": "Bags unknown. KLM Standard $1,622.50 (22h 10m) also found.",
-          "bags_included": "bags unknown",
+          "hours": "22h 10m",
+          "airline": "KLM",
+          "stops": "2 stops",
+          "bags": "Official Standard allowance is 1×23 kg on this route (Air France/KLM). A second-bag fee is not in a published static table. British Airways Standard $1,707.20 (27h 12m via MIA/LHR; listing showed 2 bags, confirm on the ticket) also found.",
+          "bags_included": "1 checked bag",
           "source": "Live search (filtered)",
-          "fare_family": "Main Basic"
+          "fare_family": "Standard"
         },
         {
           "date": "2026-12-23",
@@ -3603,8 +3739,15 @@
         },
         {
           "date": "2027-01-08",
-          "google_usd": 600,
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTA4OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "google_usd": 564.47,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTA4OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "source": "Live search (filtered)",
+          "hours": "39h 19m",
+          "airline": "Delta",
+          "stops": "2 stops (AUS)",
+          "bags": "Main Basic, 1 checked bag. Long routing via AUS. A 1-stop LHR itinerary is $599.10 (28h 50m, 1 bag).",
+          "bags_included": "1 checked bag",
+          "fare_family": "Main Basic"
         },
         {
           "date": "2027-01-09",
@@ -3677,8 +3820,15 @@
         },
         {
           "date": "2027-01-19",
-          "google_usd": 523,
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTE5OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "google_usd": 513.9,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTE5OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "source": "Live search (filtered)",
+          "hours": "44h 23m",
+          "airline": "SWISS",
+          "stops": "2 stops (ORD/ZRH)",
+          "bags": "Economy Comfort, 1 checked bag. Longer routing via ORD/ZRH, similar to 8 Feb and 12 Jan at this fare. Lufthansa Comfort $522.90 (22h 51m via MUC, 1 bag) also found.",
+          "bags_included": "1 checked bag",
+          "fare_family": "Economy Comfort"
         },
         {
           "date": "2027-01-20",
@@ -3823,8 +3973,15 @@
         },
         {
           "date": "2027-02-09",
-          "google_usd": 523,
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTA5OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "google_usd": 513.9,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTA5OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "source": "Live search (filtered)",
+          "hours": "44h 23m",
+          "airline": "SWISS",
+          "stops": "2 stops",
+          "bags": "Economy Comfort, 1 checked bag. Longer routing (44h 23m), similar to 8 Feb and 12 Jan at this fare. Lufthansa Comfort $522.90 (22h 51m via MUC, 1 bag) also found.",
+          "bags_included": "1 checked bag",
+          "fare_family": "Economy Comfort"
         },
         {
           "date": "2027-02-10",
@@ -4088,6 +4245,21 @@
         },
         {
           "depart": "2026-12-27",
+          "return": "2027-06-18",
+          "stay_days": 173,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "price_usd": 1390.75,
+          "airline": "Etihad Airways",
+          "hours": "18h 40m / 20h 50m",
+          "fare_family": "Economy Basic",
+          "bags": "Economy Basic includes no checked bag (US piece concept). Extra-bag USD is not in a published static table.",
+          "bags_included": "none",
+          "stops": "1 stop (AUH)",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTI3OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTE4OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
+        },
+        {
+          "depart": "2026-12-27",
           "return": "2027-06-19",
           "stay_days": 174,
           "price_usd": 1430,
@@ -4243,10 +4415,16 @@
           "depart": "2027-01-09",
           "return": "2027-07-02",
           "stay_days": 174,
-          "price_usd": 1140,
-          "source": "Google Flights (filtered)",
-          "price_type": "calendar_estimate",
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTA5OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTAyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "price_usd": 1240.14,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTA5OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTAyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "airline": "Lufthansa",
+          "hours": "28h 15m / 21h 30m",
+          "fare_family": "Economy Comfort",
+          "bags": "Economy Comfort, 1 checked bag. A second-bag US–India fee is not in a published static table. Etihad $1,246 (18h 40m / 20h 50m via AUH, bags unverified) also found.",
+          "bags_included": "1 checked bag",
+          "stops": "2 stops"
         },
         {
           "depart": "2027-01-10",
@@ -4589,10 +4767,16 @@
           "depart": "2027-01-29",
           "return": "2027-07-22",
           "stay_days": 174,
-          "price_usd": 1120,
-          "source": "Google Flights (filtered)",
-          "price_type": "calendar_estimate",
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI5OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTIyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "price_usd": 1204.35,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI5OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTIyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "airline": "Lufthansa",
+          "hours": "22h 51m / 24h 40m",
+          "fare_family": "Economy Comfort",
+          "bags": "Economy Comfort, 1 checked bag. A second-bag US–India fee is not in a published static table.",
+          "bags_included": "1 checked bag",
+          "stops": "2 stops"
         },
         {
           "depart": "2027-01-30",
@@ -4776,8 +4960,9 @@
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEwOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTAyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
           "hours": "20h 45m / 21h 15m",
           "listed_fare": true,
-          "bags": "listed fare",
-          "bags_included": "bags unverified (listed fare)"
+          "bags": "listed fare; fare family and bags unverified on this scan",
+          "bags_included": "bags unverified (listed fare)",
+          "stops": "1 stop (DOH)"
         },
         {
           "depart": "2027-02-10",
@@ -4849,10 +5034,10 @@
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTE0OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTA1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
           "hours": "20h 45m / 27h 10m",
           "fare_family": "Economy Classic",
-          "bags": "2 checked bags included",
+          "bags": "Economy Classic, 2 checked bags included. Lufthansa Comfort $1,189.12 (22h 42m / 21h 30m, 1 bag) also found.",
           "bags_included": "2 checked bags",
           "price_with_2bags_usd": 1142.15,
-          "note": "Lufthansa $1,186.71 also found."
+          "stops": "1 stop (DOH)"
         },
         {
           "depart": "2027-02-14",
@@ -4888,14 +5073,14 @@
           "note": "Delta Main Basic $1,117.15 (1 bag) also found."
         }
       ],
-      "google_asof": "22 Nov 2026, about 7:00 AM IST",
+      "google_asof": "22 Nov 2026, about 1:00 PM IST",
       "source": "Google Flights (filtered)"
     }
   },
   "qatar": {
     "status": "scanned",
     "title": "Qatar Airways",
-    "asof": "22 Nov 2026, about 7:00 AM IST",
+    "asof": "22 Nov 2026, about 1:00 PM IST",
     "recommendation": "BOOK NOW, before 29 Nov: Economy Classic one-way $460–$461 with 2×23 kg — 15 Feb $460 (verified, 20h 45m via DOH; 21h arriving 02:50 also $460), 24 Jan $461 (2 bags confirmed, 20h 45m; also 21h and 25h 40m), 31 Jan $461 (same Classic sale fare, 20h 45m), and 3 Feb $461 (21h via DOH, 2 bags). Also 12 Feb $501 Classic, 2 bags, 21h. Best Qatar RT remains Classic $1,117.15 (27 Jan–19 Jul, 2 bags); sale max stay is 3 months, so that RT is not eligible.",
     "note": "One-way calendar is Google Flights with a Qatar filter; the cheapest fare on a date may include partner legs. Classic includes 2×23 kg on flights to or from the Americas.",
     "return_note": "All-Qatar return not confirmed for these dates; Qatar's own return from BOM 4:10 AM → ATL 3:55 PM, 21h 15m, exists on some dates.",
