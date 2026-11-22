@@ -1,5 +1,5 @@
 {
-  "updated_ist": "22 Nov 2026, 10:56 PM IST",
+  "updated_ist": "22 Nov 2026, 10:57 PM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
@@ -9,7 +9,7 @@
       "threshold_applies_to": "price_with_2bags"
     },
     "roundtrip": {
-      "action": "Wait for Black Friday sales 27–30 Nov. Current 174-day low is $878 (SAS Go Light, 8 Feb–1 Aug); 2 bags add $376, so $1,254. Etihad $1,179 (22 Jan–15 Jul, 18h 40m) if Value/Comfort still includes 2 bags. Best confirmed Qatar RT is Classic $1,117.15 (27 Jan–19 Jul, 2 bags).",
+      "action": "Wait for Black Friday sales 27–30 Nov. Current 174-day low is $878 (SAS Go Light, 8 Feb–1 Aug); 2 bags add $376, so $1,254. Etihad $1,179 (22 Jan–15 Jul, 18h 40m) if Value/Comfort still includes 2 bags. Best confirmed Qatar RT is Classic $1,117.15 (27 Jan–19 Jul, 2 bags). SAS $965 (1 Feb–25 Jul) has unknown fare brand and bags — not assumed to be Go Light; confirm before a 2-bag comparison.",
       "threshold_usd": 900,
       "threshold_applies_to": "price_with_2bags"
     }
