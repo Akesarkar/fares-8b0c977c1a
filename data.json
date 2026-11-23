@@ -5064,17 +5064,6 @@
         },
         {
           "depart": "2027-01-24",
-          "return": "2027-07-14",
-          "stay_days": 171,
-          "price_usd": 1002,
-          "source": "Live search (filtered)",
-          "price_type": "itinerary",
-          "airline": "Qatar+IndiGo",
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI0OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE0OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
-          "note": "Mixed-airline cheapest on this date pair; Virgin Atlantic Light $1,039.55 also found. Not a best option."
-        },
-        {
-          "depart": "2027-01-24",
           "return": "2027-07-17",
           "stay_days": 174,
           "price_usd": 1150,
