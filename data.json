@@ -1,15 +1,15 @@
 {
-  "updated_ist": "25 Nov 2026, 12:56 PM IST",
+  "updated_ist": "25 Nov 2026, 6:56 PM IST",
   "usd_inr": 93.87,
   "usd_inr_source": "Xe, 17 Nov 2026",
   "recommendation": {
     "oneway": {
-      "action": "Book Qatar Economy Classic before 29 Nov: $461 with 2×23 kg on 15 Feb, 14 Feb, 24 Jan, 25 Jan, 31 Jan, 1 Feb, 3 Feb or 8 Feb (8 Feb reconfirmed this scan, 20h 45m via DOH, 2 bags); then $501 1-stop on 22 Jan and 5 Feb (21h via DOH, 2 bags). 5 Feb dropped from $574; the 20h 45m option is still $574, and the 2-stop via SEA at $566.50 is not Book now. The $501 dates meet the Qatar $600 1-stop line, not the $500 one-way line. Etihad Basic $456.80 on 8 Feb (18h 40m via AUH) has unknown bags, so it is not a deal on a 2-bag basis.",
+      "action": "Book a Qatar Economy Classic one-way at $461 with 2×23 kg before the US Black Friday sale ends 29 Nov, 11:59 PM ET (15 Feb, 14 Feb, 24 Jan, 25 Jan, 31 Jan, 1 Feb, 3 Feb or 8 Feb, 20h 45m via DOH). $501 dates are backups: 22 Jan and 5 Feb (21h, reconfirmed this scan) and 12 Feb (25h 40m, dropped from $643). On 12 Feb the faster 20h 45m option is still $643 and is not Book now. On 5 Feb the 20h 45m option is still $574, and the 2-stop via SEA at $566.50 is not Book now. The $501 dates meet the Qatar $600 1-stop line, not the $500 one-way line. Etihad Basic $456.80 on 12 Feb (18h 40m via AUH) has unknown bags, so it is not a deal on a 2-bag basis.",
       "threshold_usd": 500,
       "threshold_applies_to": "price_with_2bags"
     },
     "roundtrip": {
-      "action": "Wait for Black Friday sales 27–30 Nov. Current 174-day low is $878 (SAS Go Light, 8 Feb–1 Aug); 2 bags add $376, so $1,254. Best reconfirmed Qatar Classic RT remains $1,136.25 (24 Jan–15 Jul, 20h 45m / 27h 10m, 2 bags), still above $950. Qatar 28 Dec–20 Jun is $1,669 (bags not given); 11 Jan–2 Jul is $1,454 (bags not given); 20 Jan–10 Jul Classic 2-stop outbound is $1,219.65 (2 bags, not Book now) and the 1-stop is $1,629. 6 Feb–30 Jul had no Qatar flights this scan. No Qatar RT is under $950. Fuel is still falling and does not change this wait call.",
+      "action": "Wait for Black Friday sales 27–30 Nov. Current 174-day low is $878 (SAS Go Light, 8 Feb–1 Aug); 2 bags add $376, so $1,254. This scan’s cheapest RT is SAS $908 (14 Jan–5 Jul, 172 days, 22h 10m / 20h 25m, bags not given) — under the earlier SAS $975.65, but still above $900 and not a 2-bag deal or book-now. Best reconfirmed Qatar Classic RT remains $1,136.25 (24 Jan–15 Jul, 20h 45m / 27h 10m, 2 bags), still above $950. 10 Feb–2 Aug Qatar Classic is $1,161.15 (20h 45m / 21h; bags not given this result; Classic usually 2 checked), still above $950. No RT is under $900 or Qatar $950. Fuel is still falling and does not change this wait call.",
       "threshold_usd": 900,
       "threshold_applies_to": "price_with_2bags"
     }
@@ -229,7 +229,7 @@
       "bags_included": "2 checked bags",
       "price_with_2bags_usd": 501,
       "price_with_2bags_label": "$501 Classic (2 bags)",
-      "note": "Book now at $501 (Qatar ≤$600 1-stop line, not the $500 one-way line). Book before 29 Nov.",
+      "note": "Reconfirmed $501 this scan, 21h via DOH, 2 bags. Book before 29 Nov.",
       "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTIyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
       "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270122/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price"
     },
@@ -252,9 +252,32 @@
       "bags_included": "2 checked bags",
       "price_with_2bags_usd": 501,
       "price_with_2bags_label": "$501 Classic (2 bags)",
-      "note": "Dropped from $574 to $501. Book before 29 Nov. 20h 45m option still $574; 2-stop SEA $566.50 is not Book now.",
+      "note": "Reconfirmed $501 this scan. 20h 45m option still $574; 2-stop SEA $566.50 is not Book now.",
       "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTA1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
       "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270205/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price"
+    },
+    {
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "depart": "2027-02-12",
+      "return": null,
+      "price_usd": 501,
+      "airline": "Qatar Airways",
+      "stops": "1 stop (DOH)",
+      "duration": "25h 40m",
+      "hours": "25h 40m",
+      "bags": "Economy Classic includes 2 checked bags.",
+      "source_name": "Live search 25 Nov 2026",
+      "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-12&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
+      "price_type": "itinerary",
+      "single_airline": true,
+      "fare_family": "Economy Classic",
+      "bags_included": "2 checked bags",
+      "price_with_2bags_usd": 501,
+      "price_with_2bags_label": "$501 Classic (2 bags)",
+      "note": "Dropped from $643 to $501, 25h 40m via DOH. Book before 29 Nov. The 20h 45m option is still $643 and is not Book now.",
+      "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+      "skyscanner_url": "https://www.skyscanner.com/transport/flights/atl/bom/270212/?adultsv2=1&cabinclass=economy&rtn=0&currency=USD&sortby=price"
     },
     {
       "route": "ATL-BOM",
@@ -512,7 +535,7 @@
         },
         {
           "date": "2027-01-12",
-          "price": 513.9
+          "price": 514
         },
         {
           "date": "2027-01-13",
@@ -576,7 +599,7 @@
         },
         {
           "date": "2027-01-28",
-          "price": 523
+          "price": 522.8
         },
         {
           "date": "2027-01-29",
@@ -636,7 +659,7 @@
         },
         {
           "date": "2027-02-12",
-          "price": 643
+          "price": 501
         },
         {
           "date": "2027-02-13",
@@ -4898,6 +4921,123 @@
       "depart": "2027-01-20",
       "return": "2027-07-10",
       "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 501,
+      "depart": "2027-02-12",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 643,
+      "depart": "2027-02-12",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 514,
+      "depart": "2027-01-12",
+      "note": "SWISS — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 522.8,
+      "depart": "2027-01-12",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 522.8,
+      "depart": "2027-01-28",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 536.6,
+      "depart": "2027-01-28",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 456.8,
+      "depart": "2027-02-12",
+      "note": "Etihad Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 576.8,
+      "depart": "2026-12-30",
+      "note": "Etihad Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "OW",
+      "price": 651.6,
+      "depart": "2026-12-30",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 908,
+      "depart": "2027-01-14",
+      "return": "2027-07-05",
+      "note": "SAS — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1117.05,
+      "depart": "2027-01-26",
+      "return": "2027-07-18",
+      "note": "Delta Air Lines — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1105.05,
+      "depart": "2027-02-10",
+      "return": "2027-08-02",
+      "note": "Lufthansa — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1161.15,
+      "depart": "2027-02-10",
+      "return": "2027-08-02",
+      "note": "Qatar Airways — Live search (filtered)"
+    },
+    {
+      "ts": "2026-11-25",
+      "route": "ATL-BOM",
+      "trip": "RT",
+      "price": 1351.25,
+      "depart": "2026-12-31",
+      "return": "2027-06-24",
+      "note": "Etihad Airways — Live search (filtered)"
     }
   ],
   "calendar_grid": {
@@ -4906,7 +5046,7 @@
       "threshold_usd": 500,
       "window_start": "2026-12-15",
       "window_end": "2027-02-15",
-      "google_asof": "25 Nov 2026, about 1:00 PM IST",
+      "google_asof": "25 Nov 2026, about 7:00 PM IST",
       "cells": [
         {
           "date": "2026-12-15",
@@ -5046,7 +5186,7 @@
           "hours": "18h 40m",
           "airline": "Etihad Airways",
           "stops": "1 stop (AUH)",
-          "bags": "Economy Basic, bags unknown this scan. Previous Lufthansa Comfort $530.80 was not reconfirmed; this scan’s Comfort is $651.80 (2 stops, 28h 15m, 1 bag). Turkish Airlines $791 (1 stop IST, 21h) also found.",
+          "bags": "Economy Basic, bags unknown this scan — not a deal on a 2-bag basis. Lufthansa Comfort $651.60 (2 stops, 28h 15m, 1 bag) and Turkish Airlines $791 (1 stop IST, 21h) also found.",
           "bags_included": "bags unknown",
           "fare_family": "Economy Basic"
         },
@@ -5139,14 +5279,14 @@
         },
         {
           "date": "2027-01-12",
-          "google_usd": 513.9,
+          "google_usd": 514,
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTEyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
           "source": "Live search (filtered)",
           "hours": "44h 23m",
           "airline": "SWISS",
-          "bags": "Economy Comfort, 1 checked bag. Longer routing via ORD/ZRH, similar to 8 Feb at this fare.",
+          "bags": "Economy Comfort, 1 checked bag, long 44h 23m routing — not a 2-bag deal. Lufthansa Comfort $522.80 (2 stops, 22h 51m, 1 bag) also found. No Qatar availability this scan.",
           "bags_included": "1 checked bag",
-          "stops": "2 stops (ORD/ZRH)",
+          "stops": "2 stops",
           "fare_family": "Economy Comfort"
         },
         {
@@ -5236,7 +5376,7 @@
           "hours": "21h",
           "airline": "Qatar Airways",
           "stops": "1 stop (DOH)",
-          "bags": "Economy Classic, 2 checked bags, 1 stop via DOH, 21h. Meets the Qatar $600 1-stop line, not the $500 one-way line. A 20h 45m option is $643.",
+          "bags": "Economy Classic, 2 checked bags, 1 stop via DOH, 21h. Reconfirmed $501 this scan. A 20h 45m option is $643.",
           "bags_included": "2 checked bags",
           "source": "Live search (filtered)",
           "fare_family": "Economy Classic",
@@ -5291,8 +5431,15 @@
         },
         {
           "date": "2027-01-28",
-          "google_usd": 523,
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI4OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+          "google_usd": 522.8,
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI4OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
+          "hours": "22h 51m",
+          "airline": "Lufthansa",
+          "stops": "2 stops",
+          "bags": "Economy Comfort, 1 checked bag. A 1-stop Comfort $536.60 (FRA, 22h 05m, 1 bag) and KLM Light $548.90 (1 stop CDG, 19h 45m, bags not given) also found. Not a 2-bag book-now.",
+          "bags_included": "1 checked bag",
+          "source": "Live search (filtered)",
+          "fare_family": "Economy Comfort"
         },
         {
           "date": "2027-01-29",
@@ -5367,7 +5514,7 @@
           "source": "Live search (filtered)",
           "hours": "21h",
           "airline": "Qatar Airways",
-          "bags": "Economy Classic, 2 checked bags. 1-stop 21h dropped from $574 to $501. The 20h 45m 1-stop is still $574. A 2-stop via SEA at $566.50 is worse routing and is not Book now.",
+          "bags": "Economy Classic, 2 checked bags. Reconfirmed $501 this scan, 21h via DOH. The 20h 45m 1-stop is still $574. A 2-stop via SEA at $566.50 is worse routing and is not Book now.",
           "bags_included": "2 checked bags",
           "stops": "1 stop (DOH)",
           "fare_family": "Economy Classic",
@@ -5427,15 +5574,16 @@
         },
         {
           "date": "2027-02-12",
-          "google_usd": 643,
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
-          "hours": "20h 45m",
+          "google_usd": 501,
+          "hours": "25h 40m",
           "airline": "Qatar Airways",
           "stops": "1 stop (DOH)",
-          "bags": "1-stop rose from $574 to $643, 20h 45m via DOH. Bags not given this scan. A 2-stop via SEA at $566.50 / 33h 05m is worse routing and is not Book now. Above the $600 Qatar 1-stop line, so not Book now.",
-          "bags_included": "bags not given this scan",
+          "bags": "Economy Classic, 2 checked bags. 1-stop 25h 40m dropped from $643 to $501. The faster 20h 45m option is still $643 and is not Book now. Etihad Basic $456.80 (18h 40m via AUH, bags unknown) is cheaper on the fare but is not a deal on a 2-bag basis. Lufthansa Comfort $536.60 (1 stop FRA, 22h 05m, 1 bag) also found.",
+          "bags_included": "2 checked bags",
           "source": "Live search (filtered)",
-          "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-12&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N"
+          "fare_family": "Economy Classic",
+          "price_with_2bags_usd": 501
         },
         {
           "date": "2027-02-13",
@@ -5809,6 +5957,21 @@
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTMxOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTIzOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
         },
         {
+          "depart": "2026-12-31",
+          "return": "2027-06-24",
+          "stay_days": 175,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "price_usd": 1351.25,
+          "airline": "Etihad Airways",
+          "hours": "27h 10m / 20h 50m",
+          "fare_family": "Economy Basic",
+          "bags": "Economy Basic, bags unknown this scan. 2 stops out / 1 stop back.",
+          "bags_included": "bags unknown",
+          "stops": "2 stops out / 1 stop back",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI2LTEyLTMxOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA2LTI0OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
+        },
+        {
           "depart": "2027-01-01",
           "return": "2027-06-24",
           "stay_days": 174,
@@ -6040,6 +6203,21 @@
           "source": "Google Flights (filtered)",
           "price_type": "calendar_estimate",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTEzOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTA2OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
+        },
+        {
+          "depart": "2027-01-14",
+          "return": "2027-07-05",
+          "stay_days": 172,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "price_usd": 908,
+          "airline": "SAS",
+          "hours": "22h 10m / 20h 25m",
+          "bags": "Bags not given this scan. Cheapest RT this scan, under the earlier SAS $975.65, but still above $900 and not a 2-bag deal or book-now. Lufthansa Comfort $1,287.25 (1 bag) and Emirates Saver $1,317.35 also found.",
+          "bags_included": "bags not given",
+          "stops": "1 stop (CPH)",
+          "note": "Bags unknown. Not a deal. Still above the $900 2-bag line.",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTE0OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTA1OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
         },
         {
           "depart": "2027-01-14",
@@ -6308,6 +6486,21 @@
           "bags": "Fare brand and bags unknown — not assumed to be Go Light. Above the $900 line; confirm before a 2-bag comparison. Delta Main Basic $1,117.15 (20h 50m / 27h 19m, 1 bag) also found.",
           "bags_included": "bags unknown (fare brand unverified)",
           "stops": "1 stop (CPH)"
+        },
+        {
+          "depart": "2027-01-26",
+          "return": "2027-07-18",
+          "stay_days": 173,
+          "source": "Live search (filtered)",
+          "price_type": "itinerary",
+          "price_usd": 1117.05,
+          "airline": "Delta Air Lines",
+          "hours": "18h 40m / 27h 19m",
+          "fare_family": "Main Basic",
+          "bags": "Main Basic, 1 checked bag. 1 stop out / 2 stops back.",
+          "bags_included": "1 checked bag",
+          "stops": "1 stop out / 2 stops back",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTI2OgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA3LTE4OgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
         },
         {
           "depart": "2027-01-26",
@@ -6668,16 +6861,17 @@
           "depart": "2027-02-10",
           "return": "2027-08-02",
           "stay_days": 173,
-          "price_usd": 1138,
+          "price_usd": 1105.05,
           "source": "Live search (filtered)",
           "price_type": "itinerary",
-          "airline": "Qatar Airways",
+          "airline": "Lufthansa",
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEwOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTAyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
-          "hours": "20h 45m / 21h 15m",
-          "listed_fare": true,
-          "bags": "listed fare; fare family and bags unverified on this scan",
-          "bags_included": "bags unverified (listed fare)",
-          "stops": "1 stop (DOH)"
+          "hours": "22h 51m / 24h 40m",
+          "bags": "Economy Comfort, 1 checked bag, 2 stops. Qatar Classic $1,161.15 (1 stop DOH each way, 20h 45m / 21h; bags not given this result; Classic usually includes 2 checked bags) also found — still above $950. Previous listed $1,138 was not reconfirmed.",
+          "bags_included": "1 checked bag",
+          "stops": "2 stops / 2 stops",
+          "fare_family": "Economy Comfort",
+          "note": "Qatar Classic $1,161.15 is the 2-bag compare on this pair, still above $950. Best confirmed Qatar RT remains $1,136.25 (24 Jan–15 Jul)."
         },
         {
           "depart": "2027-02-10",
@@ -6840,15 +7034,15 @@
           "note": "Delta Main Basic $1,117.15 (1 bag) also found."
         }
       ],
-      "google_asof": "25 Nov 2026, about 1:00 PM IST",
+      "google_asof": "25 Nov 2026, about 7:00 PM IST",
       "source": "Google Flights (filtered)"
     }
   },
   "qatar": {
     "status": "scanned",
     "title": "Qatar Airways",
-    "asof": "25 Nov 2026, about 1:00 PM IST",
-    "recommendation": "BOOK NOW, before 29 Nov: Economy Classic one-way $461 with 2×23 kg — 15 Feb, 14 Feb, 24 Jan, 25 Jan, 31 Jan, 1 Feb, 3 Feb, and 8 Feb (reconfirmed this scan, 20h 45m via DOH, 2 bags). Also Book now at $501 (1 stop DOH, 21h, 2 bags): 22 Jan, and 5 Feb (dropped from $574). The 20h 45m option on 5 Feb is still $574; the 2-stop via SEA at $566.50 is not Book now. Etihad Basic $456.80 on 8 Feb has unknown bags, so it is not a deal. Best reconfirmed Classic RT remains $1,136.25 (24 Jan–15 Jul, 20h 45m / 27h 10m, 2 bags), still above $950. 28 Dec–20 Jun is $1,669 (bags not given); 11 Jan–2 Jul is $1,454 (bags not given); 20 Jan–10 Jul Classic 2-stop outbound is $1,219.65 (2 bags, not Book now) and the 1-stop is $1,629. 6 Feb–30 Jul: no Qatar flights this scan. 5 Jan: no Qatar flights. The sale is still not cutting 170–179 day Qatar RTs below $950 (3-month max stay).",
+    "asof": "25 Nov 2026, about 7:00 PM IST",
+    "recommendation": "BOOK NOW, before 29 Nov 11:59 PM ET: Economy Classic one-way $461 with 2×23 kg — 15 Feb, 14 Feb, 24 Jan, 25 Jan, 31 Jan, 1 Feb, 3 Feb, and 8 Feb (20h 45m via DOH, 2 bags). $501 backups (1 stop DOH, 2 bags): 22 Jan and 5 Feb (21h, reconfirmed) and 12 Feb (25h 40m, dropped from $643). On 12 Feb the faster 20h 45m option is still $643 and is not Book now. On 5 Feb the 20h 45m option is still $574; the 2-stop via SEA at $566.50 is not Book now. Etihad Basic $456.80 on 12 Feb has unknown bags, so it is not a deal. Best reconfirmed Classic RT remains $1,136.25 (24 Jan–15 Jul, 20h 45m / 27h 10m, 2 bags), still above $950. 10 Feb–2 Aug Classic is $1,161.15 (bags not given this result; Classic usually 2 checked), still above $950. 12 Jan: no Qatar availability this scan. The sale is still not cutting 170–179 day Qatar RTs below $950 (3-month max stay).",
     "note": "One-way calendar is Google Flights with a Qatar filter; the cheapest fare on a date may include partner legs. Classic includes 2×23 kg on flights to or from the Americas.",
     "return_note": "All-Qatar return not confirmed for these dates; Qatar's own return from BOM 4:10 AM → ATL 3:55 PM, 21h 15m, exists on some dates.",
     "gf_rt_note": "Google Flights Qatar-filter RT, 5–11 Jan departures / 28 Jun–4 Jul returns: cheapest $1,115 (9 Jan–28 Jun) used Alaska+IndiGo legs.",
@@ -7055,7 +7249,7 @@
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTEyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
           "date": "2027-01-12",
           "price_usd": null,
-          "note": "No Qatar flights this scan (25 Nov 7:00 AM). Not logged as Qatar."
+          "note": "No Qatar availability this scan (25 Nov 7:00 PM). Not logged as Qatar."
         },
         {
           "date": "2027-01-13",
@@ -7131,11 +7325,11 @@
           "hours": "21h",
           "airline": "Qatar Airways",
           "fare_family": "Economy Classic",
-          "bags": "2 checked bags included, 1 stop via DOH, 21h.",
+          "bags": "2 checked bags included, 1 stop via DOH, 21h. Reconfirmed this scan.",
           "bags_included": "2 checked bags",
           "price_with_2bags_usd": 501,
           "stops": "1 stop (DOH)",
-          "note": "Book now at $501 (Qatar 1-stop ≤$600 line, not the $500 one-way line). A 20h 45m option is $643."
+          "note": "Reconfirmed $501. A 20h 45m option is $643."
         },
         {
           "date": "2027-01-23",
@@ -7265,11 +7459,11 @@
           "hours": "21h",
           "airline": "Qatar Airways",
           "fare_family": "Economy Classic",
-          "bags": "2 checked bags included. 1-stop 21h dropped from $574 to $501.",
+          "bags": "2 checked bags included. Reconfirmed $501 this scan, 21h via DOH.",
           "bags_included": "2 checked bags",
           "price_with_2bags_usd": 501,
           "stops": "1 stop (DOH)",
-          "note": "Book now at $501. The 20h 45m 1-stop is still $574. A 2-stop Classic $566.50 via SEA is worse routing and is not Book now."
+          "note": "Reconfirmed. The 20h 45m 1-stop is still $574. A 2-stop Classic $566.50 via SEA is worse routing and is not Book now."
         },
         {
           "date": "2027-02-06",
@@ -7321,15 +7515,17 @@
         },
         {
           "date": "2027-02-12",
-          "price_usd": 643,
+          "price_usd": 501,
           "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD",
-          "hours": "20h 45m",
+          "hours": "25h 40m",
           "airline": "Qatar Airways",
-          "bags": "Bags not given this scan. 1-stop rose from $574 to $643.",
-          "bags_included": "bags not given this scan",
+          "bags": "2 checked bags included. 1-stop 25h 40m dropped from $643 to $501.",
+          "bags_included": "2 checked bags",
           "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-12&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
           "stops": "1 stop (DOH)",
-          "note": "Above the $600 1-stop line, so not Book now. A 2-stop Classic $566.50 via SEA (33h 05m, 2 bags) is worse routing."
+          "note": "Book now at $501 (Qatar 1-stop ≤$600 line). The faster 20h 45m option is still $643 and is not Book now.",
+          "fare_family": "Economy Classic",
+          "price_with_2bags_usd": 501
         },
         {
           "date": "2027-02-13",
@@ -7560,7 +7756,7 @@
         "bags_included": "2 checked bags",
         "price_with_2bags_usd": 501,
         "price_with_2bags_label": "$501 Classic (2 bags)",
-        "note": "Book now at $501 (Qatar ≤$600 1-stop line, not the $500 one-way line). Book before 29 Nov.",
+        "note": "Reconfirmed $501 this scan, 21h via DOH, 2 bags. Book before 29 Nov.",
         "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAxLTIyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
       },
       {
@@ -7582,8 +7778,30 @@
         "bags_included": "2 checked bags",
         "price_with_2bags_usd": 501,
         "price_with_2bags_label": "$501 Classic (2 bags)",
-        "note": "Dropped from $574 to $501. Book before 29 Nov. 20h 45m option still $574; 2-stop SEA $566.50 is not Book now.",
+        "note": "Reconfirmed $501 this scan. 20h 45m option still $574; 2-stop SEA $566.50 is not Book now.",
         "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTA1OgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
+      },
+      {
+        "route": "ATL-BOM",
+        "trip": "OW",
+        "depart": "2027-02-12",
+        "return": null,
+        "price_usd": 501,
+        "airline": "Qatar Airways",
+        "stops": "1 stop (DOH)",
+        "duration": "25h 40m",
+        "hours": "25h 40m",
+        "bags": "Economy Classic includes 2 checked bags.",
+        "source_name": "Live search 25 Nov 2026",
+        "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-12&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
+        "price_type": "itinerary",
+        "single_airline": true,
+        "fare_family": "Economy Classic",
+        "bags_included": "2 checked bags",
+        "price_with_2bags_usd": 501,
+        "price_with_2bags_label": "$501 Classic (2 bags)",
+        "note": "Dropped from $643 to $501, 25h 40m via DOH. Book before 29 Nov. The 20h 45m option is still $643 and is not Book now.",
+        "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEyOgJFVGoHCAESA0FUTHIHCAESA0JPTUABSAFwAYIBCwj___________8BmAEC&tfu=EgYIABAAGAA&hl=en&curr=USD"
       }
     ],
     "roundtrip": {
@@ -7806,15 +8024,17 @@
           "depart": "2027-02-10",
           "return": "2027-08-02",
           "stay_days": 173,
-          "price_usd": 1138,
+          "price_usd": 1161.15,
           "source": "Live search (filtered)",
           "airline": "Qatar Airways",
-          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEwOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTAyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD",
           "price_type": "itinerary",
-          "hours": "20h 45m / 21h 15m",
-          "listed_fare": true,
-          "bags": "listed fare",
-          "bags_included": "bags unverified (listed fare)"
+          "hours": "20h 45m / 21h",
+          "fare_family": "Economy Classic",
+          "bags": "Bags not given in this result; Classic usually includes 2 checked bags on this route.",
+          "bags_included": "bags not given this result (Classic usually 2 checked)",
+          "stops": "1 stop (DOH)",
+          "note": "Still above $950. Best remains $1,136.25 (24 Jan–15 Jul). Previous listed $1,138 was not reconfirmed.",
+          "google_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoiEgoyMDI3LTAyLTEwOgJFVGoHCAESA0FUTHIHCAESA0JPTRoiEgoyMDI3LTA4LTAyOgJFVGoHCAESA0JPTXIHCAESA0FUTEABSAFwAYIBCwj___________8BmAEB&tfu=EgYIABAAGAA&hl=en&curr=USD"
         },
         {
           "depart": "2027-02-14",
@@ -8245,7 +8465,7 @@
         "bags_included": "2 checked bags included",
         "price_with_2bags_usd": 501,
         "price_with_2bags_label": "$501",
-        "note": "New Book-now date at $501 (Qatar 1-stop ≤$600 line, not the $500 one-way line), 21h via DOH, 2 bags. A 20h 45m option is $643.",
+        "note": "Reconfirmed $501 this scan, 21h via DOH, 2 bags (Qatar 1-stop ≤$600 line, not the $500 one-way line). A 20h 45m option is $643.",
         "source_name": "Live search 25 Nov 2026",
         "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-01-22&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
         "price_type": "itinerary",
@@ -8263,9 +8483,27 @@
         "bags_included": "2 checked bags included",
         "price_with_2bags_usd": 501,
         "price_with_2bags_label": "$501",
-        "note": "Dropped from $574 to $501, 21h via DOH, 2 bags. The 20h 45m 1-stop is still $574. A 2-stop via SEA at $566.50 is worse routing and is not Book now.",
+        "note": "Reconfirmed $501 this scan, 21h via DOH, 2 bags. The 20h 45m 1-stop is still $574. A 2-stop via SEA at $566.50 is worse routing and is not Book now.",
         "source_name": "Live search 25 Nov 2026",
         "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-05&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
+        "price_type": "itinerary",
+        "single_airline": true
+      },
+      {
+        "trip": "OW",
+        "depart": "2027-02-12",
+        "price_usd": 501,
+        "airline": "Qatar Airways",
+        "fare_family": "Economy Classic",
+        "hours": "25h 40m via DOH",
+        "stops": "1 stop (DOH)",
+        "bags": "2 checked bags included",
+        "bags_included": "2 checked bags included",
+        "price_with_2bags_usd": 501,
+        "price_with_2bags_label": "$501",
+        "note": "Back on Book now: dropped from $643 to $501, 25h 40m via DOH, 2 bags (Qatar 1-stop ≤$600 line, not the $500 one-way line). The faster 20h 45m option is still $643 and is not Book now.",
+        "source_name": "Live search 25 Nov 2026",
+        "source_url": "https://www.qatarairways.com/app/booking/flight-selection?widget=QR&searchType=F&addTaxToFare=Y&minPurTime=0&selLang=en&tripType=O&fromStation=ATL&toStation=BOM&departing=2027-02-12&bookingClass=E&adults=1&children=0&infants=0&ofw=0&teenager=0&flexibleDate=off&allowRedemption=N",
         "price_type": "itinerary",
         "single_airline": true
       }
@@ -8273,7 +8511,7 @@
   },
   "alerts": {
     "black_friday": "Qatar US Black Friday is live until 29 Nov (one-way only for this trip; max stay is 3 months; one free date change). Etihad Black Friday is up to 20% off, book by 29 Nov, travel Dec–Jun; ATL–BOM Etihad Basic RT is still $1,125.75 with bags unknown, so no visible discount. Lufthansa code BF26 gives €40 off for travel 11 Jan–30 Apr; book by 2 Dec. Air India is up to $60 off until 26 Nov, but there is no single-airline ATL–BOM itinerary.",
-    "wait": "One-way: book Qatar Classic at $461 (15 Feb, 14 Feb, 24 Jan, 25 Jan, 31 Jan, 1 Feb, 3 Feb or 8 Feb) or $501 (22 Jan, 5 Feb) before 29 Nov. Round trip: wait for 27–30 Nov."
+    "wait": "One-way: book Qatar Classic at $461 (15 Feb, 14 Feb, 24 Jan, 25 Jan, 31 Jan, 1 Feb, 3 Feb or 8 Feb) before 29 Nov, 11:59 PM ET; $501 dates (22 Jan, 5 Feb, 12 Feb) are backups. Round trip: wait for 27–30 Nov."
   },
   "why": {
     "fuel_outlook": "Jet fuel and Brent kept falling after 17 Nov: IATA-index Week 47 $154.77/bbl (−8.87%), USGC jet $3.763/gal on 17 Nov, Brent settled $89.37 on 23 Nov. Still well above pre-war levels; Air India $215 and Emirates $322 Americas surcharges were not cut; Gulf airspace risk remains. Outlook unchanged: wait through 27–30 Nov unless a fare is already under the book-now line; do not hold past mid-December on fuel alone.",
